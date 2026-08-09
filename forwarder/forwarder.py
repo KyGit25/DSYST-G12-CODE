@@ -8,10 +8,8 @@ import requests
 def pause():
     input("\nPress ENTER to continue...")
 
-
 def line():
     print("=" * 90)
-
 
 def print_logs(data):
 
@@ -34,7 +32,6 @@ def print_logs(data):
     print("-" * 90)
 
     for log in results:
-
         print(
             f"{log['timestamp']:<18}"
             f"{log['hostname']:<18}"
@@ -43,12 +40,10 @@ def print_logs(data):
             f"{log['message']}"
         )
 
-
 def request_error(e):
-
     print("\nUnable to connect to Gateway.")
     print("Reason:", e)
-
+    
     pause()
 
 
@@ -73,36 +68,26 @@ def ingest():
     ).strip()
 
     if not os.path.exists(filepath):
-
         print("\nFile not found.")
-
         pause()
-
         return
 
     try:
-
         with open(filepath, "rb") as file:
-
             response = requests.post(
                 f"http://{gateway}:8000/ingest",
                 files={"file": file}
             )
 
         data = response.json()
-
         print("\nUpload Successful!")
-
         print(f"Logs Uploaded : {data['logs_received']}")
 
     except Exception as e:
-
         request_error(e)
-
         return
 
     pause()
-
 
 # ==========================================
 # PURGE
@@ -124,32 +109,32 @@ def purge():
     )
 
     if confirm != "YES":
-
         print("\nOperation Cancelled.")
-
         pause()
-
         return
 
     try:
-
         response = requests.delete(
             f"http://{gateway}:8000/purge"
         )
 
         data = response.json()
 
-        print("\nDatabase Cleared Successfully.")
-
-        print(f"Deleted Logs : {data['deleted']}")
+        if response.status_code == 423:
+            print(f"\nPurge is already in progress: {data.get('detail')}")
+            print("Please wait for it to finish and try again.")
+        elif response.status_code != 200:
+            print(f"\nPurge failed: {data.get('detail', 'Unknown error')}")
+        else:
+            print("\nDatabase Cleared Successfully.")
+            print(f"Deleted Logs : {data['deleted']}")
 
     except Exception as e:
-
         request_error(e)
-
         return
 
     pause()
+
 # ==========================================
 # SEARCH FUNCTIONS
 # ==========================================
@@ -171,21 +156,17 @@ def search_date():
     ).strip()
 
     try:
-
         response = requests.get(
             f"http://{gateway}:8000/search/date",
             params={"date": date}
         )
-
         print_logs(response.json())
 
     except Exception as e:
-
         request_error(e)
         return
 
     pause()
-
 
 def search_host():
 
@@ -204,7 +185,6 @@ def search_host():
     ).strip()
 
     try:
-
         response = requests.get(
             f"http://{gateway}:8000/search/host",
             params={"hostname": hostname}
@@ -383,25 +363,18 @@ def query_menu():
 
         if choice == "1":
             search_date()
-
         elif choice == "2":
             search_host()
-
         elif choice == "3":
             search_daemon()
-
         elif choice == "4":
             search_severity()
-
         elif choice == "5":
             search_keyword()
-
         elif choice == "6":
             count_keyword()
-
         elif choice == "7":
             break
-
         else:
             print("\nInvalid Choice.")
             pause()
@@ -430,15 +403,11 @@ def main():
 
         if choice == "1":
             ingest()
-
         elif choice == "2":
             query_menu()
-
         elif choice == "3":
             purge()
-
         elif choice == "4":
-
             print("\nThank you for using MiniSplunk.")
             break
 
