@@ -1,15 +1,20 @@
-from fastapi import FastAPI, UploadFile, File
 import pika
+from fastapi import FastAPI, File, HTTPException, UploadFile
 from pymongo import MongoClient
+from pymongo.errors import DuplicateKeyError
 
 app = FastAPI()
 
 RABBITMQ_HOST = "rabbitmq"
-mongo = MongoClient("mongodb://mongos:27017/")
+MONGO_HOST = "mongos"
 
+mongo = MongoClient(f"mongodb://{MONGO_HOST}:27017/")
 db = mongo["minisplunk"]
-
 collection = db["logs"]
+locks_collection = db["locks"]
+
+PURGE_LOCK_ID = "purge_lock"
+
 
 @app.get("/")
 def home():
@@ -18,139 +23,86 @@ def home():
 
 @app.post("/ingest")
 async def ingest(file: UploadFile = File(...)):
+    if not file.filename:
+        raise HTTPException(status_code=400, detail="No file selected")
 
-    credentials = pika.PlainCredentials(
-        "rabbituser",
-        "rabbit1234"
-    )
+    try:
+        contents = await file.read()
+        logs = [line for line in contents.decode().splitlines() if line.strip()]
 
-    connection = pika.BlockingConnection(
-        pika.ConnectionParameters(
-            host=RABBITMQ_HOST,
-            credentials=credentials
+        if not logs:
+            raise HTTPException(status_code=400, detail="The file has no log lines")
+
+        credentials = pika.PlainCredentials("rabbituser", "rabbit1234")
+        connection = pika.BlockingConnection(
+            pika.ConnectionParameters(host=RABBITMQ_HOST, credentials=credentials)
         )
-    )
+        channel = connection.channel()
+        channel.queue_declare(queue="log_queue", durable=True)
 
-    channel = connection.channel()
-    channel.queue_declare(
-	queue="log_queue",
-	durable=True
-    )
+        for log in logs:
+            channel.basic_publish(exchange="", routing_key="log_queue", body=log)
 
-    contents = await file.read()
-    logs = contents.decode().splitlines()
+        connection.close()
 
-    for log in logs:
-        channel.basic_publish(
-            exchange="",
-            routing_key="log_queue",
-            body=log
-        )
+        return {"status": "success", "logs_received": len(logs)}
+    except UnicodeDecodeError as exc:
+        raise HTTPException(status_code=400, detail="The file is not valid text") from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
 
-    connection.close()
 
-    return {
-        "status": "success",
-        "logs_received": len(logs)
-    }
 @app.get("/search/host")
 def search_host(hostname: str):
+    results = list(collection.find({"hostname": hostname}, {"_id": 0}))
+    return {"count": len(results), "results": results}
 
-    results = list(
-        collection.find(
-            {"hostname": hostname},
-            {"_id": 0}
-        )
-    )
 
-    return {
-        "count": len(results),
-        "results": results
-    }
 @app.get("/search/date")
 def search_date(date: str):
+    results = list(collection.find({"timestamp": {"$regex": f"^{date}"}}, {"_id": 0}))
+    return {"count": len(results), "results": results}
 
-    results = list(
-        collection.find(
-            {"timestamp": {"$regex": f"^{date}"}},
-            {"_id": 0}
-        )
-    )
 
-    return {
-        "count": len(results),
-        "results": results
-    }
 @app.get("/search/daemon")
 def search_daemon(daemon: str):
+    results = list(collection.find({"daemon": daemon}, {"_id": 0}))
+    return {"count": len(results), "results": results}
 
-    results = list(
-        collection.find(
-            {"daemon": daemon},
-            {"_id": 0}
-        )
-    )
 
-    return {
-        "count": len(results),
-        "results": results
-    }
 @app.get("/search/severity")
 def search_severity(severity: str):
+    results = list(collection.find({"severity": severity.upper()}, {"_id": 0}))
+    return {"count": len(results), "results": results}
 
-    results = list(
-        collection.find(
-            {"severity": severity.upper()},
-            {"_id": 0}
-        )
-    )
 
-    return {
-        "count": len(results),
-        "results": results
-    }
 @app.get("/search/keyword")
 def search_keyword(keyword: str):
+    results = list(collection.find({"message": {"$regex": keyword, "$options": "i"}}, {"_id": 0}))
+    return {"count": len(results), "results": results}
 
-    results = list(
-        collection.find(
-            {
-                "message": {
-                    "$regex": keyword,
-                    "$options": "i"
-                }
-            },
-            {"_id": 0}
-        )
-    )
 
-    return {
-        "count": len(results),
-        "results": results
-    }
 @app.get("/count/keyword")
 def count_keyword(keyword: str):
+    count = collection.count_documents({"message": {"$regex": keyword, "$options": "i"}})
+    return {"keyword": keyword, "count": count}
 
-    count = collection.count_documents(
-        {
-            "message": {
-                "$regex": keyword,
-                "$options": "i"
-            }
-        }
-    )
 
-    return {
-        "keyword": keyword,
-        "count": count
-    }
 @app.delete("/purge")
 def purge():
+    # try to grab the distributed lock by inserting a document with a fixed
+    # _id. Mongo _id values are unique, so only one gateway can hold the
+    # lock at a time, even if there are multiple gateway instances.
+    try:
+        locks_collection.insert_one({"_id": PURGE_LOCK_ID})
+    except DuplicateKeyError:
+        raise HTTPException(status_code=423, detail="Purge is already in progress, try again later")
 
-    result = collection.delete_many({})
+    try:
+        result = collection.delete_many({})
+    finally:
+        # always release the lock, even if the delete fails
+        locks_collection.delete_one({"_id": PURGE_LOCK_ID})
 
-    return {
-        "status": "success",
-        "deleted": result.deleted_count
-    }
+    return {"status": "success", "deleted": result.deleted_count}
 
