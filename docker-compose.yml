@@ -1,177 +1,103 @@
-version: "3.9"
-
 services:
-
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq
-
     hostname: rabbitmq
-
     ports:
       - "5672:5672"
       - "15672:15672"
-
     environment:
       RABBITMQ_DEFAULT_USER: rabbituser
       RABBITMQ_DEFAULT_PASS: rabbit1234
 
-  #######################################
-  ## CONFIG SERVER
-  #######################################
-
   configsvr:
     image: mongo:7
-
     container_name: configsvr
-
-    command: >
-      mongod
-      --configsvr
-      --replSet configReplSet
-      --port 27019
-      --bind_ip_all
-
-    ports:
-      - "27019:27019"
-
+    hostname: configsvr
+    # small cache size so 3 mongod processes don't fight over RAM on a small VM
+    command: mongod --configsvr --replSet configReplSet --port 27019 --bind_ip_all --wiredTigerCacheSizeGB 0.25
     volumes:
-      - config_data:/data/configdb
-
-  #######################################
-  ## SHARD 1
-  #######################################
+      - configsvr_data:/data/db
 
   shard1:
     image: mongo:7
-
     container_name: shard1
-
-    command: >
-      mongod
-      --shardsvr
-      --replSet shard1ReplSet
-      --port 27018
-      --bind_ip_all
-
-    ports:
-      - "27018:27018"
-
+    hostname: shard1
+    command: mongod --shardsvr --replSet shard1ReplSet --port 27018 --bind_ip_all --wiredTigerCacheSizeGB 0.25
     volumes:
       - shard1_data:/data/db
 
-  #######################################
-  ## SHARD 2
-  #######################################
-
   shard2:
     image: mongo:7
-
     container_name: shard2
-
-    command: >
-      mongod
-      --shardsvr
-      --replSet shard2ReplSet
-      --port 27018
-      --bind_ip_all
-
-    ports:
-      - "27020:27018"
-
+    hostname: shard2
+    command: mongod --shardsvr --replSet shard2ReplSet --port 27018 --bind_ip_all --wiredTigerCacheSizeGB 0.25
     volumes:
       - shard2_data:/data/db
 
-  #######################################
-  ## MONGOS ROUTER
-  #######################################
-
   mongos:
     image: mongo:7
-
     container_name: mongos
-
-    command: >
-      mongos
-      --configdb configReplSet/configsvr:27019
-      --bind_ip_all
-
+    hostname: mongos
+    command: mongos --configdb configReplSet/configsvr:27019 --bind_ip_all --port 27017
     ports:
       - "27017:27017"
-
     depends_on:
       - configsvr
       - shard1
       - shard2
 
-  #######################################
-  ## GATEWAY
-  #######################################
+  mongo-init:
+    image: mongo:7
+    container_name: mongo-init
+    depends_on:
+      - configsvr
+      - shard1
+      - shard2
+      - mongos
+    volumes:
+      - ./scripts/init-sharding.sh:/init-sharding.sh:ro
+    entrypoint: ["bash", "/init-sharding.sh"]
+    restart: "no"
 
   gateway:
     build: ./gateway
-
     container_name: gateway
-
     ports:
       - "8000:8000"
-
     depends_on:
-      - rabbitmq
-      - mongos
-
-  #######################################
-  ## WORKERS
-  #######################################
+      rabbitmq:
+        condition: service_started
+      mongo-init:
+        condition: service_completed_successfully
 
   worker1:
-
     build: ./worker
-
     container_name: worker1
-
     depends_on:
-      - rabbitmq
-      - mongos
+      rabbitmq:
+        condition: service_started
+      mongo-init:
+        condition: service_completed_successfully
 
   worker2:
-
     build: ./worker
-
     container_name: worker2
-
     depends_on:
-      - rabbitmq
-      - mongos
-
-  worker3:
-
-    build: ./worker
-
-    container_name: worker3
-
-    depends_on:
-      - rabbitmq
-      - mongos
-
-#######################################
-## FORWARDER
-#######################################
+      rabbitmq:
+        condition: service_started
+      mongo-init:
+        condition: service_completed_successfully
 
   forwarder:
-
     build: ./forwarder
-
     container_name: forwarder
-
     stdin_open: true
-
     tty: true
-
     depends_on:
       - gateway
 
 volumes:
-  config_data:
+  configsvr_data:
   shard1_data:
   shard2_data:
