@@ -8,11 +8,11 @@ Instead of using a centralized server, the system is decomposed into multiple in
 
 The system consists of the following components:
 
-- **Forwarder (forwarder.py)** – Command-line client that uploads syslog files and submits search requests.
-- **API Gateway (gateway.py)** – Single entry point that receives client requests, publishes ingestion jobs to RabbitMQ, coordinates distributed searches, and returns aggregated results.
+- **Forwarder (forwarder/forwarder.py)** – Interactive command-line client that uploads syslog files and submits search/purge requests.
+- **API Gateway (gateway/app.py)** – Single entry point that receives client requests, publishes ingestion jobs to RabbitMQ, coordinates distributed searches, and returns aggregated results.
 - **RabbitMQ Message Broker** – Inter-process communication (IPC) middleware responsible for asynchronous workload distribution.
-- **Worker Nodes (worker.py)** – Multiple containerized workers that consume log messages, parse RFC3164 syslog entries, and insert structured documents into MongoDB.
-- **MongoDB Sharded Cluster** – Distributed storage layer consisting of multiple shards accessed through a Mongo Router (mongos).
+- **Worker Nodes (worker/worker.py)** – Multiple containerized workers that consume log messages, parse RFC3164 syslog entries, and insert structured documents into MongoDB.
+- **MongoDB Sharded Cluster** – Distributed storage layer consisting of a config server replica set and two shard replica sets, accessed through a Mongo Router (mongos), all bootstrapped automatically by `scripts/init-sharding.sh`.
 
 ---
 
@@ -167,11 +167,12 @@ Worker Nodes parse each RFC3164 syslog entry using regular expressions.
 Example pattern
 
 ```python
-SYSLOG_PATTERN = re.compile(
-    r'^(?P<timestamp>\w+\s+\d+\s+\d+:\d+:\d+)\s+'
+SYSLOG_REGEX = re.compile(
+    r'^(?:<(?P<priority>\d+)>)?'
+    r'(?P<timestamp>\w+\s+\d+\s+\d+:\d+:\d+)\s+'
     r'(?P<hostname>\S+)\s+'
-    r'(?P<daemon>\S+):\s+'
-    r'(?P<message>.*)$'
+    r'(?P<daemon>[^:]+):\s*'
+    r'(?P<message>.+)$'
 )
 ```
 
@@ -183,7 +184,12 @@ Extracted fields
 - severity
 - message
 
-Severity is inferred from keywords or priority fields.
+Severity is derived in one of two ways:
+
+1. **Real syslog priority code (RFC3164 PRI)** – if the log line has a `<PRI>` prefix (e.g. `<34>`), the severity is decoded from it: `severity_code = PRI % 8`, then mapped down to this project's three-level scheme (`ERROR` for Emergency/Alert/Critical/Error, `WARNING` for Warning, `INFO` for Notice/Informational/Debug).
+2. **Keyword fallback** – if there is no `<PRI>` prefix, severity is guessed from the message text (`"error"`, `"failed"`, `"denied"` → `ERROR`; `"warn"`/`"warning"` → `WARNING`; otherwise `INFO`).
+
+See `worker/parser.py` for the implementation.
 
 ---
 
@@ -241,12 +247,16 @@ Documents are automatically distributed among MongoDB shards through the Mongo R
 
 ### Distributed Lock Manager
 
-Used during PURGE
+Used during PURGE. The lock lives in MongoDB itself (a `locks` collection, separate from `logs`), so it works correctly even with multiple gateway instances since `_id` values are guaranteed unique cluster-wide.
 
-1. Acquire distributed lock
-2. Suspend worker writes
-3. Clear database shards
-4. Release lock
+1. Gateway tries to `insert_one({"_id": "purge_lock"})` into the `locks` collection.
+   - If it succeeds, the lock is acquired.
+   - If it fails with a duplicate key error, a purge is already running and the request is rejected with HTTP 423.
+2. While the lock document exists, any worker that is about to insert a parsed log first checks for it. If it's there, the worker `nack`s the message (put it back on the queue) instead of writing — this is what "suspends worker writes."
+3. Gateway clears the `logs` collection (`delete_many({})`).
+4. Gateway deletes the lock document, releasing it (this always runs, even if the delete fails, via `try/finally`).
+
+See `purge()` in `gateway/app.py` and the lock check inside `callback()` in `worker/worker.py`.
 
 ---
 
@@ -317,21 +327,27 @@ The entire ecosystem is deployed using Docker Compose.
 Containers
 
 ```
-gateway
-
 rabbitmq
+
+configsvr      (Mongo config server replica set)
+
+shard1         (Mongo shard 1 replica set)
+
+shard2         (Mongo shard 2 replica set)
+
+mongos         (Mongo router)
+
+mongo-init     (one-shot container that runs scripts/init-sharding.sh,
+                then exits — gateway/worker1/worker2 wait for it to
+                finish successfully before they start)
+
+gateway
 
 worker1
 
 worker2
 
-mongos
-
-mongo-config
-
-mongo-shard1
-
-mongo-shard2
+forwarder
 ```
 
 Deployment
@@ -358,66 +374,56 @@ docker compose up -d
 
 ---
 
-## Upload Logs
+## Run the Forwarder
+
+The forwarder is an interactive, menu-driven CLI, not a command-line-args tool. It already runs as its own container (`stdin_open`/`tty` are enabled in `docker-compose.yml`), so attach to it directly:
 
 ```bash
-python forwarder.py INGEST syslog.log http://localhost:8000
+docker attach forwarder
 ```
 
----
+You'll see a menu:
 
-## Search by Host
-
-```bash
-python forwarder.py QUERY SEARCH_HOST server01
+```
+1. INGEST
+2. QUERY
+3. PURGE
+4. EXIT
 ```
 
----
+Each option then prompts you for the Gateway IP (e.g. `localhost` or `gateway` if you're inside the Docker network), a file path (for INGEST), or search terms (for QUERY). Detach without stopping the container with `Ctrl+P` then `Ctrl+Q`.
 
-## Search by Severity
-
-```bash
-python forwarder.py QUERY SEARCH_SEVERITY ERROR
-```
-
----
-
-## Count Keyword
+Alternatively, run it locally on your host (outside Docker) once `pip install -r forwarder/requirements.txt` is done:
 
 ```bash
-python forwarder.py QUERY COUNT_KEYWORD ERROR
-```
-
----
-
-## Purge Logs
-
-```bash
-python forwarder.py PURGE
+python forwarder/forwarder.py
 ```
 
 ---
 
 # Chaos Testing
 
-Start ingestion
+`scripts/chaos_test.py` automates the fault-tolerance test end to end. It:
+
+1. Clears the `logs` collection so the count check is exact.
+2. Uploads 50 generated log lines through `/ingest`.
+3. Immediately runs `docker kill worker1` (a hard, forceful kill, not a graceful stop) while messages are likely still being processed, then `docker start worker1` to bring it back.
+4. Polls the document count in MongoDB and fails loudly if it's ever less than 50 (data loss) or more than 50 (duplicate processing).
+
+Run it (with the ecosystem already up):
 
 ```bash
-python forwarder.py INGEST large_syslog.log
+python -m pip install pymongo
+python scripts/chaos_test.py
 ```
 
-While processing
+Expected result
 
-```bash
-docker stop worker2
+```
+Chaos test passed: no data loss or duplicate insertion detected
 ```
 
-Expected
-
-- RabbitMQ requeues unfinished jobs
-- Worker1 continues processing
-- No missing log entries
-- No duplicate log entries
+This works because RabbitMQ only removes a message from the queue once a worker explicitly acknowledges it (`ch.basic_ack`, in `worker/worker.py`). If `worker1` is killed before it acks a message, RabbitMQ redelivers that message to `worker2` once the connection drops — so no message is lost, and `worker2` (not a still-alive `worker1`) picks up the slack.
 
 ---
 
