@@ -22,10 +22,6 @@ channel = connection.channel()
 channel.queue_declare(queue="log_queue", durable=True)
 channel.basic_qos(prefetch_count=1)
 
-# -----------------------
-# Connect to MongoDB
-# -----------------------
-
 mongo = None
 while mongo is None:
     try:
@@ -42,10 +38,6 @@ locks_collection = db["locks"]
 
 PURGE_LOCK_ID = "purge_lock"
 
-# -----------------------
-# Callback
-# -----------------------
-
 def callback(ch, method, properties, body):
     log = body.decode()
     parsed = parse_log(log)
@@ -55,15 +47,12 @@ def callback(ch, method, properties, body):
         return
 
     if locks_collection.find_one({"_id": PURGE_LOCK_ID}):
-        # a purge is running right now, do not write. Put the message back
-        # on the queue so it is processed again once the purge is done.
+
         print("Purge in progress, requeueing message")
         time.sleep(1)
         ch.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
         return
 
-    # parse the message's own id as the MongoDB _id, so a message that gets
-    # redelivered can't be stored twice
     parsed["_id"] = properties.message_id
 
     try:
@@ -76,10 +65,6 @@ def callback(ch, method, properties, body):
     except PyMongoError as e:
         print("Mongo error:", e)
         ch.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
-
-# -----------------------
-# Start Consumer
-# -----------------------
 
 channel.basic_consume(queue="log_queue", on_message_callback=callback)
 print("Worker waiting for logs...")
