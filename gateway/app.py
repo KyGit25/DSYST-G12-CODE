@@ -42,7 +42,6 @@ async def ingest(file: UploadFile = File(...)):
         channel.queue_declare(queue="log_queue", durable=True)
 
         for log in logs:
-            # give every message its own unique id 
             channel.basic_publish(
                 exchange="",
                 routing_key="log_queue",
