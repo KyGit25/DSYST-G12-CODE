@@ -59,13 +59,11 @@ def main():
 
     client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
 
-    # start from a clean slate
     client["minisplunk"]["logs"].delete_many({})
 
     expected_count = 50
     upload_sample_logs(expected_count)
 
-    # kill worker1 right away
     print("Killing worker1 mid-ingestion...")
     run(["docker", "kill", "worker1"])
     run(["docker", "start", "worker1"])
