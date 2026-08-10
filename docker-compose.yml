@@ -14,7 +14,6 @@ services:
     image: mongo:7
     container_name: configsvr
     hostname: configsvr
-    # small cache size so 3 mongod processes don't fight over RAM on a small VM
     command: mongod --configsvr --replSet configReplSet --port 27019 --bind_ip_all --wiredTigerCacheSizeGB 0.25
     volumes:
       - configsvr_data:/data/db
