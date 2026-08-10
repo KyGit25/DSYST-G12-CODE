@@ -59,12 +59,12 @@ def ingest():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     filepath = input(
         "\nLog File Path\n"
-        "Example: sample.log\n> "
+        "Example: [/data/sample.log], [/data/manylogs.log]\n> "
     ).strip()
 
     if not os.path.exists(filepath):
@@ -101,7 +101,7 @@ def purge():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     confirm = input(
@@ -147,7 +147,7 @@ def search_date():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     date = input(
@@ -176,7 +176,7 @@ def search_host():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     hostname = input(
@@ -213,7 +213,7 @@ def search_daemon():
 
     daemon = input(
         "\nDaemon Name\n"
-        "Example: apache2\n> "
+        "Example: apache2, sshd\n> "
     ).strip()
 
     try:
@@ -241,12 +241,12 @@ def search_severity():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     severity = input(
         "\nSeverity Level\n"
-        "Example: ERROR\n> "
+        "Example: ERROR, WARN, INFO\n> "
     ).strip().upper()
 
     try:
@@ -274,7 +274,7 @@ def search_keyword():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     keyword = input(
@@ -307,7 +307,7 @@ def count_keyword():
 
     gateway = input(
         "\nGateway IP\n"
-        "Example: localhost\n> "
+        "Example: gateway\n> "
     ).strip()
 
     keyword = input(
