@@ -1,3 +1,4 @@
+import uuid
 import pika
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from pymongo import MongoClient
@@ -41,7 +42,13 @@ async def ingest(file: UploadFile = File(...)):
         channel.queue_declare(queue="log_queue", durable=True)
 
         for log in logs:
-            channel.basic_publish(exchange="", routing_key="log_queue", body=log)
+            # give every message its own unique id 
+            channel.basic_publish(
+                exchange="",
+                routing_key="log_queue",
+                body=log,
+                properties=pika.BasicProperties(message_id=str(uuid.uuid4())),
+            )
 
         connection.close()
 
@@ -90,9 +97,6 @@ def count_keyword(keyword: str):
 
 @app.delete("/purge")
 def purge():
-    # try to grab the distributed lock by inserting a document with a fixed
-    # _id. Mongo _id values are unique, so only one gateway can hold the
-    # lock at a time, even if there are multiple gateway instances.
     try:
         locks_collection.insert_one({"_id": PURGE_LOCK_ID})
     except DuplicateKeyError:
