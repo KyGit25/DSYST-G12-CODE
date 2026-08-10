@@ -31,8 +31,10 @@ def upload_sample_logs(num_lines=50):
 
     boundary = "----MiniSplunkBoundary"
     body = []
-    body.append(f"--{boundary}".encode())
-    body.append(b'Content-Disposition: form-data; name="file"; filename="chaos_test.log"\r\nContent-Type: text/plain\r\n\r\n')
+    body.append(f"--{boundary}\r\n".encode())
+    body.append(b'Content-Disposition: form-data; name="file"; filename="chaos_test.log"\r\n')
+    body.append(b'Content-Type: text/plain\r\n')
+    body.append(b'\r\n')
     body.append(temp_file.read_bytes())
     body.append(f"\r\n--{boundary}--\r\n".encode())
 
@@ -57,14 +59,13 @@ def main():
 
     client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
 
-    # start from a clean slate so the counts below are exact
+    # start from a clean slate
     client["minisplunk"]["logs"].delete_many({})
 
     expected_count = 50
     upload_sample_logs(expected_count)
 
-    # kill worker1 right away, while it is likely still processing messages
-    # from the queue, to simulate the "kill a worker mid-ingestion" scenario
+    # kill worker1 right away
     print("Killing worker1 mid-ingestion...")
     run(["docker", "kill", "worker1"])
     run(["docker", "start", "worker1"])
