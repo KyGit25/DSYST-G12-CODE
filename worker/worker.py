@@ -1,8 +1,7 @@
 import time
-
 import pika
 from pymongo import MongoClient
-from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
+from pymongo.errors import DuplicateKeyError, PyMongoError, ServerSelectionTimeoutError
 
 from parser import parse_log
 
@@ -63,9 +62,16 @@ def callback(ch, method, properties, body):
         ch.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
         return
 
+    # parse the message's own id as the MongoDB _id, so a message that gets
+    # redelivered can't be stored twice
+    parsed["_id"] = properties.message_id
+
     try:
         collection.insert_one(parsed)
         print("Stored log:", parsed)
+        ch.basic_ack(delivery_tag=method.delivery_tag)
+    except DuplicateKeyError:
+        print("Already stored, skipping duplicate:", parsed["_id"])
         ch.basic_ack(delivery_tag=method.delivery_tag)
     except PyMongoError as e:
         print("Mongo error:", e)
