@@ -232,7 +232,7 @@ Documents are automatically distributed among MongoDB shards through the Mongo R
 
 - Accepts uploaded syslog files
 - Splits logs into individual messages
-- Publishes each message to RabbitMQ
+- Publishes each message to RabbitMQ, tagging it with a unique message ID (`properties.message_id`, a UUID)
 
 ---
 
@@ -267,8 +267,9 @@ Each worker performs
 1. Consume RabbitMQ message
 2. Parse syslog entry
 3. Validate fields
-4. Insert document into MongoDB
-5. Acknowledge RabbitMQ message
+4. Use the message's own unique ID as the MongoDB document's `_id`
+5. Insert document into MongoDB
+6. Acknowledge RabbitMQ message
 
 Workers remain stateless and may be scaled horizontally.
 
@@ -317,6 +318,18 @@ Result
 - Zero message loss
 - Zero duplicate processing
 - Autonomous recovery
+
+## Duplicate Prevention
+
+Message redelivery can still happen even when nothing goes "wrong." for example, if a worker is killed with a hard `SIGKILL` in the narrow window *after* it has written a document to MongoDB but *before* RabbitMQ has recorded the acknowledgement, RabbitMQ correctly assumes the message wasn't handled and redelivers it to another worker.
+
+This project closes that gap with idempotent inserts instead of just hoping the timing window is never hit:
+
+1. The gateway tags every published message with a unique ID (`message_id`, a UUID) when it publishes to RabbitMQ (`gateway/app.py`).
+2. The worker uses that same ID as the document's MongoDB `_id` instead of letting MongoDB generate a random one (`worker/worker.py`).
+3. If a message is redelivered and a worker tries to insert it again, MongoDB rejects the second insert with a duplicate-key error (same `_id` as before).
+
+This is what makes "Zero duplicate processing" an enforced guarantee rather than just a low-probability outcome.
 
 ---
 
@@ -376,10 +389,10 @@ docker compose up -d
 
 ## Run the Forwarder
 
-The forwarder is an interactive, menu-driven CLI, not a command-line-args tool. It already runs as its own container (`stdin_open`/`tty` are enabled in `docker-compose.yml`), so attach to it directly:
+The forwarder is an interactive, menu-driven CLI, not a command-line-args tool. Start a fresh, one-off container attached directly to the terminal:
 
 ```bash
-docker attach forwarder
+docker compose run --rm forwarder
 ```
 
 You'll see a menu:
@@ -391,9 +404,17 @@ You'll see a menu:
 4. EXIT
 ```
 
-Each option then prompts you for the Gateway IP (e.g. `localhost` or `gateway` if you're inside the Docker network), a file path (for INGEST), or search terms (for QUERY). Detach without stopping the container with `Ctrl+P` then `Ctrl+Q`.
+Each option then prompts you for the Gateway IP and, for INGEST, a file path — or search terms for QUERY.
 
-Alternatively, run it locally on your host (outside Docker) once `pip install -r forwarder/requirements.txt` is done:
+**Gateway IP:** since the forwarder is a container on the same Docker network as everything else, type `gateway` (the service name), not `localhost` — `localhost` from inside the container just refers to itself.
+
+**File path for INGEST:** 
+```
+/data/sample.log
+/data/manylogs.log
+```
+
+Alternatively, run it locally on your host (outside Docker) once `pip install -r forwarder/requirements.txt` is done — in that case bare filenames like `sample.log` work fine, and Gateway IP should be `localhost` since the gateway's port is published to the host:
 
 ```bash
 python forwarder/forwarder.py
