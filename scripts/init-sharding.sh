@@ -14,14 +14,6 @@ wait_for configsvr 27019
 wait_for shard1 27018
 wait_for shard2 27018
 
-# NOTE: we do NOT wait_for mongos here. A mongos process cannot answer
-# requests until the config server replica set below is initiated, so
-# waiting for it this early would just hang forever.
-
-# each block below is wrapped in try/catch so re-running this script
-# (e.g. after `docker compose up` on an already-set-up cluster) does not
-# fail just because the step was already done before.
-
 mongosh --host configsvr --port 27019 --quiet <<'EOF'
 try {
   rs.initiate({
