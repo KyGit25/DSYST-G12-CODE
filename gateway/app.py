@@ -105,7 +105,6 @@ def purge():
     try:
         result = collection.delete_many({})
     finally:
-        # always release the lock, even if the delete fails
         locks_collection.delete_one({"_id": PURGE_LOCK_ID})
 
     return {"status": "success", "deleted": result.deleted_count}
