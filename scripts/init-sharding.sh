@@ -48,11 +48,8 @@ try {
 }
 EOF
 
-# give the replica sets a moment to elect a primary before mongos talks to them
 sleep 5
 
-# now that the config server replica set is initiated, mongos can start
-# answering requests, so it is safe to wait for it here
 wait_for mongos 27017
 
 mongosh --host mongos --port 27017 --quiet <<'EOF'
