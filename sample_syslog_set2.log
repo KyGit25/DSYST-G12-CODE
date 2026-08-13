@@ -1,0 +1,2000 @@
+Jul 14 02:44:59 ml-pipeline-01 apache2[5390]: [ERROR] Payment gateway timeout
+Jul 14 03:23:59 auth-server redis-server[633]: [DEBUG] Pinging remote server
+Jul 14 04:11:59 analytics-node-c postfix[5206]: [DEBUG] Pinging remote server
+Jul 14 04:16:59 auth-server postfix[5094]: [INFO] Request processed successfully
+Jul 14 04:50:59 ml-pipeline-01 redis-server[4056]: [INFO] Backup completed
+Jul 14 05:36:59 auth-server apache2[6760]: [ERROR] Database connection lost
+Jul 14 05:37:59 db-replica-1 redis-server[1935]: [DEBUG] Cache size: 1024
+Jul 14 06:06:59 analytics-node-c redis-server[8234]: [ERROR] Uncaught exception in module
+Jul 14 06:24:59 analytics-node-c redis-server[8372]: [DEBUG] Pinging remote server
+Jul 14 07:07:59 analytics-node-c kubelet[7352]: [DEBUG] Entering function process_data
+Jul 14 07:21:59 ml-pipeline-01 mysql[3346]: [ERROR] Database connection lost
+Jul 14 08:06:59 db-replica-1 kubelet[4259]: [INFO] Request processed successfully
+Jul 14 08:26:59 auth-server redis-server[8030]: [INFO] Cache hit
+Jul 14 09:01:59 analytics-node-c kubelet[6493]: [INFO] Configuration reloaded
+Jul 14 09:17:59 analytics-node-c apache2[2496]: [INFO] Cache hit
+Jul 14 12:10:59 analytics-node-c kubelet[5950]: [INFO] Worker thread started
+Jul 14 12:16:59 analytics-node-c mysql[8584]: [INFO] Request processed successfully
+Jul 14 12:30:59 prod-web-02 app-worker[3512]: [WARN] High latency detected user=admin
+Jul 14 12:43:59 analytics-node-c postfix[5738]: [INFO] Request processed successfully
+Jul 14 13:03:59 analytics-node-c app-worker[2742]: [DEBUG] Cache size: 1024
+Jul 14 14:14:59 ml-pipeline-01 redis-server[5809]: [INFO] Request processed successfully
+Jul 14 14:27:59 auth-server app-worker[611]: [ERROR] Database connection lost
+Jul 14 14:54:59 auth-server mysql[5877]: [WARN] High latency detected
+Jul 14 15:08:59 analytics-node-c redis-server[333]: [WARN] Almost out of file descriptors IP=10.0.0.55
+Jul 14 15:58:59 auth-server kubelet[2671]: [DEBUG] Cache size: 1024
+Jul 14 16:00:59 db-replica-1 apache2[4727]: [ERROR] Uncaught exception in module
+Jul 14 16:47:59 ml-pipeline-01 kubelet[8227]: [DEBUG] Loop iteration 42 IP=10.0.0.55
+Jul 14 16:51:59 db-replica-1 kubelet[3803]: [WARN] Replication lag increasing
+Jul 14 17:13:59 ml-pipeline-01 mysql[4849]: [INFO] Request processed successfully
+Jul 14 18:07:59 ml-pipeline-01 mysql[2991]: [WARN] Almost out of file descriptors
+Jul 14 18:10:59 db-replica-1 kubelet[5793]: [ERROR] Failed to acquire lock
+Jul 14 18:22:59 auth-server mysql[1301]: [WARN] Slow query execution
+Jul 14 18:24:59 ml-pipeline-01 apache2[3785]: [DEBUG] Cache size: 1024
+Jul 14 18:41:59 analytics-node-c mysql[4371]: [DEBUG] Variable state check
+Jul 14 19:17:59 prod-web-02 redis-server[1794]: [WARN] High latency detected
+Jul 14 19:49:59 db-replica-1 postfix[4245]: [INFO] Cache hit
+Jul 14 20:45:59 auth-server kubelet[7078]: [INFO] Request processed successfully
+Jul 14 20:53:59 db-replica-1 kubelet[5574]: [ERROR] Database connection lost
+Jul 14 20:53:59 analytics-node-c mysql[4221]: [INFO] Backup completed
+Jul 14 21:23:59 ml-pipeline-01 kubelet[6100]: [WARN] High latency detected
+Jul 14 21:41:59 auth-server redis-server[1097]: [INFO] Backup completed user=admin
+Jul 14 21:49:59 db-replica-1 mysql[2107]: [INFO] Backup completed
+Jul 14 21:56:59 auth-server app-worker[8991]: [INFO] Worker thread started
+Jul 14 22:34:59 analytics-node-c app-worker[2913]: [ERROR] Failed to acquire lock
+Jul 14 22:52:59 analytics-node-c postfix[8962]: [INFO] Cache hit
+Jul 14 23:42:59 db-replica-1 mysql[3608]: [DEBUG] Pinging remote server
+Jul 15 00:03:59 ml-pipeline-01 postfix[9146]: [ERROR] Database connection lost
+Jul 15 00:43:59 ml-pipeline-01 apache2[2338]: [DEBUG] Loop iteration 42
+Jul 15 01:05:59 auth-server mysql[8141]: [DEBUG] Entering function process_data
+Jul 15 01:31:59 analytics-node-c postfix[501]: [WARN] Deprecated API call
+Jul 15 01:43:59 auth-server redis-server[638]: [INFO] Cache hit
+Jul 15 02:05:59 prod-web-02 redis-server[9535]: [INFO] Request processed successfully
+Jul 15 02:12:59 ml-pipeline-01 apache2[272]: [INFO] Configuration reloaded
+Jul 15 03:14:59 ml-pipeline-01 redis-server[3657]: [WARN] Deprecated API call
+Jul 15 03:29:59 prod-web-02 apache2[8317]: [INFO] Configuration reloaded
+Jul 15 03:36:59 ml-pipeline-01 mysql[4384]: [INFO] Configuration reloaded
+Jul 15 03:42:59 analytics-node-c kubelet[1021]: [ERROR] Uncaught exception in module
+Jul 15 04:06:59 db-replica-1 kubelet[1980]: [WARN] Deprecated API call
+Jul 15 04:21:59 ml-pipeline-01 app-worker[2001]: [INFO] Request processed successfully
+Jul 15 04:36:59 db-replica-1 redis-server[4528]: [WARN] Almost out of file descriptors
+Jul 15 05:12:59 ml-pipeline-01 kubelet[1732]: [ERROR] Payment gateway timeout
+Jul 15 05:49:59 analytics-node-c apache2[7194]: [INFO] Configuration reloaded
+Jul 15 06:03:59 db-replica-1 redis-server[7872]: [INFO] Backup completed
+Jul 15 06:45:59 prod-web-02 apache2[6761]: [ERROR] Payment gateway timeout IP=10.0.0.55
+Jul 15 07:15:59 prod-web-02 postfix[4290]: [INFO] Worker thread started
+Jul 15 08:30:59 prod-web-02 app-worker[371]: [DEBUG] Entering function process_data
+Jul 15 08:39:59 ml-pipeline-01 app-worker[6350]: [INFO] Request processed successfully
+Jul 15 09:14:59 analytics-node-c postfix[5193]: [CRITICAL] Security breach attempt
+Jul 15 10:02:59 db-replica-1 kubelet[7694]: [INFO] Cache hit
+Jul 15 10:23:59 db-replica-1 postfix[8441]: [INFO] Worker thread started
+Jul 15 10:31:59 auth-server kubelet[8876]: [ERROR] Payment gateway timeout user=admin
+Jul 15 10:41:59 db-replica-1 app-worker[9779]: [ERROR] Database connection lost
+Jul 15 11:00:59 auth-server apache2[3986]: [INFO] Request processed successfully
+Jul 15 11:11:59 analytics-node-c kubelet[6303]: [INFO] Configuration reloaded
+Jul 15 11:28:59 ml-pipeline-01 redis-server[2612]: [INFO] Worker thread started
+Jul 15 12:16:59 auth-server app-worker[1671]: [INFO] Configuration reloaded
+Jul 15 12:31:59 prod-web-02 apache2[6422]: [INFO] Configuration reloaded
+Jul 15 12:34:59 db-replica-1 redis-server[7532]: [WARN] Slow query execution
+Jul 15 12:39:59 db-replica-1 apache2[895]: [DEBUG] Entering function process_data
+Jul 15 12:42:59 prod-web-02 mysql[2951]: [WARN] High latency detected
+Jul 15 12:50:59 analytics-node-c apache2[8376]: [INFO] Backup completed
+Jul 15 13:00:59 prod-web-02 redis-server[271]: [INFO] Request processed successfully user=admin
+Jul 15 13:01:59 ml-pipeline-01 mysql[9083]: [CRITICAL] Security breach attempt
+Jul 15 13:14:59 db-replica-1 redis-server[9177]: [DEBUG] Entering function process_data
+Jul 15 13:19:59 db-replica-1 apache2[3900]: [INFO] Request processed successfully
+Jul 15 13:22:59 analytics-node-c kubelet[2104]: [INFO] Backup completed
+Jul 15 13:34:59 prod-web-02 postfix[6156]: [DEBUG] Pinging remote server
+Jul 15 14:07:59 auth-server apache2[419]: [DEBUG] Loop iteration 42
+Jul 15 14:25:59 auth-server kubelet[3059]: [CRITICAL] SYSTEM HALTED
+Jul 15 14:31:59 ml-pipeline-01 redis-server[4904]: [INFO] Configuration reloaded
+Jul 15 14:40:59 ml-pipeline-01 mysql[1873]: [INFO] Request processed successfully
+Jul 15 14:53:59 auth-server kubelet[6291]: [INFO] Request processed successfully
+Jul 15 15:04:59 db-replica-1 redis-server[3521]: [CRITICAL] Security breach attempt
+Jul 15 15:17:59 auth-server kubelet[1773]: [INFO] Backup completed
+Jul 15 15:26:59 auth-server mysql[9551]: [INFO] Configuration reloaded
+Jul 15 15:33:59 auth-server app-worker[7985]: [ERROR] Uncaught exception in module
+Jul 15 15:39:59 auth-server apache2[5375]: [DEBUG] Cache size: 1024
+Jul 15 16:25:59 db-replica-1 redis-server[5998]: [DEBUG] Cache size: 1024
+Jul 15 16:36:59 analytics-node-c app-worker[3133]: [INFO] Cache hit user=admin
+Jul 15 17:06:59 analytics-node-c kubelet[8917]: [INFO] Configuration reloaded
+Jul 15 17:08:59 auth-server postfix[4864]: [INFO] Cache hit
+Jul 15 17:15:59 prod-web-02 apache2[4924]: [ERROR] Failed to acquire lock user=admin
+Jul 15 17:32:59 ml-pipeline-01 kubelet[7750]: [INFO] Worker thread started
+Jul 15 18:26:59 auth-server postfix[6661]: [INFO] Configuration reloaded
+Jul 15 19:17:59 auth-server kubelet[4306]: [INFO] Configuration reloaded
+Jul 15 20:08:59 analytics-node-c apache2[7674]: [DEBUG] Pinging remote server
+Jul 15 20:20:59 db-replica-1 apache2[7975]: [CRITICAL] Data corruption detected
+Jul 15 20:42:59 db-replica-1 apache2[7945]: [WARN] Almost out of file descriptors
+Jul 15 20:49:59 prod-web-02 kubelet[1890]: [WARN] Replication lag increasing
+Jul 15 20:56:59 db-replica-1 redis-server[1493]: [CRITICAL] Primary database offline
+Jul 15 21:10:59 ml-pipeline-01 app-worker[3782]: [INFO] Cache hit
+Jul 15 21:28:59 db-replica-1 postfix[4449]: [INFO] Worker thread started
+Jul 15 22:08:59 ml-pipeline-01 apache2[9216]: [DEBUG] Loop iteration 42
+Jul 15 22:11:59 auth-server apache2[5725]: [INFO] Request processed successfully
+Jul 15 22:22:59 analytics-node-c redis-server[716]: [DEBUG] Loop iteration 42
+Jul 15 22:30:59 ml-pipeline-01 postfix[127]: [INFO] Worker thread started
+Jul 15 22:30:59 db-replica-1 apache2[3277]: [INFO] Backup completed IP=10.0.0.55
+Jul 15 22:36:59 ml-pipeline-01 mysql[1945]: [CRITICAL] Security breach attempt
+Jul 15 22:37:59 ml-pipeline-01 kubelet[7533]: [DEBUG] Pinging remote server
+Jul 15 22:51:59 auth-server app-worker[9552]: [ERROR] Uncaught exception in module
+Jul 15 22:59:59 prod-web-02 mysql[1538]: [INFO] Backup completed
+Jul 15 23:28:59 prod-web-02 postfix[9079]: [INFO] Worker thread started
+Jul 15 23:35:59 ml-pipeline-01 mysql[6620]: [INFO] Cache hit
+Jul 16 00:29:59 ml-pipeline-01 kubelet[2174]: [INFO] Configuration reloaded
+Jul 16 00:31:59 analytics-node-c redis-server[4411]: [INFO] Cache hit
+Jul 16 02:16:59 db-replica-1 apache2[4313]: [WARN] Deprecated API call
+Jul 16 02:22:59 analytics-node-c app-worker[283]: [INFO] Backup completed
+Jul 16 02:56:59 prod-web-02 apache2[513]: [CRITICAL] Kernel panic
+Jul 16 02:59:59 analytics-node-c kubelet[1746]: [DEBUG] Pinging remote server
+Jul 16 03:27:59 prod-web-02 kubelet[7934]: [INFO] Request processed successfully
+Jul 16 03:46:59 auth-server redis-server[7883]: [DEBUG] Entering function process_data
+Jul 16 05:00:59 auth-server kubelet[4668]: [INFO] Configuration reloaded
+Jul 16 05:10:59 auth-server apache2[2905]: [WARN] High latency detected
+Jul 16 05:13:59 auth-server postfix[3871]: [INFO] Worker thread started
+Jul 16 05:49:59 db-replica-1 mysql[7398]: [WARN] High latency detected user=admin
+Jul 16 06:04:59 analytics-node-c redis-server[7068]: [DEBUG] Loop iteration 42
+Jul 16 06:10:59 db-replica-1 mysql[4153]: [INFO] Cache hit
+Jul 16 06:49:59 analytics-node-c postfix[3444]: [DEBUG] Pinging remote server
+Jul 16 07:42:59 auth-server kubelet[8524]: [INFO] Request processed successfully
+Jul 16 08:16:59 ml-pipeline-01 mysql[1550]: [INFO] Request processed successfully
+Jul 16 08:44:59 prod-web-02 apache2[552]: [INFO] Backup completed
+Jul 16 08:58:59 auth-server mysql[5432]: [ERROR] Uncaught exception in module
+Jul 16 09:02:59 analytics-node-c redis-server[2188]: [INFO] Request processed successfully
+Jul 16 09:06:59 db-replica-1 redis-server[4756]: [WARN] Replication lag increasing
+Jul 16 09:13:59 ml-pipeline-01 redis-server[6321]: [INFO] Cache hit
+Jul 16 09:18:59 ml-pipeline-01 redis-server[1005]: [INFO] Backup completed
+Jul 16 09:20:59 prod-web-02 apache2[107]: [DEBUG] Cache size: 1024
+Jul 16 09:25:59 analytics-node-c mysql[964]: [INFO] Backup completed
+Jul 16 09:29:59 db-replica-1 redis-server[2848]: [INFO] Request processed successfully
+Jul 16 09:32:59 ml-pipeline-01 redis-server[2296]: [DEBUG] Cache size: 1024
+Jul 16 09:34:59 prod-web-02 apache2[4052]: [INFO] Request processed successfully
+Jul 16 10:14:59 analytics-node-c postfix[1929]: [INFO] Configuration reloaded
+Jul 16 10:38:59 analytics-node-c kubelet[6950]: [INFO] Cache hit
+Jul 16 11:04:59 db-replica-1 app-worker[7125]: [WARN] Deprecated API call
+Jul 16 11:26:59 db-replica-1 app-worker[3760]: [INFO] Configuration reloaded
+Jul 16 12:06:59 auth-server redis-server[9607]: [WARN] Replication lag increasing
+Jul 16 12:07:59 analytics-node-c app-worker[3396]: [INFO] Backup completed
+Jul 16 12:11:59 analytics-node-c redis-server[2356]: [DEBUG] Entering function process_data
+Jul 16 12:26:59 db-replica-1 mysql[7119]: [INFO] Worker thread started
+Jul 16 12:32:59 analytics-node-c apache2[3379]: [WARN] Slow query execution
+Jul 16 12:33:59 analytics-node-c mysql[5564]: [INFO] Request processed successfully
+Jul 16 12:50:59 ml-pipeline-01 apache2[9413]: [DEBUG] Cache size: 1024
+Jul 16 13:05:59 analytics-node-c kubelet[1714]: [INFO] Worker thread started
+Jul 16 13:17:59 analytics-node-c kubelet[9910]: [INFO] Backup completed
+Jul 16 13:29:59 ml-pipeline-01 postfix[6109]: [INFO] Configuration reloaded user=admin
+Jul 16 13:45:59 auth-server redis-server[4249]: [WARN] Almost out of file descriptors
+Jul 16 14:07:59 auth-server mysql[9725]: [WARN] Slow query execution
+Jul 16 14:50:59 ml-pipeline-01 redis-server[6540]: [INFO] Request processed successfully
+Jul 16 14:54:59 prod-web-02 apache2[9644]: [INFO] Backup completed
+Jul 16 15:28:59 auth-server kubelet[5631]: [INFO] Backup completed IP=10.0.0.55
+Jul 16 15:45:59 auth-server apache2[2094]: [INFO] Worker thread started
+Jul 16 15:52:59 prod-web-02 redis-server[5389]: [INFO] Backup completed
+Jul 16 16:01:59 auth-server kubelet[4928]: [INFO] Cache hit
+Jul 16 16:20:59 ml-pipeline-01 postfix[2474]: [INFO] Worker thread started
+Jul 16 16:27:59 ml-pipeline-01 mysql[8054]: [WARN] Deprecated API call
+Jul 16 16:42:59 auth-server postfix[283]: [INFO] Configuration reloaded
+Jul 16 16:58:59 ml-pipeline-01 kubelet[8760]: [INFO] Backup completed
+Jul 16 16:58:59 ml-pipeline-01 postfix[5233]: [DEBUG] Cache size: 1024
+Jul 16 17:14:59 ml-pipeline-01 mysql[5775]: [INFO] Configuration reloaded
+Jul 16 17:17:59 auth-server redis-server[9318]: [WARN] Deprecated API call
+Jul 16 17:18:59 auth-server mysql[9070]: [DEBUG] Entering function process_data
+Jul 16 17:27:59 db-replica-1 mysql[1872]: [WARN] Replication lag increasing
+Jul 16 17:29:59 auth-server mysql[4640]: [INFO] Configuration reloaded
+Jul 16 17:36:59 analytics-node-c app-worker[2338]: [INFO] Worker thread started
+Jul 16 17:36:59 prod-web-02 kubelet[3129]: [INFO] Worker thread started
+Jul 16 17:49:59 db-replica-1 mysql[9841]: [INFO] Configuration reloaded
+Jul 16 18:39:59 db-replica-1 mysql[6899]: [WARN] Replication lag increasing
+Jul 16 18:46:59 analytics-node-c kubelet[5094]: [INFO] Configuration reloaded
+Jul 16 18:59:59 ml-pipeline-01 kubelet[4315]: [DEBUG] Cache size: 1024 user=admin
+Jul 16 19:04:59 analytics-node-c apache2[3291]: [DEBUG] Variable state check user=admin
+Jul 16 19:28:59 analytics-node-c kubelet[578]: [INFO] Backup completed
+Jul 16 19:30:59 ml-pipeline-01 apache2[699]: [INFO] Cache hit
+Jul 16 19:55:59 db-replica-1 mysql[1985]: [INFO] Cache hit
+Jul 16 20:03:59 ml-pipeline-01 apache2[4904]: [INFO] Configuration reloaded
+Jul 16 20:46:59 prod-web-02 app-worker[3982]: [WARN] Almost out of file descriptors
+Jul 16 20:47:59 ml-pipeline-01 apache2[7939]: [INFO] Cache hit
+Jul 16 21:28:59 auth-server mysql[5117]: [DEBUG] Variable state check
+Jul 16 21:48:59 prod-web-02 redis-server[7225]: [CRITICAL] Primary database offline user=admin
+Jul 16 21:51:59 analytics-node-c mysql[2776]: [INFO] Worker thread started
+Jul 16 22:01:59 prod-web-02 postfix[7329]: [WARN] Slow query execution
+Jul 16 22:28:59 ml-pipeline-01 app-worker[5666]: [INFO] Configuration reloaded
+Jul 16 22:33:59 db-replica-1 app-worker[8609]: [INFO] Backup completed
+Jul 16 23:14:59 ml-pipeline-01 app-worker[9962]: [INFO] Configuration reloaded
+Jul 16 23:39:59 db-replica-1 kubelet[4618]: [WARN] Slow query execution
+Jul 17 00:12:59 auth-server kubelet[5508]: [INFO] Cache hit
+Jul 17 00:13:59 db-replica-1 apache2[3622]: [INFO] Backup completed
+Jul 17 00:18:59 db-replica-1 apache2[9388]: [DEBUG] Variable state check
+Jul 17 00:20:59 db-replica-1 postfix[2958]: [INFO] Configuration reloaded
+Jul 17 00:33:59 db-replica-1 mysql[1254]: [INFO] Request processed successfully
+Jul 17 00:37:59 analytics-node-c postfix[379]: [INFO] Worker thread started
+Jul 17 00:44:59 auth-server kubelet[6395]: [CRITICAL] Security breach attempt
+Jul 17 00:53:59 db-replica-1 postfix[4861]: [ERROR] Disk read error
+Jul 17 00:59:59 analytics-node-c postfix[9578]: [WARN] Slow query execution
+Jul 17 01:16:59 analytics-node-c mysql[8463]: [DEBUG] Pinging remote server
+Jul 17 01:23:59 auth-server apache2[7559]: [DEBUG] Variable state check
+Jul 17 02:03:59 prod-web-02 postfix[4410]: [DEBUG] Cache size: 1024
+Jul 17 02:45:59 db-replica-1 kubelet[7630]: [INFO] Configuration reloaded user=admin
+Jul 17 03:00:59 prod-web-02 app-worker[8965]: [INFO] Configuration reloaded
+Jul 17 03:05:59 prod-web-02 mysql[7775]: [ERROR] Payment gateway timeout
+Jul 17 03:13:59 analytics-node-c kubelet[190]: [INFO] Backup completed
+Jul 17 03:14:59 ml-pipeline-01 app-worker[3504]: [INFO] Worker thread started
+Jul 17 03:15:59 prod-web-02 postfix[5608]: [INFO] Worker thread started
+Jul 17 04:36:59 prod-web-02 app-worker[2132]: [INFO] Configuration reloaded
+Jul 17 04:58:59 analytics-node-c mysql[8034]: [INFO] Worker thread started
+Jul 17 05:29:59 analytics-node-c apache2[5587]: [INFO] Configuration reloaded
+Jul 17 05:31:59 ml-pipeline-01 app-worker[217]: [WARN] Deprecated API call
+Jul 17 06:04:59 analytics-node-c apache2[544]: [ERROR] Payment gateway timeout
+Jul 17 06:07:59 db-replica-1 postfix[5885]: [INFO] Cache hit
+Jul 17 06:42:59 analytics-node-c postfix[8628]: [INFO] Cache hit
+Jul 17 07:12:59 prod-web-02 mysql[9505]: [DEBUG] Loop iteration 42
+Jul 17 07:26:59 ml-pipeline-01 redis-server[6926]: [ERROR] Uncaught exception in module
+Jul 17 07:41:59 prod-web-02 apache2[5965]: [INFO] Request processed successfully user=admin
+Jul 17 08:16:59 prod-web-02 app-worker[8260]: [INFO] Cache hit
+Jul 17 08:30:59 auth-server app-worker[970]: [DEBUG] Entering function process_data
+Jul 17 08:38:59 ml-pipeline-01 redis-server[2003]: [INFO] Configuration reloaded
+Jul 17 09:06:59 ml-pipeline-01 mysql[7384]: [INFO] Worker thread started
+Jul 17 09:26:59 prod-web-02 postfix[8787]: [DEBUG] Loop iteration 42
+Jul 17 09:38:59 auth-server app-worker[4941]: [INFO] Request processed successfully
+Jul 17 10:04:59 db-replica-1 kubelet[1267]: [INFO] Cache hit
+Jul 17 10:04:59 db-replica-1 apache2[2403]: [INFO] Request processed successfully
+Jul 17 10:27:59 prod-web-02 kubelet[9904]: [INFO] Worker thread started
+Jul 17 10:38:59 analytics-node-c mysql[8530]: [DEBUG] Loop iteration 42
+Jul 17 11:57:59 analytics-node-c postfix[7455]: [ERROR] Database connection lost
+Jul 17 11:57:59 auth-server redis-server[9314]: [CRITICAL] Kernel panic
+Jul 17 12:44:59 auth-server app-worker[2989]: [INFO] Backup completed
+Jul 17 13:22:59 db-replica-1 kubelet[1586]: [ERROR] Failed to acquire lock
+Jul 17 13:34:59 auth-server apache2[8518]: [DEBUG] Cache size: 1024
+Jul 17 13:47:59 ml-pipeline-01 app-worker[8309]: [WARN] Slow query execution
+Jul 17 14:02:59 auth-server kubelet[901]: [INFO] Worker thread started
+Jul 17 14:47:59 ml-pipeline-01 postfix[1090]: [DEBUG] Loop iteration 42
+Jul 17 14:50:59 auth-server postfix[4188]: [DEBUG] Pinging remote server
+Jul 17 15:03:59 auth-server redis-server[4758]: [INFO] Backup completed
+Jul 17 15:05:59 prod-web-02 redis-server[5928]: [DEBUG] Entering function process_data
+Jul 17 15:34:59 prod-web-02 redis-server[4914]: [DEBUG] Pinging remote server
+Jul 17 16:15:59 auth-server apache2[5367]: [INFO] Request processed successfully
+Jul 17 16:36:59 ml-pipeline-01 apache2[6397]: [ERROR] Uncaught exception in module
+Jul 17 16:45:59 analytics-node-c redis-server[4120]: [DEBUG] Entering function process_data
+Jul 17 17:45:59 db-replica-1 postfix[8837]: [DEBUG] Loop iteration 42
+Jul 17 18:17:59 auth-server redis-server[187]: [WARN] Slow query execution
+Jul 17 18:27:59 auth-server postfix[1040]: [INFO] Cache hit
+Jul 17 19:09:59 ml-pipeline-01 redis-server[163]: [INFO] Worker thread started
+Jul 17 19:48:59 ml-pipeline-01 apache2[229]: [DEBUG] Pinging remote server user=admin
+Jul 17 19:51:59 ml-pipeline-01 redis-server[8638]: [WARN] Deprecated API call
+Jul 17 20:13:59 ml-pipeline-01 mysql[167]: [DEBUG] Loop iteration 42
+Jul 17 20:27:59 db-replica-1 mysql[1011]: [INFO] Cache hit
+Jul 17 20:27:59 prod-web-02 redis-server[4155]: [INFO] Cache hit
+Jul 17 20:48:59 ml-pipeline-01 mysql[6719]: [INFO] Configuration reloaded
+Jul 17 20:52:59 db-replica-1 apache2[1537]: [CRITICAL] Security breach attempt
+Jul 17 21:19:59 analytics-node-c apache2[4307]: [WARN] Almost out of file descriptors
+Jul 17 21:56:59 db-replica-1 postfix[1256]: [WARN] Deprecated API call
+Jul 17 22:09:59 prod-web-02 postfix[3222]: [DEBUG] Loop iteration 42
+Jul 17 22:22:59 db-replica-1 app-worker[1922]: [INFO] Request processed successfully
+Jul 17 22:46:59 auth-server postfix[5216]: [DEBUG] Pinging remote server
+Jul 17 23:13:59 analytics-node-c apache2[4897]: [INFO] Backup completed user=admin
+Jul 17 23:34:59 prod-web-02 redis-server[8669]: [DEBUG] Cache size: 1024
+Jul 18 00:35:59 prod-web-02 kubelet[3244]: [ERROR] Database connection lost
+Jul 18 00:49:59 auth-server apache2[7136]: [INFO] Configuration reloaded
+Jul 18 01:02:59 prod-web-02 redis-server[2754]: [INFO] Worker thread started
+Jul 18 01:37:59 analytics-node-c apache2[9730]: [INFO] Request processed successfully
+Jul 18 01:40:59 prod-web-02 apache2[2036]: [INFO] Backup completed
+Jul 18 02:25:59 ml-pipeline-01 kubelet[1797]: [ERROR] Disk read error user=admin
+Jul 18 02:32:59 analytics-node-c postfix[4119]: [DEBUG] Cache size: 1024
+Jul 18 02:33:59 auth-server redis-server[5448]: [INFO] Worker thread started
+Jul 18 02:44:59 db-replica-1 postfix[1312]: [DEBUG] Loop iteration 42
+Jul 18 02:46:59 db-replica-1 mysql[455]: [WARN] Deprecated API call
+Jul 18 03:14:59 analytics-node-c app-worker[7158]: [INFO] Backup completed
+Jul 18 03:17:59 ml-pipeline-01 kubelet[2534]: [INFO] Configuration reloaded
+Jul 18 03:29:59 auth-server kubelet[1789]: [WARN] Slow query execution
+Jul 18 03:37:59 prod-web-02 postfix[3305]: [DEBUG] Loop iteration 42
+Jul 18 03:57:59 analytics-node-c mysql[2437]: [CRITICAL] SYSTEM HALTED
+Jul 18 04:09:59 auth-server mysql[6080]: [INFO] Configuration reloaded
+Jul 18 04:26:59 ml-pipeline-01 mysql[979]: [WARN] Almost out of file descriptors
+Jul 18 04:31:59 ml-pipeline-01 postfix[5306]: [DEBUG] Entering function process_data
+Jul 18 04:31:59 ml-pipeline-01 kubelet[8027]: [INFO] Worker thread started
+Jul 18 04:52:59 analytics-node-c postfix[3600]: [WARN] Slow query execution
+Jul 18 05:04:59 auth-server app-worker[2288]: [INFO] Backup completed
+Jul 18 05:09:59 prod-web-02 postfix[6430]: [INFO] Cache hit
+Jul 18 05:20:59 auth-server kubelet[4131]: [WARN] Almost out of file descriptors user=admin
+Jul 18 05:26:59 ml-pipeline-01 mysql[3428]: [INFO] Worker thread started
+Jul 18 06:08:59 analytics-node-c apache2[6316]: [DEBUG] Pinging remote server IP=10.0.0.55
+Jul 18 06:10:59 db-replica-1 mysql[8455]: [INFO] Worker thread started
+Jul 18 06:25:59 analytics-node-c kubelet[1126]: [ERROR] Payment gateway timeout
+Jul 18 07:09:59 auth-server app-worker[2370]: [INFO] Request processed successfully
+Jul 18 07:15:59 analytics-node-c redis-server[8575]: [CRITICAL] SYSTEM HALTED
+Jul 18 07:34:59 db-replica-1 apache2[7372]: [WARN] Deprecated API call
+Jul 18 07:36:59 analytics-node-c apache2[9061]: [ERROR] Payment gateway timeout
+Jul 18 07:55:59 db-replica-1 postfix[860]: [INFO] Backup completed
+Jul 18 08:04:59 analytics-node-c apache2[9490]: [WARN] Almost out of file descriptors
+Jul 18 08:21:59 auth-server mysql[3664]: [INFO] Configuration reloaded
+Jul 18 08:44:59 db-replica-1 apache2[5651]: [INFO] Request processed successfully
+Jul 18 08:57:59 ml-pipeline-01 apache2[2949]: [INFO] Configuration reloaded IP=10.0.0.55
+Jul 18 08:59:59 analytics-node-c mysql[9108]: [ERROR] Disk read error
+Jul 18 09:59:59 db-replica-1 apache2[4540]: [INFO] Cache hit
+Jul 18 10:12:59 auth-server apache2[2232]: [INFO] Worker thread started
+Jul 18 10:42:59 db-replica-1 apache2[8771]: [DEBUG] Cache size: 1024
+Jul 18 11:15:59 db-replica-1 kubelet[1124]: [DEBUG] Variable state check
+Jul 18 11:49:59 ml-pipeline-01 kubelet[1613]: [WARN] Almost out of file descriptors
+Jul 18 12:09:59 analytics-node-c postfix[8486]: [INFO] Cache hit
+Jul 18 12:20:59 prod-web-02 mysql[3315]: [CRITICAL] Data corruption detected
+Jul 18 12:28:59 auth-server mysql[6940]: [INFO] Worker thread started
+Jul 18 13:18:59 analytics-node-c mysql[3130]: [WARN] Deprecated API call user=admin
+Jul 18 13:59:59 analytics-node-c kubelet[951]: [INFO] Request processed successfully
+Jul 18 14:13:59 db-replica-1 mysql[567]: [WARN] Slow query execution
+Jul 18 14:55:59 ml-pipeline-01 kubelet[4713]: [INFO] Backup completed
+Jul 18 14:56:59 prod-web-02 apache2[4443]: [INFO] Backup completed
+Jul 18 15:10:59 analytics-node-c apache2[7531]: [WARN] Slow query execution
+Jul 18 15:22:59 ml-pipeline-01 mysql[8831]: [ERROR] Database connection lost
+Jul 18 15:26:59 analytics-node-c redis-server[2443]: [DEBUG] Variable state check
+Jul 18 15:35:59 ml-pipeline-01 postfix[6613]: [ERROR] Disk read error
+Jul 18 16:55:59 db-replica-1 app-worker[1162]: [DEBUG] Cache size: 1024
+Jul 18 17:09:59 ml-pipeline-01 postfix[2667]: [INFO] Backup completed
+Jul 18 17:22:59 db-replica-1 app-worker[7752]: [INFO] Worker thread started
+Jul 18 17:33:59 prod-web-02 postfix[3532]: [DEBUG] Pinging remote server
+Jul 18 18:01:59 ml-pipeline-01 mysql[6707]: [DEBUG] Entering function process_data
+Jul 18 18:27:59 auth-server app-worker[9785]: [DEBUG] Variable state check
+Jul 18 18:56:59 analytics-node-c mysql[6167]: [DEBUG] Entering function process_data
+Jul 18 19:15:59 prod-web-02 apache2[1243]: [WARN] Replication lag increasing
+Jul 18 19:19:59 db-replica-1 app-worker[6895]: [INFO] Worker thread started
+Jul 18 19:38:59 db-replica-1 redis-server[6494]: [INFO] Configuration reloaded
+Jul 18 19:54:59 ml-pipeline-01 kubelet[2975]: [INFO] Backup completed
+Jul 18 19:58:59 analytics-node-c apache2[1286]: [INFO] Request processed successfully
+Jul 18 20:04:59 prod-web-02 app-worker[751]: [INFO] Backup completed
+Jul 18 20:08:59 prod-web-02 app-worker[1407]: [INFO] Worker thread started
+Jul 18 20:23:59 ml-pipeline-01 apache2[6537]: [DEBUG] Pinging remote server
+Jul 18 20:29:59 analytics-node-c redis-server[2363]: [INFO] Worker thread started
+Jul 18 20:31:59 ml-pipeline-01 postfix[8878]: [DEBUG] Variable state check
+Jul 18 20:42:59 db-replica-1 redis-server[5102]: [DEBUG] Variable state check
+Jul 18 21:24:59 ml-pipeline-01 kubelet[7299]: [INFO] Worker thread started
+Jul 18 21:37:59 db-replica-1 postfix[5868]: [CRITICAL] Primary database offline
+Jul 18 21:52:59 auth-server app-worker[1923]: [CRITICAL] Data corruption detected
+Jul 18 22:11:59 db-replica-1 kubelet[3688]: [DEBUG] Variable state check
+Jul 18 22:14:59 auth-server kubelet[2596]: [INFO] Configuration reloaded
+Jul 18 22:20:59 auth-server postfix[3695]: [INFO] Cache hit
+Jul 18 22:33:59 auth-server postfix[9424]: [CRITICAL] Data corruption detected
+Jul 18 22:37:59 db-replica-1 kubelet[1525]: [WARN] Replication lag increasing
+Jul 18 23:00:59 auth-server redis-server[8404]: [DEBUG] Loop iteration 42
+Jul 18 23:27:59 db-replica-1 mysql[5523]: [INFO] Request processed successfully
+Jul 18 23:41:59 prod-web-02 postfix[9146]: [INFO] Worker thread started
+Jul 18 23:43:59 db-replica-1 apache2[1977]: [DEBUG] Variable state check
+Jul 19 00:20:59 auth-server app-worker[9941]: [INFO] Cache hit
+Jul 19 00:38:59 db-replica-1 redis-server[6344]: [WARN] Slow query execution
+Jul 19 02:02:59 db-replica-1 mysql[1527]: [INFO] Worker thread started user=admin
+Jul 19 02:28:59 db-replica-1 mysql[1253]: [INFO] Request processed successfully
+Jul 19 02:59:59 analytics-node-c mysql[9458]: [INFO] Cache hit
+Jul 19 03:30:59 auth-server mysql[6910]: [DEBUG] Variable state check
+Jul 19 04:03:59 auth-server kubelet[7328]: [INFO] Configuration reloaded
+Jul 19 04:27:59 prod-web-02 kubelet[5436]: [ERROR] Database connection lost
+Jul 19 04:44:59 auth-server redis-server[9319]: [INFO] Request processed successfully
+Jul 19 05:15:59 ml-pipeline-01 apache2[6250]: [INFO] Cache hit user=admin
+Jul 19 05:38:59 ml-pipeline-01 kubelet[2240]: [INFO] Cache hit
+Jul 19 05:47:59 prod-web-02 redis-server[2039]: [ERROR] Disk read error
+Jul 19 05:51:59 analytics-node-c apache2[6377]: [DEBUG] Loop iteration 42
+Jul 19 06:05:59 auth-server app-worker[4945]: [INFO] Request processed successfully
+Jul 19 06:07:59 auth-server apache2[4193]: [INFO] Configuration reloaded
+Jul 19 06:26:59 analytics-node-c postfix[3378]: [WARN] Replication lag increasing
+Jul 19 06:35:59 db-replica-1 redis-server[2832]: [INFO] Backup completed
+Jul 19 06:36:59 prod-web-02 mysql[5804]: [CRITICAL] Kernel panic
+Jul 19 07:05:59 analytics-node-c kubelet[3096]: [DEBUG] Variable state check user=admin IP=10.0.0.55
+Jul 19 07:29:59 ml-pipeline-01 mysql[257]: [DEBUG] Variable state check
+Jul 19 08:07:59 db-replica-1 apache2[6977]: [INFO] Request processed successfully
+Jul 19 08:17:59 prod-web-02 kubelet[1240]: [DEBUG] Variable state check IP=10.0.0.55
+Jul 19 08:30:59 db-replica-1 kubelet[697]: [INFO] Cache hit
+Jul 19 08:46:59 db-replica-1 apache2[8851]: [INFO] Configuration reloaded
+Jul 19 09:04:59 auth-server redis-server[6077]: [INFO] Request processed successfully
+Jul 19 09:06:59 auth-server app-worker[4088]: [INFO] Worker thread started
+Jul 19 09:13:59 prod-web-02 app-worker[3893]: [INFO] Worker thread started
+Jul 19 10:16:59 analytics-node-c app-worker[8875]: [INFO] Cache hit
+Jul 19 10:19:59 auth-server redis-server[8680]: [WARN] Slow query execution
+Jul 19 10:21:59 db-replica-1 apache2[2106]: [INFO] Worker thread started
+Jul 19 10:31:59 auth-server mysql[1555]: [INFO] Backup completed
+Jul 19 11:05:59 prod-web-02 apache2[9191]: [INFO] Backup completed
+Jul 19 11:10:59 auth-server kubelet[8512]: [INFO] Backup completed
+Jul 19 11:38:59 ml-pipeline-01 apache2[5700]: [INFO] Configuration reloaded user=admin
+Jul 19 11:57:59 auth-server app-worker[7887]: [INFO] Configuration reloaded
+Jul 19 12:03:59 auth-server app-worker[8612]: [WARN] Replication lag increasing
+Jul 19 12:42:59 prod-web-02 postfix[1360]: [INFO] Cache hit
+Jul 19 12:47:59 prod-web-02 app-worker[7155]: [WARN] Slow query execution
+Jul 19 12:50:59 prod-web-02 redis-server[2222]: [ERROR] Disk read error
+Jul 19 12:52:59 analytics-node-c app-worker[6087]: [CRITICAL] Kernel panic
+Jul 19 13:05:59 ml-pipeline-01 redis-server[712]: [INFO] Worker thread started
+Jul 19 13:06:59 prod-web-02 apache2[7116]: [ERROR] Uncaught exception in module
+Jul 19 13:20:59 auth-server kubelet[5410]: [ERROR] Database connection lost
+Jul 19 13:34:59 db-replica-1 mysql[1633]: [DEBUG] Cache size: 1024
+Jul 19 13:45:59 prod-web-02 kubelet[1964]: [WARN] Slow query execution
+Jul 19 13:53:59 ml-pipeline-01 postfix[8089]: [ERROR] Uncaught exception in module
+Jul 19 14:25:59 analytics-node-c postfix[1140]: [DEBUG] Cache size: 1024
+Jul 19 15:06:59 ml-pipeline-01 mysql[3087]: [WARN] Replication lag increasing
+Jul 19 15:13:59 ml-pipeline-01 app-worker[9451]: [INFO] Backup completed user=admin
+Jul 19 15:48:59 ml-pipeline-01 app-worker[4683]: [INFO] Request processed successfully
+Jul 19 15:52:59 ml-pipeline-01 app-worker[6789]: [INFO] Request processed successfully
+Jul 19 16:16:59 ml-pipeline-01 app-worker[3510]: [INFO] Request processed successfully
+Jul 19 17:02:59 prod-web-02 redis-server[2702]: [INFO] Worker thread started
+Jul 19 17:42:59 db-replica-1 app-worker[7187]: [ERROR] Payment gateway timeout
+Jul 19 18:18:59 analytics-node-c mysql[2684]: [ERROR] Payment gateway timeout
+Jul 19 18:33:59 auth-server postfix[827]: [WARN] Deprecated API call
+Jul 19 18:42:59 analytics-node-c postfix[7825]: [WARN] Replication lag increasing
+Jul 19 19:32:59 auth-server redis-server[4751]: [INFO] Backup completed
+Jul 19 20:53:59 prod-web-02 redis-server[5481]: [DEBUG] Cache size: 1024
+Jul 19 21:12:59 auth-server kubelet[8038]: [WARN] Replication lag increasing
+Jul 19 21:23:59 auth-server mysql[8665]: [INFO] Cache hit
+Jul 19 21:26:59 ml-pipeline-01 postfix[358]: [DEBUG] Cache size: 1024
+Jul 19 21:38:59 auth-server mysql[2896]: [DEBUG] Variable state check
+Jul 19 21:46:59 db-replica-1 kubelet[8972]: [INFO] Worker thread started
+Jul 19 22:01:59 ml-pipeline-01 app-worker[5605]: [WARN] Deprecated API call
+Jul 19 22:16:59 prod-web-02 postfix[2987]: [WARN] Deprecated API call
+Jul 19 22:19:59 prod-web-02 apache2[8860]: [INFO] Backup completed
+Jul 19 22:31:59 ml-pipeline-01 postfix[6235]: [DEBUG] Loop iteration 42
+Jul 19 22:36:59 ml-pipeline-01 apache2[3586]: [INFO] Configuration reloaded
+Jul 19 22:54:59 prod-web-02 postfix[9788]: [INFO] Backup completed
+Jul 19 23:02:59 ml-pipeline-01 postfix[4240]: [INFO] Request processed successfully
+Jul 19 23:23:59 prod-web-02 apache2[8012]: [INFO] Configuration reloaded
+Jul 20 00:31:59 ml-pipeline-01 mysql[5007]: [INFO] Worker thread started
+Jul 20 01:25:59 ml-pipeline-01 app-worker[3273]: [WARN] Almost out of file descriptors
+Jul 20 01:27:59 ml-pipeline-01 redis-server[482]: [DEBUG] Cache size: 1024 user=admin
+Jul 20 02:10:59 prod-web-02 redis-server[2979]: [CRITICAL] SYSTEM HALTED
+Jul 20 02:14:59 prod-web-02 redis-server[6197]: [INFO] Worker thread started
+Jul 20 02:28:59 analytics-node-c app-worker[3234]: [INFO] Backup completed
+Jul 20 02:31:59 prod-web-02 postfix[3382]: [DEBUG] Variable state check
+Jul 20 02:35:59 db-replica-1 mysql[4463]: [INFO] Backup completed
+Jul 20 02:43:59 prod-web-02 mysql[892]: [ERROR] Uncaught exception in module
+Jul 20 02:47:59 ml-pipeline-01 kubelet[5948]: [INFO] Cache hit
+Jul 20 02:54:59 analytics-node-c app-worker[474]: [WARN] Deprecated API call
+Jul 20 03:14:59 analytics-node-c redis-server[3722]: [ERROR] Database connection lost
+Jul 20 03:25:59 db-replica-1 app-worker[6045]: [WARN] Almost out of file descriptors
+Jul 20 03:31:59 auth-server redis-server[2035]: [INFO] Worker thread started
+Jul 20 04:26:59 prod-web-02 kubelet[6538]: [INFO] Configuration reloaded
+Jul 20 06:29:59 db-replica-1 app-worker[651]: [WARN] Replication lag increasing
+Jul 20 06:55:59 analytics-node-c app-worker[5860]: [INFO] Cache hit
+Jul 20 07:10:59 db-replica-1 kubelet[3991]: [DEBUG] Loop iteration 42
+Jul 20 07:31:59 prod-web-02 apache2[7851]: [DEBUG] Loop iteration 42
+Jul 20 07:45:59 db-replica-1 postfix[6593]: [WARN] Deprecated API call
+Jul 20 08:15:59 ml-pipeline-01 app-worker[3455]: [INFO] Cache hit
+Jul 20 08:32:59 db-replica-1 mysql[2691]: [WARN] Replication lag increasing
+Jul 20 09:13:59 ml-pipeline-01 app-worker[6533]: [WARN] Deprecated API call
+Jul 20 09:19:59 auth-server mysql[9431]: [ERROR] Failed to acquire lock
+Jul 20 09:41:59 auth-server postfix[1692]: [INFO] Request processed successfully
+Jul 20 10:07:59 ml-pipeline-01 app-worker[6889]: [INFO] Backup completed
+Jul 20 10:08:59 auth-server postfix[2142]: [INFO] Configuration reloaded
+Jul 20 10:08:59 analytics-node-c postfix[6782]: [INFO] Request processed successfully
+Jul 20 10:39:59 ml-pipeline-01 apache2[2708]: [WARN] Deprecated API call
+Jul 20 11:15:59 db-replica-1 app-worker[401]: [INFO] Backup completed
+Jul 20 11:16:59 ml-pipeline-01 redis-server[8584]: [DEBUG] Pinging remote server
+Jul 20 11:32:59 prod-web-02 redis-server[1259]: [DEBUG] Loop iteration 42
+Jul 20 11:41:59 ml-pipeline-01 redis-server[166]: [INFO] Worker thread started user=admin
+Jul 20 12:20:59 db-replica-1 redis-server[292]: [DEBUG] Entering function process_data
+Jul 20 13:12:59 analytics-node-c app-worker[8014]: [WARN] High latency detected
+Jul 20 13:51:59 db-replica-1 redis-server[3935]: [WARN] Slow query execution
+Jul 20 14:12:59 db-replica-1 kubelet[6091]: [INFO] Request processed successfully
+Jul 20 14:20:59 db-replica-1 redis-server[6640]: [CRITICAL] Primary database offline
+Jul 20 14:22:59 db-replica-1 redis-server[5028]: [WARN] Replication lag increasing
+Jul 20 14:30:59 ml-pipeline-01 app-worker[4107]: [ERROR] Disk read error
+Jul 20 14:32:59 db-replica-1 redis-server[1377]: [INFO] Request processed successfully
+Jul 20 14:32:59 analytics-node-c kubelet[6151]: [INFO] Worker thread started
+Jul 20 14:40:59 analytics-node-c postfix[4341]: [DEBUG] Entering function process_data
+Jul 20 14:51:59 prod-web-02 redis-server[7184]: [INFO] Backup completed
+Jul 20 14:51:59 prod-web-02 postfix[6043]: [INFO] Backup completed
+Jul 20 15:04:59 db-replica-1 postfix[2735]: [DEBUG] Variable state check
+Jul 20 16:34:59 prod-web-02 apache2[8419]: [INFO] Backup completed
+Jul 20 16:54:59 ml-pipeline-01 redis-server[5841]: [INFO] Request processed successfully
+Jul 20 17:01:59 prod-web-02 app-worker[9027]: [DEBUG] Pinging remote server
+Jul 20 18:04:59 db-replica-1 app-worker[7665]: [WARN] Deprecated API call
+Jul 20 18:32:59 analytics-node-c kubelet[3332]: [INFO] Request processed successfully
+Jul 20 18:53:59 auth-server postfix[3300]: [ERROR] Uncaught exception in module
+Jul 20 19:06:59 prod-web-02 app-worker[7337]: [INFO] Configuration reloaded
+Jul 20 19:22:59 prod-web-02 postfix[5265]: [DEBUG] Variable state check
+Jul 20 19:34:59 auth-server postfix[4074]: [INFO] Request processed successfully user=admin IP=10.0.0.55
+Jul 20 20:23:59 analytics-node-c kubelet[4635]: [INFO] Cache hit IP=10.0.0.55
+Jul 20 20:27:59 ml-pipeline-01 postfix[4654]: [ERROR] Uncaught exception in module
+Jul 20 20:28:59 auth-server apache2[619]: [INFO] Request processed successfully
+Jul 20 20:29:59 prod-web-02 app-worker[7006]: [DEBUG] Cache size: 1024
+Jul 20 20:29:59 analytics-node-c postfix[7995]: [INFO] Cache hit
+Jul 20 20:29:59 db-replica-1 kubelet[8252]: [DEBUG] Cache size: 1024
+Jul 20 21:25:59 analytics-node-c redis-server[745]: [INFO] Backup completed
+Jul 20 21:50:59 auth-server apache2[2277]: [INFO] Worker thread started
+Jul 20 21:52:59 auth-server mysql[3368]: [WARN] Deprecated API call
+Jul 20 22:12:59 ml-pipeline-01 redis-server[4660]: [ERROR] Payment gateway timeout IP=10.0.0.55
+Jul 20 22:40:59 ml-pipeline-01 postfix[7820]: [DEBUG] Cache size: 1024
+Jul 20 23:17:59 db-replica-1 apache2[3847]: [INFO] Worker thread started
+Jul 20 23:33:59 auth-server postfix[1920]: [INFO] Worker thread started
+Jul 20 23:52:59 ml-pipeline-01 apache2[287]: [INFO] Configuration reloaded
+Jul 20 23:54:59 ml-pipeline-01 postfix[1365]: [INFO] Cache hit
+Jul 21 00:19:59 prod-web-02 app-worker[5903]: [INFO] Configuration reloaded
+Jul 21 00:35:59 db-replica-1 postfix[541]: [INFO] Cache hit
+Jul 21 00:39:59 analytics-node-c kubelet[8964]: [DEBUG] Cache size: 1024
+Jul 21 00:42:59 auth-server redis-server[6008]: [WARN] Slow query execution
+Jul 21 00:57:59 prod-web-02 mysql[8454]: [WARN] Replication lag increasing
+Jul 21 01:06:59 auth-server postfix[8940]: [DEBUG] Variable state check
+Jul 21 01:45:59 db-replica-1 app-worker[9183]: [INFO] Configuration reloaded
+Jul 21 03:31:59 analytics-node-c mysql[1458]: [DEBUG] Loop iteration 42
+Jul 21 04:37:59 auth-server postfix[4725]: [CRITICAL] Kernel panic
+Jul 21 04:51:59 ml-pipeline-01 apache2[3640]: [ERROR] Uncaught exception in module
+Jul 21 04:53:59 auth-server postfix[8780]: [INFO] Configuration reloaded
+Jul 21 05:12:59 prod-web-02 redis-server[6602]: [INFO] Configuration reloaded
+Jul 21 05:26:59 auth-server apache2[1522]: [INFO] Configuration reloaded
+Jul 21 05:29:59 ml-pipeline-01 app-worker[421]: [DEBUG] Variable state check user=admin
+Jul 21 06:21:59 db-replica-1 redis-server[6482]: [DEBUG] Cache size: 1024
+Jul 21 06:25:59 auth-server apache2[3597]: [DEBUG] Loop iteration 42
+Jul 21 06:37:59 db-replica-1 postfix[7296]: [ERROR] Database connection lost
+Jul 21 06:54:59 ml-pipeline-01 app-worker[5544]: [DEBUG] Variable state check
+Jul 21 07:57:59 prod-web-02 app-worker[8347]: [INFO] Cache hit IP=10.0.0.55
+Jul 21 09:05:59 analytics-node-c redis-server[1206]: [DEBUG] Cache size: 1024
+Jul 21 09:16:59 analytics-node-c kubelet[6586]: [DEBUG] Variable state check
+Jul 21 09:32:59 db-replica-1 mysql[8340]: [INFO] Worker thread started
+Jul 21 09:40:59 ml-pipeline-01 apache2[9089]: [INFO] Configuration reloaded
+Jul 21 11:00:59 analytics-node-c apache2[6035]: [INFO] Cache hit
+Jul 21 11:14:59 db-replica-1 apache2[2994]: [WARN] High latency detected
+Jul 21 11:25:59 prod-web-02 kubelet[3854]: [INFO] Request processed successfully
+Jul 21 11:26:59 analytics-node-c apache2[6448]: [INFO] Backup completed
+Jul 21 11:32:59 db-replica-1 mysql[2776]: [DEBUG] Loop iteration 42
+Jul 21 11:32:59 analytics-node-c mysql[5018]: [DEBUG] Variable state check
+Jul 21 11:36:59 prod-web-02 redis-server[8939]: [ERROR] Database connection lost
+Jul 21 13:15:59 ml-pipeline-01 apache2[3356]: [INFO] Configuration reloaded user=admin
+Jul 21 13:23:59 ml-pipeline-01 postfix[7307]: [ERROR] Failed to acquire lock
+Jul 21 13:25:59 prod-web-02 app-worker[2035]: [INFO] Worker thread started
+Jul 21 13:35:59 db-replica-1 mysql[227]: [WARN] Slow query execution
+Jul 21 13:55:59 db-replica-1 kubelet[2448]: [WARN] Slow query execution
+Jul 21 14:31:59 prod-web-02 app-worker[537]: [INFO] Worker thread started
+Jul 21 14:36:59 db-replica-1 redis-server[1630]: [ERROR] Failed to acquire lock user=admin
+Jul 21 14:38:59 prod-web-02 kubelet[6435]: [CRITICAL] Primary database offline user=admin
+Jul 21 14:52:59 auth-server kubelet[5331]: [ERROR] Uncaught exception in module
+Jul 21 14:57:59 auth-server apache2[8571]: [INFO] Cache hit
+Jul 21 15:00:59 prod-web-02 postfix[3168]: [WARN] High latency detected
+Jul 21 15:35:59 ml-pipeline-01 apache2[7937]: [WARN] Slow query execution user=admin
+Jul 21 16:13:59 auth-server kubelet[2660]: [DEBUG] Entering function process_data
+Jul 21 16:23:59 db-replica-1 apache2[6231]: [WARN] High latency detected
+Jul 21 16:30:59 ml-pipeline-01 apache2[8605]: [ERROR] Payment gateway timeout
+Jul 21 17:03:59 analytics-node-c apache2[4360]: [DEBUG] Entering function process_data
+Jul 21 17:10:59 prod-web-02 app-worker[2351]: [INFO] Configuration reloaded
+Jul 21 17:15:59 ml-pipeline-01 apache2[1234]: [WARN] Deprecated API call
+Jul 21 17:36:59 prod-web-02 redis-server[9955]: [INFO] Cache hit
+Jul 21 18:07:59 analytics-node-c mysql[7972]: [INFO] Worker thread started
+Jul 21 18:11:59 prod-web-02 redis-server[5857]: [CRITICAL] Primary database offline
+Jul 21 18:29:59 prod-web-02 apache2[6865]: [DEBUG] Pinging remote server
+Jul 21 18:33:59 ml-pipeline-01 postfix[6428]: [INFO] Backup completed
+Jul 21 19:14:59 auth-server postfix[6355]: [INFO] Request processed successfully
+Jul 21 19:14:59 db-replica-1 redis-server[5275]: [INFO] Configuration reloaded user=admin
+Jul 21 19:27:59 prod-web-02 app-worker[4234]: [WARN] Deprecated API call
+Jul 21 19:34:59 db-replica-1 apache2[2062]: [INFO] Cache hit
+Jul 21 19:40:59 db-replica-1 apache2[1831]: [DEBUG] Variable state check
+Jul 21 19:51:59 auth-server mysql[7325]: [INFO] Request processed successfully
+Jul 21 19:51:59 ml-pipeline-01 apache2[936]: [WARN] Almost out of file descriptors
+Jul 21 20:52:59 db-replica-1 app-worker[3034]: [ERROR] Payment gateway timeout
+Jul 21 21:20:59 analytics-node-c mysql[8502]: [INFO] Configuration reloaded
+Jul 21 21:20:59 analytics-node-c redis-server[8479]: [INFO] Configuration reloaded
+Jul 21 21:25:59 db-replica-1 mysql[6102]: [INFO] Cache hit
+Jul 21 21:27:59 ml-pipeline-01 postfix[7975]: [INFO] Cache hit
+Jul 21 21:28:59 analytics-node-c postfix[3916]: [INFO] Worker thread started
+Jul 21 22:02:59 analytics-node-c postfix[7220]: [WARN] Almost out of file descriptors
+Jul 21 22:22:59 analytics-node-c mysql[4352]: [INFO] Worker thread started
+Jul 21 22:27:59 analytics-node-c postfix[7291]: [INFO] Cache hit
+Jul 21 23:52:59 auth-server kubelet[3024]: [INFO] Backup completed
+Jul 22 00:01:59 ml-pipeline-01 postfix[5961]: [INFO] Configuration reloaded
+Jul 22 00:11:59 prod-web-02 apache2[6182]: [INFO] Configuration reloaded
+Jul 22 00:16:59 analytics-node-c apache2[4106]: [INFO] Worker thread started
+Jul 22 00:16:59 analytics-node-c app-worker[4438]: [DEBUG] Loop iteration 42
+Jul 22 00:32:59 ml-pipeline-01 apache2[4918]: [INFO] Worker thread started
+Jul 22 01:03:59 db-replica-1 redis-server[464]: [INFO] Cache hit
+Jul 22 01:04:59 ml-pipeline-01 redis-server[2692]: [INFO] Request processed successfully
+Jul 22 01:07:59 analytics-node-c app-worker[2471]: [DEBUG] Loop iteration 42 user=admin
+Jul 22 01:10:59 auth-server redis-server[5958]: [INFO] Request processed successfully
+Jul 22 01:32:59 auth-server kubelet[7417]: [ERROR] Payment gateway timeout
+Jul 22 01:42:59 analytics-node-c apache2[5499]: [DEBUG] Cache size: 1024
+Jul 22 02:09:59 ml-pipeline-01 redis-server[4247]: [ERROR] Failed to acquire lock
+Jul 22 02:29:59 auth-server kubelet[9872]: [WARN] Deprecated API call
+Jul 22 03:42:59 db-replica-1 postfix[8012]: [INFO] Worker thread started
+Jul 22 03:53:59 prod-web-02 redis-server[929]: [INFO] Configuration reloaded
+Jul 22 03:54:59 auth-server app-worker[4246]: [INFO] Cache hit
+Jul 22 03:56:59 db-replica-1 redis-server[5924]: [CRITICAL] Data corruption detected user=admin
+Jul 22 04:43:59 db-replica-1 redis-server[351]: [DEBUG] Entering function process_data
+Jul 22 06:19:59 prod-web-02 apache2[961]: [WARN] Slow query execution
+Jul 22 06:36:59 prod-web-02 mysql[5385]: [WARN] Almost out of file descriptors
+Jul 22 07:13:59 db-replica-1 redis-server[1487]: [INFO] Backup completed
+Jul 22 07:34:59 analytics-node-c mysql[3442]: [ERROR] Failed to acquire lock
+Jul 22 07:43:59 auth-server postfix[7660]: [INFO] Configuration reloaded
+Jul 22 07:43:59 analytics-node-c postfix[2772]: [CRITICAL] SYSTEM HALTED
+Jul 22 07:45:59 prod-web-02 apache2[1023]: [INFO] Backup completed
+Jul 22 07:47:59 ml-pipeline-01 app-worker[4359]: [INFO] Backup completed
+Jul 22 08:11:59 analytics-node-c redis-server[9984]: [WARN] Replication lag increasing
+Jul 22 08:12:59 prod-web-02 redis-server[8147]: [INFO] Request processed successfully
+Jul 22 09:23:59 prod-web-02 apache2[9741]: [INFO] Configuration reloaded
+Jul 22 09:44:59 analytics-node-c kubelet[6479]: [WARN] Slow query execution
+Jul 22 09:45:59 analytics-node-c mysql[3550]: [INFO] Configuration reloaded user=admin
+Jul 22 09:51:59 analytics-node-c apache2[4842]: [INFO] Cache hit
+Jul 22 09:52:59 db-replica-1 app-worker[5425]: [WARN] Slow query execution
+Jul 22 10:03:59 analytics-node-c apache2[3094]: [WARN] Almost out of file descriptors
+Jul 22 10:18:59 ml-pipeline-01 app-worker[7239]: [INFO] Backup completed
+Jul 22 10:44:59 ml-pipeline-01 redis-server[3158]: [INFO] Cache hit
+Jul 22 10:54:59 ml-pipeline-01 app-worker[2802]: [DEBUG] Variable state check
+Jul 22 10:54:59 db-replica-1 redis-server[1979]: [ERROR] Uncaught exception in module
+Jul 22 11:09:59 auth-server redis-server[9259]: [INFO] Cache hit
+Jul 22 11:39:59 ml-pipeline-01 apache2[9534]: [DEBUG] Pinging remote server
+Jul 22 11:50:59 db-replica-1 mysql[4699]: [WARN] Almost out of file descriptors
+Jul 22 11:51:59 db-replica-1 apache2[9213]: [INFO] Cache hit
+Jul 22 11:52:59 ml-pipeline-01 kubelet[8960]: [ERROR] Payment gateway timeout
+Jul 22 11:54:59 prod-web-02 apache2[2841]: [CRITICAL] SYSTEM HALTED
+Jul 22 12:07:59 ml-pipeline-01 mysql[8041]: [INFO] Request processed successfully
+Jul 22 12:13:59 auth-server postfix[5973]: [ERROR] Uncaught exception in module
+Jul 22 12:35:59 auth-server kubelet[2090]: [INFO] Cache hit
+Jul 22 13:38:59 analytics-node-c app-worker[984]: [INFO] Request processed successfully
+Jul 22 13:50:59 db-replica-1 postfix[6720]: [CRITICAL] Primary database offline
+Jul 22 14:35:59 prod-web-02 postfix[4712]: [WARN] Deprecated API call
+Jul 22 14:50:59 analytics-node-c redis-server[3244]: [CRITICAL] Kernel panic
+Jul 22 14:55:59 prod-web-02 mysql[3810]: [INFO] Backup completed
+Jul 22 15:09:59 analytics-node-c mysql[9448]: [INFO] Configuration reloaded
+Jul 22 16:21:59 db-replica-1 postfix[2485]: [INFO] Backup completed
+Jul 22 16:46:59 db-replica-1 postfix[5835]: [INFO] Backup completed
+Jul 22 16:54:59 analytics-node-c mysql[2827]: [WARN] Deprecated API call
+Jul 22 17:50:59 db-replica-1 apache2[6633]: [INFO] Configuration reloaded
+Jul 22 18:08:59 prod-web-02 app-worker[1530]: [DEBUG] Pinging remote server
+Jul 22 18:22:59 ml-pipeline-01 postfix[535]: [DEBUG] Pinging remote server
+Jul 22 18:48:59 db-replica-1 postfix[6510]: [INFO] Backup completed
+Jul 22 18:58:59 db-replica-1 postfix[3196]: [INFO] Cache hit
+Jul 22 19:47:59 auth-server kubelet[8745]: [INFO] Request processed successfully
+Jul 22 19:55:59 prod-web-02 apache2[6380]: [DEBUG] Variable state check
+Jul 22 20:10:59 ml-pipeline-01 postfix[1808]: [INFO] Worker thread started
+Jul 22 20:50:59 auth-server postfix[391]: [INFO] Cache hit
+Jul 22 21:18:59 analytics-node-c apache2[408]: [WARN] Almost out of file descriptors
+Jul 22 21:24:59 auth-server app-worker[649]: [INFO] Backup completed
+Jul 22 21:29:59 analytics-node-c apache2[9629]: [WARN] Almost out of file descriptors
+Jul 22 21:42:59 auth-server mysql[3981]: [INFO] Request processed successfully
+Jul 22 21:53:59 db-replica-1 app-worker[5657]: [INFO] Backup completed
+Jul 22 22:16:59 ml-pipeline-01 redis-server[7406]: [WARN] Slow query execution
+Jul 22 22:30:59 prod-web-02 redis-server[1444]: [DEBUG] Loop iteration 42
+Jul 23 00:04:59 ml-pipeline-01 app-worker[8828]: [CRITICAL] Kernel panic
+Jul 23 00:24:59 prod-web-02 kubelet[8716]: [DEBUG] Entering function process_data
+Jul 23 01:15:59 db-replica-1 postfix[2575]: [INFO] Cache hit
+Jul 23 01:31:59 analytics-node-c mysql[1175]: [ERROR] Database connection lost
+Jul 23 02:14:59 analytics-node-c postfix[9954]: [INFO] Configuration reloaded
+Jul 23 02:51:59 analytics-node-c postfix[514]: [WARN] Deprecated API call
+Jul 23 03:26:59 prod-web-02 app-worker[8995]: [INFO] Worker thread started
+Jul 23 03:38:59 db-replica-1 apache2[6104]: [INFO] Worker thread started
+Jul 23 03:51:59 analytics-node-c kubelet[9814]: [INFO] Request processed successfully user=admin
+Jul 23 03:51:59 ml-pipeline-01 kubelet[1194]: [WARN] High latency detected
+Jul 23 04:22:59 analytics-node-c apache2[3930]: [CRITICAL] Kernel panic
+Jul 23 04:54:59 analytics-node-c mysql[8327]: [INFO] Request processed successfully
+Jul 23 05:15:59 analytics-node-c app-worker[2901]: [WARN] High latency detected user=admin
+Jul 23 05:34:59 prod-web-02 redis-server[1483]: [INFO] Request processed successfully
+Jul 23 05:38:59 ml-pipeline-01 kubelet[8334]: [INFO] Configuration reloaded
+Jul 23 06:13:59 auth-server apache2[3398]: [DEBUG] Pinging remote server
+Jul 23 06:44:59 auth-server mysql[398]: [ERROR] Payment gateway timeout
+Jul 23 07:11:59 analytics-node-c kubelet[7187]: [DEBUG] Cache size: 1024
+Jul 23 07:22:59 auth-server app-worker[4143]: [INFO] Cache hit
+Jul 23 07:24:59 db-replica-1 redis-server[5795]: [DEBUG] Loop iteration 42
+Jul 23 08:18:59 auth-server redis-server[3822]: [INFO] Backup completed
+Jul 23 08:27:59 ml-pipeline-01 app-worker[6748]: [INFO] Configuration reloaded
+Jul 23 08:37:59 ml-pipeline-01 postfix[9115]: [ERROR] Disk read error
+Jul 23 08:39:59 db-replica-1 postfix[5886]: [INFO] Request processed successfully
+Jul 23 09:09:59 auth-server kubelet[6515]: [DEBUG] Entering function process_data
+Jul 23 09:15:59 prod-web-02 redis-server[738]: [INFO] Backup completed
+Jul 23 09:26:59 prod-web-02 redis-server[9211]: [INFO] Worker thread started
+Jul 23 09:39:59 db-replica-1 mysql[7905]: [INFO] Request processed successfully
+Jul 23 09:45:59 db-replica-1 apache2[8643]: [DEBUG] Variable state check
+Jul 23 10:32:59 analytics-node-c redis-server[4124]: [INFO] Worker thread started
+Jul 23 10:34:59 auth-server postfix[8035]: [INFO] Configuration reloaded
+Jul 23 10:55:59 auth-server app-worker[6224]: [DEBUG] Pinging remote server
+Jul 23 11:24:59 auth-server postfix[6508]: [WARN] Slow query execution
+Jul 23 11:28:59 db-replica-1 apache2[3286]: [INFO] Cache hit
+Jul 23 11:36:59 db-replica-1 mysql[9459]: [DEBUG] Entering function process_data
+Jul 23 12:12:59 auth-server redis-server[1940]: [INFO] Cache hit
+Jul 23 13:24:59 analytics-node-c mysql[5902]: [INFO] Worker thread started
+Jul 23 13:29:59 analytics-node-c apache2[1292]: [DEBUG] Pinging remote server
+Jul 23 13:38:59 auth-server kubelet[480]: [CRITICAL] Data corruption detected
+Jul 23 13:49:59 prod-web-02 postfix[6300]: [INFO] Request processed successfully
+Jul 23 13:55:59 ml-pipeline-01 mysql[5130]: [INFO] Backup completed
+Jul 23 14:07:59 db-replica-1 apache2[8629]: [CRITICAL] Security breach attempt
+Jul 23 14:09:59 db-replica-1 kubelet[7521]: [INFO] Worker thread started
+Jul 23 14:33:59 prod-web-02 kubelet[1353]: [DEBUG] Variable state check
+Jul 23 14:41:59 ml-pipeline-01 apache2[8163]: [INFO] Request processed successfully
+Jul 23 14:47:59 auth-server mysql[7588]: [WARN] Almost out of file descriptors
+Jul 23 14:50:59 prod-web-02 apache2[3475]: [INFO] Worker thread started
+Jul 23 14:51:59 analytics-node-c mysql[6538]: [ERROR] Payment gateway timeout
+Jul 23 14:55:59 auth-server postfix[481]: [DEBUG] Variable state check
+Jul 23 14:57:59 prod-web-02 redis-server[8464]: [INFO] Cache hit
+Jul 23 15:27:59 db-replica-1 mysql[9312]: [INFO] Configuration reloaded
+Jul 23 15:27:59 analytics-node-c apache2[486]: [INFO] Backup completed
+Jul 23 15:36:59 analytics-node-c app-worker[8883]: [DEBUG] Cache size: 1024
+Jul 23 16:42:59 ml-pipeline-01 kubelet[3036]: [WARN] Almost out of file descriptors
+Jul 23 18:09:59 prod-web-02 app-worker[1375]: [INFO] Cache hit
+Jul 23 18:15:59 db-replica-1 apache2[3919]: [INFO] Backup completed
+Jul 23 18:27:59 db-replica-1 apache2[3755]: [INFO] Configuration reloaded
+Jul 23 18:33:59 db-replica-1 mysql[3576]: [ERROR] Database connection lost
+Jul 23 19:57:59 analytics-node-c mysql[7504]: [INFO] Backup completed
+Jul 23 20:45:59 ml-pipeline-01 app-worker[9700]: [WARN] Slow query execution
+Jul 23 20:47:59 prod-web-02 postfix[7910]: [ERROR] Failed to acquire lock
+Jul 23 20:50:59 prod-web-02 kubelet[124]: [DEBUG] Entering function process_data
+Jul 23 20:52:59 analytics-node-c kubelet[2944]: [INFO] Configuration reloaded
+Jul 23 21:21:59 auth-server app-worker[2300]: [ERROR] Payment gateway timeout
+Jul 23 21:22:59 analytics-node-c postfix[5886]: [INFO] Backup completed
+Jul 23 21:29:59 db-replica-1 kubelet[173]: [INFO] Worker thread started
+Jul 23 22:08:59 auth-server apache2[7580]: [WARN] Deprecated API call
+Jul 23 22:16:59 prod-web-02 postfix[3481]: [DEBUG] Entering function process_data
+Jul 23 22:32:59 ml-pipeline-01 mysql[9222]: [INFO] Request processed successfully
+Jul 23 22:43:59 analytics-node-c app-worker[6095]: [INFO] Worker thread started
+Jul 23 22:49:59 db-replica-1 app-worker[5956]: [ERROR] Disk read error
+Jul 23 23:11:59 analytics-node-c kubelet[4011]: [INFO] Backup completed
+Jul 23 23:47:59 analytics-node-c app-worker[1528]: [DEBUG] Pinging remote server
+Jul 24 00:04:59 analytics-node-c redis-server[6771]: [WARN] Almost out of file descriptors
+Jul 24 00:43:59 db-replica-1 mysql[5002]: [ERROR] Disk read error
+Jul 24 01:04:59 prod-web-02 postfix[3381]: [WARN] Almost out of file descriptors
+Jul 24 01:23:59 analytics-node-c postfix[2035]: [WARN] Deprecated API call
+Jul 24 01:37:59 analytics-node-c mysql[6049]: [CRITICAL] Security breach attempt
+Jul 24 01:39:59 analytics-node-c app-worker[6624]: [WARN] Deprecated API call
+Jul 24 01:57:59 db-replica-1 apache2[1910]: [DEBUG] Pinging remote server
+Jul 24 02:19:59 analytics-node-c apache2[2866]: [DEBUG] Entering function process_data
+Jul 24 02:33:59 db-replica-1 mysql[2004]: [INFO] Configuration reloaded
+Jul 24 02:40:59 prod-web-02 kubelet[973]: [INFO] Cache hit
+Jul 24 02:47:59 analytics-node-c apache2[4355]: [DEBUG] Pinging remote server
+Jul 24 03:03:59 auth-server redis-server[9027]: [INFO] Backup completed
+Jul 24 03:16:59 ml-pipeline-01 postfix[9517]: [WARN] Deprecated API call
+Jul 24 03:29:59 auth-server app-worker[4391]: [INFO] Backup completed
+Jul 24 03:51:59 ml-pipeline-01 postfix[2948]: [INFO] Worker thread started
+Jul 24 04:40:59 auth-server redis-server[3124]: [ERROR] Disk read error
+Jul 24 04:59:59 prod-web-02 app-worker[6418]: [DEBUG] Entering function process_data IP=10.0.0.55
+Jul 24 05:10:59 db-replica-1 app-worker[1829]: [INFO] Backup completed
+Jul 24 05:23:59 db-replica-1 redis-server[4805]: [ERROR] Uncaught exception in module
+Jul 24 05:49:59 db-replica-1 kubelet[5831]: [INFO] Cache hit
+Jul 24 05:51:59 analytics-node-c redis-server[5911]: [WARN] Replication lag increasing
+Jul 24 05:56:59 db-replica-1 postfix[7019]: [WARN] Replication lag increasing
+Jul 24 05:59:59 auth-server mysql[4945]: [WARN] High latency detected
+Jul 24 06:20:59 auth-server app-worker[6780]: [INFO] Worker thread started IP=10.0.0.55
+Jul 24 06:24:59 auth-server redis-server[9018]: [INFO] Configuration reloaded
+Jul 24 06:26:59 analytics-node-c apache2[7557]: [WARN] Almost out of file descriptors
+Jul 24 06:39:59 db-replica-1 redis-server[2992]: [DEBUG] Pinging remote server
+Jul 24 06:46:59 ml-pipeline-01 kubelet[4836]: [DEBUG] Pinging remote server
+Jul 24 07:01:59 analytics-node-c mysql[237]: [CRITICAL] Kernel panic
+Jul 24 07:02:59 analytics-node-c redis-server[6936]: [INFO] Backup completed
+Jul 24 07:17:59 prod-web-02 mysql[7284]: [WARN] Almost out of file descriptors
+Jul 24 07:21:59 analytics-node-c redis-server[6419]: [INFO] Backup completed
+Jul 24 07:24:59 analytics-node-c kubelet[4295]: [INFO] Worker thread started user=admin
+Jul 24 07:58:59 prod-web-02 redis-server[4006]: [INFO] Worker thread started
+Jul 24 08:26:59 db-replica-1 app-worker[5013]: [ERROR] Disk read error
+Jul 24 09:45:59 ml-pipeline-01 app-worker[6539]: [INFO] Cache hit
+Jul 24 09:46:59 analytics-node-c redis-server[8797]: [ERROR] Disk read error
+Jul 24 10:12:59 auth-server postfix[7972]: [DEBUG] Loop iteration 42
+Jul 24 10:12:59 db-replica-1 redis-server[2572]: [DEBUG] Loop iteration 42
+Jul 24 10:13:59 analytics-node-c apache2[3826]: [WARN] High latency detected
+Jul 24 11:31:59 ml-pipeline-01 mysql[8315]: [DEBUG] Cache size: 1024 IP=10.0.0.55
+Jul 24 11:42:59 db-replica-1 postfix[6129]: [CRITICAL] Data corruption detected
+Jul 24 12:21:59 prod-web-02 app-worker[3547]: [INFO] Cache hit
+Jul 24 12:47:59 db-replica-1 redis-server[8702]: [INFO] Configuration reloaded
+Jul 24 13:23:59 db-replica-1 postfix[1536]: [INFO] Cache hit
+Jul 24 13:36:59 auth-server kubelet[9826]: [INFO] Backup completed
+Jul 24 13:45:59 db-replica-1 kubelet[8050]: [DEBUG] Cache size: 1024
+Jul 24 13:45:59 analytics-node-c postfix[1210]: [INFO] Request processed successfully
+Jul 24 14:03:59 ml-pipeline-01 postfix[5785]: [INFO] Configuration reloaded
+Jul 24 14:15:59 db-replica-1 app-worker[4288]: [INFO] Cache hit
+Jul 24 14:22:59 db-replica-1 kubelet[5712]: [CRITICAL] SYSTEM HALTED
+Jul 24 14:35:59 prod-web-02 mysql[1415]: [ERROR] Uncaught exception in module
+Jul 24 14:46:59 auth-server mysql[9183]: [INFO] Cache hit
+Jul 24 14:48:59 analytics-node-c app-worker[5324]: [INFO] Configuration reloaded
+Jul 24 15:10:59 ml-pipeline-01 mysql[7715]: [INFO] Cache hit
+Jul 24 15:21:59 ml-pipeline-01 app-worker[1536]: [INFO] Configuration reloaded
+Jul 24 15:28:59 auth-server redis-server[5507]: [INFO] Backup completed
+Jul 24 16:14:59 auth-server mysql[3685]: [WARN] Slow query execution
+Jul 24 16:15:59 analytics-node-c postfix[2268]: [INFO] Configuration reloaded
+Jul 24 16:39:59 analytics-node-c kubelet[8687]: [INFO] Configuration reloaded
+Jul 24 16:53:59 ml-pipeline-01 redis-server[5256]: [INFO] Configuration reloaded
+Jul 24 17:17:59 auth-server app-worker[9586]: [WARN] Almost out of file descriptors
+Jul 24 17:44:59 prod-web-02 kubelet[5778]: [ERROR] Database connection lost
+Jul 24 18:31:59 ml-pipeline-01 apache2[8448]: [INFO] Request processed successfully
+Jul 24 18:59:59 ml-pipeline-01 postfix[6915]: [DEBUG] Variable state check
+Jul 24 19:21:59 analytics-node-c apache2[7841]: [INFO] Worker thread started
+Jul 24 20:25:59 analytics-node-c kubelet[5284]: [INFO] Configuration reloaded
+Jul 24 20:50:59 ml-pipeline-01 postfix[4834]: [INFO] Worker thread started
+Jul 24 21:51:59 prod-web-02 postfix[5466]: [WARN] Slow query execution
+Jul 24 22:03:59 auth-server redis-server[5933]: [INFO] Configuration reloaded
+Jul 24 22:23:59 prod-web-02 postfix[7225]: [INFO] Backup completed
+Jul 24 22:24:59 prod-web-02 mysql[5106]: [WARN] Almost out of file descriptors
+Jul 24 22:28:59 analytics-node-c postfix[385]: [INFO] Worker thread started
+Jul 24 22:46:59 prod-web-02 redis-server[8481]: [WARN] Replication lag increasing
+Jul 24 22:59:59 ml-pipeline-01 mysql[4237]: [DEBUG] Cache size: 1024
+Jul 24 23:10:59 prod-web-02 mysql[9208]: [INFO] Backup completed
+Jul 25 00:10:59 ml-pipeline-01 app-worker[737]: [WARN] Slow query execution
+Jul 25 00:11:59 prod-web-02 apache2[5708]: [WARN] High latency detected
+Jul 25 00:25:59 prod-web-02 apache2[962]: [INFO] Request processed successfully user=admin
+Jul 25 00:29:59 ml-pipeline-01 app-worker[5543]: [INFO] Backup completed
+Jul 25 01:22:59 db-replica-1 apache2[8049]: [INFO] Configuration reloaded
+Jul 25 01:57:59 auth-server app-worker[2298]: [INFO] Backup completed
+Jul 25 02:20:59 prod-web-02 mysql[3281]: [INFO] Cache hit
+Jul 25 02:37:59 analytics-node-c redis-server[1849]: [INFO] Worker thread started
+Jul 25 03:00:59 analytics-node-c apache2[6690]: [DEBUG] Entering function process_data
+Jul 25 03:18:59 db-replica-1 redis-server[2251]: [INFO] Configuration reloaded user=admin
+Jul 25 03:21:59 auth-server postfix[5327]: [WARN] Slow query execution
+Jul 25 03:50:59 analytics-node-c mysql[4390]: [WARN] Replication lag increasing
+Jul 25 04:02:59 db-replica-1 apache2[495]: [INFO] Request processed successfully
+Jul 25 04:33:59 analytics-node-c postfix[9167]: [DEBUG] Pinging remote server
+Jul 25 04:33:59 prod-web-02 apache2[7050]: [INFO] Cache hit
+Jul 25 04:58:59 ml-pipeline-01 mysql[8106]: [INFO] Backup completed
+Jul 25 05:02:59 analytics-node-c redis-server[8408]: [WARN] Slow query execution
+Jul 25 05:02:59 db-replica-1 postfix[7461]: [INFO] Worker thread started
+Jul 25 05:17:59 ml-pipeline-01 app-worker[9798]: [INFO] Request processed successfully
+Jul 25 05:30:59 db-replica-1 mysql[3999]: [INFO] Backup completed
+Jul 25 05:56:59 auth-server redis-server[6020]: [ERROR] Payment gateway timeout
+Jul 25 06:12:59 prod-web-02 postfix[7115]: [INFO] Configuration reloaded
+Jul 25 06:21:59 auth-server mysql[8060]: [INFO] Worker thread started
+Jul 25 06:31:59 analytics-node-c apache2[322]: [INFO] Request processed successfully
+Jul 25 07:26:59 analytics-node-c apache2[8963]: [INFO] Cache hit
+Jul 25 07:53:59 prod-web-02 postfix[4640]: [DEBUG] Loop iteration 42
+Jul 25 08:27:59 prod-web-02 kubelet[901]: [INFO] Configuration reloaded
+Jul 25 08:44:59 db-replica-1 app-worker[2869]: [DEBUG] Loop iteration 42
+Jul 25 08:51:59 prod-web-02 app-worker[124]: [INFO] Worker thread started
+Jul 25 08:56:59 analytics-node-c kubelet[7280]: [DEBUG] Cache size: 1024
+Jul 25 09:38:59 db-replica-1 postfix[5584]: [INFO] Configuration reloaded
+Jul 25 09:43:59 ml-pipeline-01 kubelet[2981]: [INFO] Worker thread started
+Jul 25 09:55:59 auth-server apache2[7165]: [WARN] Deprecated API call
+Jul 25 09:55:59 prod-web-02 app-worker[1487]: [INFO] Request processed successfully
+Jul 25 11:05:59 db-replica-1 apache2[8035]: [DEBUG] Variable state check
+Jul 25 11:51:59 analytics-node-c kubelet[8187]: [INFO] Request processed successfully
+Jul 25 13:12:59 db-replica-1 redis-server[6954]: [INFO] Configuration reloaded
+Jul 25 13:51:59 prod-web-02 kubelet[6584]: [DEBUG] Cache size: 1024
+Jul 25 14:01:59 auth-server kubelet[3659]: [WARN] Deprecated API call IP=10.0.0.55
+Jul 25 14:09:59 prod-web-02 redis-server[6872]: [INFO] Backup completed
+Jul 25 15:06:59 auth-server apache2[6708]: [ERROR] Disk read error
+Jul 25 15:30:59 analytics-node-c redis-server[2246]: [CRITICAL] SYSTEM HALTED
+Jul 25 15:31:59 db-replica-1 mysql[7757]: [INFO] Backup completed
+Jul 25 15:54:59 db-replica-1 postfix[9011]: [ERROR] Uncaught exception in module
+Jul 25 15:57:59 analytics-node-c kubelet[1320]: [INFO] Worker thread started
+Jul 25 16:03:59 ml-pipeline-01 apache2[9673]: [DEBUG] Variable state check
+Jul 25 16:06:59 prod-web-02 app-worker[8689]: [INFO] Backup completed
+Jul 25 16:13:59 db-replica-1 mysql[3073]: [INFO] Cache hit
+Jul 25 16:22:59 prod-web-02 apache2[1947]: [ERROR] Payment gateway timeout
+Jul 25 16:35:59 ml-pipeline-01 redis-server[8903]: [INFO] Cache hit
+Jul 25 17:29:59 ml-pipeline-01 mysql[8523]: [DEBUG] Variable state check
+Jul 25 18:31:59 auth-server apache2[6128]: [INFO] Backup completed IP=10.0.0.55
+Jul 25 18:37:59 ml-pipeline-01 mysql[5208]: [WARN] High latency detected
+Jul 25 19:06:59 analytics-node-c apache2[8755]: [WARN] Almost out of file descriptors
+Jul 25 19:06:59 auth-server kubelet[6983]: [ERROR] Disk read error
+Jul 25 19:11:59 prod-web-02 app-worker[2426]: [INFO] Backup completed
+Jul 25 19:15:59 db-replica-1 mysql[1209]: [INFO] Worker thread started
+Jul 25 19:25:59 auth-server app-worker[5952]: [INFO] Request processed successfully
+Jul 25 19:49:59 prod-web-02 mysql[134]: [WARN] High latency detected
+Jul 25 20:05:59 db-replica-1 apache2[2299]: [INFO] Worker thread started
+Jul 25 20:06:59 auth-server mysql[2295]: [DEBUG] Cache size: 1024
+Jul 25 20:12:59 analytics-node-c kubelet[9686]: [INFO] Worker thread started
+Jul 25 20:33:59 auth-server postfix[5776]: [DEBUG] Cache size: 1024
+Jul 25 20:52:59 analytics-node-c mysql[9936]: [ERROR] Database connection lost
+Jul 25 21:10:59 ml-pipeline-01 kubelet[7762]: [ERROR] Failed to acquire lock
+Jul 25 21:27:59 auth-server kubelet[271]: [DEBUG] Pinging remote server
+Jul 25 21:46:59 db-replica-1 redis-server[9010]: [WARN] Deprecated API call
+Jul 25 22:08:59 ml-pipeline-01 mysql[6867]: [DEBUG] Cache size: 1024
+Jul 25 22:16:59 prod-web-02 redis-server[7024]: [ERROR] Disk read error
+Jul 25 22:22:59 prod-web-02 apache2[1943]: [WARN] Almost out of file descriptors
+Jul 25 22:29:59 auth-server app-worker[779]: [INFO] Worker thread started
+Jul 25 23:14:59 ml-pipeline-01 postfix[5256]: [CRITICAL] Security breach attempt
+Jul 25 23:27:59 db-replica-1 kubelet[1397]: [DEBUG] Cache size: 1024
+Jul 25 23:28:59 auth-server kubelet[4232]: [WARN] Replication lag increasing
+Jul 25 23:30:59 db-replica-1 app-worker[3929]: [INFO] Cache hit user=admin
+Jul 25 23:33:59 analytics-node-c apache2[8135]: [INFO] Cache hit
+Jul 25 23:38:59 db-replica-1 kubelet[7687]: [WARN] High latency detected
+Jul 25 23:40:59 ml-pipeline-01 redis-server[2737]: [DEBUG] Entering function process_data
+Jul 26 01:12:59 auth-server apache2[1150]: [INFO] Cache hit
+Jul 26 01:41:59 auth-server redis-server[6026]: [WARN] High latency detected
+Jul 26 02:08:59 auth-server app-worker[1429]: [INFO] Backup completed
+Jul 26 02:24:59 ml-pipeline-01 kubelet[7050]: [WARN] High latency detected
+Jul 26 02:29:59 prod-web-02 kubelet[2043]: [INFO] Cache hit
+Jul 26 02:40:59 analytics-node-c apache2[3502]: [CRITICAL] Primary database offline
+Jul 26 03:58:59 db-replica-1 kubelet[5798]: [DEBUG] Cache size: 1024
+Jul 26 04:08:59 analytics-node-c kubelet[4127]: [INFO] Cache hit
+Jul 26 04:29:59 db-replica-1 apache2[6343]: [DEBUG] Cache size: 1024
+Jul 26 04:38:59 analytics-node-c mysql[2557]: [DEBUG] Cache size: 1024
+Jul 26 05:08:59 ml-pipeline-01 app-worker[4987]: [INFO] Worker thread started
+Jul 26 05:22:59 db-replica-1 redis-server[1174]: [DEBUG] Cache size: 1024
+Jul 26 05:22:59 auth-server postfix[8348]: [WARN] High latency detected
+Jul 26 05:46:59 db-replica-1 redis-server[7606]: [INFO] Cache hit
+Jul 26 05:46:59 ml-pipeline-01 postfix[7140]: [DEBUG] Cache size: 1024
+Jul 26 05:46:59 prod-web-02 app-worker[1079]: [INFO] Request processed successfully
+Jul 26 06:40:59 ml-pipeline-01 apache2[7617]: [DEBUG] Variable state check
+Jul 26 07:31:59 ml-pipeline-01 postfix[3604]: [WARN] High latency detected
+Jul 26 07:35:59 db-replica-1 redis-server[5368]: [INFO] Request processed successfully
+Jul 26 08:20:59 ml-pipeline-01 mysql[6224]: [ERROR] Payment gateway timeout
+Jul 26 08:28:59 ml-pipeline-01 app-worker[4851]: [ERROR] Uncaught exception in module
+Jul 26 09:33:59 ml-pipeline-01 app-worker[1831]: [WARN] High latency detected
+Jul 26 09:48:59 prod-web-02 app-worker[3615]: [CRITICAL] Data corruption detected
+Jul 26 10:21:59 analytics-node-c postfix[9733]: [INFO] Request processed successfully
+Jul 26 10:34:59 analytics-node-c apache2[5663]: [INFO] Backup completed
+Jul 26 10:58:59 prod-web-02 kubelet[9234]: [INFO] Cache hit
+Jul 26 11:05:59 db-replica-1 postfix[4931]: [WARN] High latency detected
+Jul 26 11:48:59 ml-pipeline-01 redis-server[7515]: [ERROR] Uncaught exception in module
+Jul 26 12:13:59 auth-server redis-server[6425]: [INFO] Backup completed
+Jul 26 13:06:59 ml-pipeline-01 postfix[6580]: [DEBUG] Loop iteration 42
+Jul 26 13:07:59 prod-web-02 apache2[4115]: [ERROR] Payment gateway timeout user=admin
+Jul 26 13:41:59 auth-server redis-server[1649]: [WARN] Slow query execution
+Jul 26 13:42:59 analytics-node-c mysql[4436]: [WARN] Deprecated API call
+Jul 26 14:00:59 prod-web-02 apache2[4972]: [INFO] Worker thread started
+Jul 26 14:03:59 auth-server kubelet[8955]: [INFO] Request processed successfully
+Jul 26 14:05:59 prod-web-02 postfix[5593]: [INFO] Request processed successfully user=admin
+Jul 26 14:10:59 ml-pipeline-01 postfix[1959]: [INFO] Worker thread started
+Jul 26 15:08:59 analytics-node-c redis-server[9971]: [DEBUG] Entering function process_data IP=10.0.0.55
+Jul 26 15:25:59 auth-server app-worker[8998]: [INFO] Backup completed
+Jul 26 16:01:59 auth-server postfix[400]: [ERROR] Failed to acquire lock
+Jul 26 16:23:59 prod-web-02 kubelet[619]: [INFO] Cache hit
+Jul 26 17:05:59 db-replica-1 redis-server[4442]: [ERROR] Failed to acquire lock
+Jul 26 18:14:59 ml-pipeline-01 app-worker[5809]: [ERROR] Failed to acquire lock
+Jul 26 18:41:59 analytics-node-c apache2[6707]: [WARN] High latency detected
+Jul 26 18:54:59 ml-pipeline-01 mysql[7568]: [ERROR] Database connection lost
+Jul 26 19:18:59 prod-web-02 app-worker[6372]: [CRITICAL] Kernel panic
+Jul 26 20:39:59 auth-server apache2[1085]: [DEBUG] Cache size: 1024
+Jul 26 20:59:59 prod-web-02 mysql[6326]: [CRITICAL] Data corruption detected
+Jul 26 21:39:59 prod-web-02 mysql[6040]: [DEBUG] Pinging remote server
+Jul 26 21:51:59 prod-web-02 app-worker[1567]: [WARN] Almost out of file descriptors
+Jul 26 22:02:59 prod-web-02 mysql[7299]: [WARN] Almost out of file descriptors
+Jul 26 22:21:59 db-replica-1 app-worker[2280]: [WARN] High latency detected
+Jul 26 22:28:59 ml-pipeline-01 apache2[5552]: [WARN] Deprecated API call
+Jul 26 22:32:59 analytics-node-c app-worker[1805]: [ERROR] Uncaught exception in module user=admin
+Jul 26 22:44:59 analytics-node-c apache2[5976]: [WARN] Deprecated API call
+Jul 26 23:01:59 ml-pipeline-01 app-worker[5795]: [INFO] Request processed successfully
+Jul 26 23:16:59 prod-web-02 mysql[1434]: [WARN] Slow query execution
+Jul 27 00:01:59 prod-web-02 apache2[7004]: [WARN] High latency detected
+Jul 27 01:13:59 analytics-node-c app-worker[6398]: [ERROR] Uncaught exception in module
+Jul 27 02:02:59 ml-pipeline-01 mysql[2806]: [DEBUG] Variable state check
+Jul 27 02:30:59 auth-server redis-server[9588]: [DEBUG] Pinging remote server
+Jul 27 02:33:59 ml-pipeline-01 apache2[114]: [INFO] Request processed successfully
+Jul 27 02:44:59 auth-server redis-server[7063]: [INFO] Worker thread started user=admin
+Jul 27 04:21:59 ml-pipeline-01 mysql[807]: [ERROR] Failed to acquire lock
+Jul 27 04:37:59 db-replica-1 app-worker[5977]: [INFO] Request processed successfully
+Jul 27 05:56:59 prod-web-02 postfix[9866]: [INFO] Cache hit
+Jul 27 05:59:59 db-replica-1 kubelet[7317]: [INFO] Cache hit
+Jul 27 06:01:59 analytics-node-c redis-server[6610]: [INFO] Cache hit
+Jul 27 06:08:59 ml-pipeline-01 redis-server[5644]: [INFO] Request processed successfully
+Jul 27 06:45:59 analytics-node-c redis-server[3496]: [DEBUG] Loop iteration 42
+Jul 27 06:51:59 db-replica-1 kubelet[8712]: [INFO] Configuration reloaded
+Jul 27 06:53:59 ml-pipeline-01 mysql[232]: [WARN] Slow query execution
+Jul 27 07:22:59 prod-web-02 kubelet[7504]: [INFO] Cache hit
+Jul 27 07:30:59 prod-web-02 kubelet[7100]: [INFO] Configuration reloaded
+Jul 27 07:35:59 prod-web-02 mysql[949]: [INFO] Cache hit
+Jul 27 07:45:59 ml-pipeline-01 kubelet[3161]: [DEBUG] Variable state check
+Jul 27 08:10:59 db-replica-1 kubelet[3146]: [INFO] Backup completed
+Jul 27 08:36:59 prod-web-02 postfix[7653]: [ERROR] Disk read error
+Jul 27 08:44:59 prod-web-02 redis-server[9442]: [INFO] Cache hit
+Jul 27 08:58:59 ml-pipeline-01 kubelet[3792]: [DEBUG] Loop iteration 42
+Jul 27 09:01:59 auth-server app-worker[2193]: [DEBUG] Loop iteration 42
+Jul 27 09:39:59 analytics-node-c apache2[8716]: [DEBUG] Pinging remote server
+Jul 27 10:17:59 ml-pipeline-01 app-worker[584]: [WARN] Slow query execution
+Jul 27 11:41:59 auth-server kubelet[7617]: [INFO] Cache hit
+Jul 27 11:51:59 db-replica-1 redis-server[5084]: [INFO] Worker thread started
+Jul 27 12:04:59 db-replica-1 mysql[7070]: [INFO] Backup completed
+Jul 27 12:46:59 auth-server postfix[4557]: [INFO] Configuration reloaded
+Jul 27 13:42:59 ml-pipeline-01 kubelet[2232]: [INFO] Configuration reloaded
+Jul 27 13:49:59 analytics-node-c postfix[1870]: [INFO] Cache hit
+Jul 27 14:07:59 ml-pipeline-01 apache2[1106]: [ERROR] Payment gateway timeout
+Jul 27 14:32:59 prod-web-02 kubelet[9115]: [ERROR] Database connection lost
+Jul 27 14:38:59 auth-server app-worker[4557]: [INFO] Configuration reloaded user=admin
+Jul 27 14:41:59 analytics-node-c postfix[3314]: [ERROR] Database connection lost
+Jul 27 14:55:59 analytics-node-c postfix[6586]: [ERROR] Disk read error
+Jul 27 15:05:59 auth-server kubelet[7116]: [ERROR] Failed to acquire lock
+Jul 27 15:44:59 db-replica-1 mysql[2182]: [WARN] Replication lag increasing
+Jul 27 15:50:59 ml-pipeline-01 redis-server[8561]: [INFO] Request processed successfully
+Jul 27 16:20:59 auth-server kubelet[4177]: [DEBUG] Entering function process_data
+Jul 27 16:53:59 analytics-node-c mysql[8827]: [INFO] Backup completed
+Jul 27 16:59:59 ml-pipeline-01 mysql[4867]: [INFO] Cache hit
+Jul 27 17:17:59 ml-pipeline-01 mysql[4449]: [ERROR] Disk read error
+Jul 27 17:59:59 prod-web-02 kubelet[5205]: [INFO] Backup completed user=admin
+Jul 27 18:40:59 ml-pipeline-01 postfix[9710]: [DEBUG] Cache size: 1024
+Jul 27 18:55:59 db-replica-1 mysql[7283]: [INFO] Configuration reloaded
+Jul 27 18:55:59 ml-pipeline-01 apache2[1805]: [INFO] Configuration reloaded
+Jul 27 19:04:59 db-replica-1 apache2[1260]: [ERROR] Failed to acquire lock
+Jul 27 19:15:59 analytics-node-c kubelet[4324]: [WARN] Deprecated API call
+Jul 27 20:38:59 analytics-node-c redis-server[6001]: [INFO] Worker thread started
+Jul 27 20:50:59 db-replica-1 kubelet[2493]: [INFO] Request processed successfully
+Jul 27 20:53:59 db-replica-1 postfix[9834]: [CRITICAL] Security breach attempt
+Jul 27 21:26:59 auth-server redis-server[3113]: [ERROR] Uncaught exception in module
+Jul 27 21:32:59 ml-pipeline-01 apache2[1393]: [ERROR] Disk read error
+Jul 27 21:54:59 ml-pipeline-01 redis-server[3571]: [ERROR] Payment gateway timeout
+Jul 27 22:16:59 analytics-node-c app-worker[6607]: [WARN] Deprecated API call
+Jul 27 22:42:59 db-replica-1 redis-server[786]: [INFO] Cache hit IP=10.0.0.55
+Jul 27 23:01:59 prod-web-02 kubelet[7809]: [WARN] Almost out of file descriptors
+Jul 27 23:08:59 prod-web-02 mysql[8098]: [WARN] High latency detected
+Jul 27 23:49:59 auth-server app-worker[7368]: [DEBUG] Loop iteration 42
+Jul 28 00:04:59 auth-server redis-server[6730]: [INFO] Configuration reloaded
+Jul 28 00:41:59 prod-web-02 mysql[1977]: [INFO] Backup completed
+Jul 28 00:45:59 prod-web-02 postfix[4700]: [INFO] Configuration reloaded
+Jul 28 00:58:59 auth-server app-worker[6877]: [INFO] Request processed successfully
+Jul 28 01:25:59 prod-web-02 redis-server[2720]: [DEBUG] Pinging remote server
+Jul 28 01:56:59 ml-pipeline-01 mysql[2849]: [INFO] Request processed successfully
+Jul 28 02:25:59 db-replica-1 redis-server[5201]: [ERROR] Disk read error
+Jul 28 02:26:59 analytics-node-c apache2[7804]: [DEBUG] Variable state check
+Jul 28 02:43:59 ml-pipeline-01 apache2[147]: [INFO] Cache hit
+Jul 28 03:05:59 prod-web-02 mysql[1605]: [WARN] Deprecated API call
+Jul 28 03:26:59 db-replica-1 app-worker[4777]: [INFO] Backup completed
+Jul 28 03:43:59 db-replica-1 app-worker[3502]: [DEBUG] Entering function process_data
+Jul 28 04:16:59 auth-server redis-server[8163]: [WARN] Deprecated API call
+Jul 28 05:26:59 db-replica-1 mysql[5062]: [DEBUG] Variable state check
+Jul 28 05:53:59 prod-web-02 kubelet[4329]: [DEBUG] Variable state check
+Jul 28 06:36:59 analytics-node-c app-worker[1796]: [DEBUG] Variable state check user=admin
+Jul 28 06:51:59 prod-web-02 kubelet[6283]: [INFO] Cache hit IP=10.0.0.55
+Jul 28 06:55:59 prod-web-02 redis-server[3336]: [DEBUG] Cache size: 1024
+Jul 28 07:42:59 auth-server apache2[2625]: [DEBUG] Variable state check
+Jul 28 08:02:59 prod-web-02 kubelet[6546]: [INFO] Worker thread started
+Jul 28 08:10:59 analytics-node-c apache2[1075]: [CRITICAL] Primary database offline
+Jul 28 08:11:59 db-replica-1 mysql[2018]: [DEBUG] Pinging remote server
+Jul 28 09:31:59 analytics-node-c app-worker[5480]: [ERROR] Failed to acquire lock
+Jul 28 09:39:59 prod-web-02 apache2[1010]: [INFO] Cache hit
+Jul 28 10:24:59 auth-server apache2[821]: [INFO] Configuration reloaded
+Jul 28 10:28:59 ml-pipeline-01 app-worker[1505]: [INFO] Backup completed
+Jul 28 11:11:59 db-replica-1 redis-server[6256]: [ERROR] Database connection lost user=admin
+Jul 28 11:13:59 analytics-node-c mysql[2431]: [DEBUG] Loop iteration 42
+Jul 28 11:19:59 prod-web-02 app-worker[1980]: [DEBUG] Cache size: 1024
+Jul 28 11:24:59 auth-server apache2[3937]: [DEBUG] Variable state check
+Jul 28 13:07:59 db-replica-1 postfix[7659]: [WARN] Replication lag increasing
+Jul 28 13:16:59 db-replica-1 kubelet[9162]: [ERROR] Failed to acquire lock
+Jul 28 13:30:59 ml-pipeline-01 app-worker[3000]: [DEBUG] Loop iteration 42
+Jul 28 13:51:59 ml-pipeline-01 apache2[2487]: [WARN] High latency detected
+Jul 28 14:04:59 analytics-node-c kubelet[7437]: [DEBUG] Loop iteration 42
+Jul 28 14:13:59 ml-pipeline-01 redis-server[9463]: [INFO] Cache hit
+Jul 28 15:04:59 prod-web-02 kubelet[7112]: [WARN] Deprecated API call
+Jul 28 16:13:59 auth-server mysql[6735]: [DEBUG] Cache size: 1024
+Jul 28 16:25:59 analytics-node-c kubelet[8966]: [INFO] Cache hit
+Jul 28 16:42:59 prod-web-02 kubelet[1002]: [DEBUG] Pinging remote server
+Jul 28 17:14:59 ml-pipeline-01 mysql[6422]: [INFO] Request processed successfully
+Jul 28 17:15:59 auth-server mysql[7070]: [WARN] Deprecated API call
+Jul 28 17:38:59 ml-pipeline-01 redis-server[1170]: [WARN] Replication lag increasing user=admin
+Jul 28 17:57:59 auth-server apache2[7569]: [WARN] Slow query execution
+Jul 28 18:07:59 analytics-node-c redis-server[1410]: [WARN] Deprecated API call
+Jul 28 18:27:59 auth-server postfix[8759]: [ERROR] Payment gateway timeout
+Jul 28 18:33:59 auth-server app-worker[7952]: [WARN] Slow query execution
+Jul 28 18:38:59 db-replica-1 redis-server[2043]: [WARN] Almost out of file descriptors
+Jul 28 18:40:59 ml-pipeline-01 redis-server[974]: [ERROR] Uncaught exception in module
+Jul 28 19:07:59 analytics-node-c app-worker[2573]: [ERROR] Database connection lost
+Jul 28 19:10:59 db-replica-1 mysql[2837]: [INFO] Cache hit
+Jul 28 19:24:59 auth-server mysql[2271]: [INFO] Worker thread started
+Jul 28 19:28:59 auth-server kubelet[2218]: [WARN] Almost out of file descriptors
+Jul 28 19:36:59 ml-pipeline-01 apache2[2953]: [INFO] Configuration reloaded
+Jul 28 20:23:59 db-replica-1 postfix[6350]: [INFO] Backup completed
+Jul 28 20:43:59 auth-server app-worker[5938]: [DEBUG] Variable state check
+Jul 28 20:51:59 prod-web-02 mysql[9231]: [INFO] Configuration reloaded
+Jul 28 21:15:59 ml-pipeline-01 postfix[4544]: [ERROR] Database connection lost
+Jul 28 21:17:59 db-replica-1 app-worker[7314]: [INFO] Worker thread started IP=10.0.0.55
+Jul 28 21:21:59 db-replica-1 kubelet[5777]: [INFO] Configuration reloaded
+Jul 28 21:29:59 analytics-node-c postfix[1561]: [INFO] Cache hit
+Jul 28 21:44:59 ml-pipeline-01 redis-server[4013]: [DEBUG] Pinging remote server user=admin
+Jul 28 22:18:59 prod-web-02 apache2[4022]: [WARN] Replication lag increasing
+Jul 28 22:48:59 ml-pipeline-01 redis-server[8749]: [INFO] Configuration reloaded
+Jul 28 23:09:59 prod-web-02 mysql[1806]: [INFO] Request processed successfully
+Jul 28 23:12:59 prod-web-02 kubelet[7552]: [INFO] Backup completed
+Jul 28 23:12:59 prod-web-02 kubelet[7668]: [INFO] Backup completed
+Jul 28 23:14:59 db-replica-1 redis-server[1635]: [INFO] Backup completed
+Jul 28 23:33:59 prod-web-02 postfix[606]: [INFO] Backup completed
+Jul 28 23:35:59 db-replica-1 mysql[9436]: [INFO] Cache hit user=admin
+Jul 29 00:11:59 db-replica-1 app-worker[7827]: [WARN] Replication lag increasing
+Jul 29 00:26:59 ml-pipeline-01 mysql[9604]: [INFO] Backup completed
+Jul 29 01:18:59 ml-pipeline-01 kubelet[8296]: [INFO] Configuration reloaded user=admin
+Jul 29 01:21:59 auth-server mysql[2171]: [ERROR] Database connection lost
+Jul 29 01:29:59 ml-pipeline-01 redis-server[576]: [INFO] Configuration reloaded
+Jul 29 01:52:59 prod-web-02 apache2[4381]: [WARN] Deprecated API call
+Jul 29 02:05:59 prod-web-02 apache2[7062]: [INFO] Backup completed
+Jul 29 02:11:59 analytics-node-c redis-server[1871]: [INFO] Backup completed IP=10.0.0.55
+Jul 29 02:17:59 analytics-node-c postfix[5631]: [INFO] Configuration reloaded
+Jul 29 02:39:59 db-replica-1 mysql[9198]: [WARN] Slow query execution
+Jul 29 02:43:59 analytics-node-c redis-server[6399]: [INFO] Configuration reloaded
+Jul 29 03:17:59 prod-web-02 kubelet[2605]: [INFO] Request processed successfully
+Jul 29 03:18:59 analytics-node-c app-worker[7352]: [WARN] Replication lag increasing
+Jul 29 03:21:59 db-replica-1 apache2[1703]: [WARN] Almost out of file descriptors
+Jul 29 03:22:59 auth-server redis-server[7074]: [INFO] Cache hit user=admin
+Jul 29 03:25:59 ml-pipeline-01 app-worker[928]: [DEBUG] Variable state check
+Jul 29 03:33:59 analytics-node-c apache2[7250]: [INFO] Cache hit
+Jul 29 03:35:59 auth-server apache2[2315]: [WARN] Almost out of file descriptors
+Jul 29 03:46:59 auth-server kubelet[8318]: [INFO] Request processed successfully user=admin
+Jul 29 03:48:59 analytics-node-c postfix[8378]: [CRITICAL] Kernel panic
+Jul 29 04:03:59 auth-server redis-server[8339]: [DEBUG] Entering function process_data
+Jul 29 04:03:59 ml-pipeline-01 postfix[2656]: [INFO] Backup completed
+Jul 29 04:04:59 auth-server kubelet[743]: [DEBUG] Loop iteration 42
+Jul 29 04:28:59 db-replica-1 kubelet[1045]: [INFO] Cache hit user=admin
+Jul 29 04:31:59 db-replica-1 kubelet[764]: [CRITICAL] SYSTEM HALTED
+Jul 29 04:44:59 analytics-node-c app-worker[6669]: [DEBUG] Pinging remote server
+Jul 29 05:30:59 analytics-node-c kubelet[7171]: [INFO] Worker thread started
+Jul 29 05:32:59 ml-pipeline-01 apache2[3421]: [WARN] High latency detected
+Jul 29 05:44:59 ml-pipeline-01 app-worker[6480]: [INFO] Request processed successfully
+Jul 29 06:23:59 analytics-node-c app-worker[8010]: [INFO] Worker thread started
+Jul 29 06:28:59 db-replica-1 app-worker[6153]: [INFO] Configuration reloaded
+Jul 29 06:30:59 ml-pipeline-01 kubelet[8228]: [INFO] Configuration reloaded user=admin
+Jul 29 06:53:59 db-replica-1 kubelet[3793]: [INFO] Worker thread started
+Jul 29 06:54:59 ml-pipeline-01 app-worker[2057]: [INFO] Configuration reloaded
+Jul 29 07:01:59 db-replica-1 apache2[2960]: [ERROR] Payment gateway timeout
+Jul 29 07:36:59 auth-server postfix[7762]: [INFO] Backup completed
+Jul 29 07:48:59 auth-server postfix[2682]: [INFO] Worker thread started
+Jul 29 08:33:59 ml-pipeline-01 apache2[1164]: [DEBUG] Pinging remote server
+Jul 29 08:33:59 db-replica-1 postfix[2912]: [INFO] Cache hit
+Jul 29 09:33:59 db-replica-1 redis-server[3795]: [CRITICAL] SYSTEM HALTED user=admin
+Jul 29 09:49:59 auth-server apache2[8110]: [ERROR] Payment gateway timeout
+Jul 29 09:56:59 db-replica-1 mysql[7762]: [INFO] Configuration reloaded
+Jul 29 10:26:59 prod-web-02 apache2[6762]: [INFO] Worker thread started
+Jul 29 10:30:59 prod-web-02 app-worker[1753]: [DEBUG] Variable state check
+Jul 29 10:37:59 prod-web-02 mysql[7071]: [INFO] Configuration reloaded
+Jul 29 10:46:59 auth-server apache2[1288]: [INFO] Backup completed
+Jul 29 11:17:59 auth-server mysql[3903]: [DEBUG] Loop iteration 42
+Jul 29 12:41:59 db-replica-1 apache2[3798]: [WARN] Deprecated API call
+Jul 29 12:43:59 prod-web-02 apache2[8256]: [INFO] Worker thread started
+Jul 29 13:39:59 db-replica-1 app-worker[8185]: [INFO] Backup completed
+Jul 29 13:56:59 analytics-node-c kubelet[8579]: [INFO] Configuration reloaded
+Jul 29 14:50:59 ml-pipeline-01 apache2[9162]: [INFO] Backup completed
+Jul 29 15:15:59 ml-pipeline-01 apache2[7684]: [DEBUG] Loop iteration 42
+Jul 29 15:21:59 ml-pipeline-01 apache2[5770]: [INFO] Worker thread started
+Jul 29 15:40:59 ml-pipeline-01 postfix[2783]: [INFO] Backup completed
+Jul 29 16:21:59 auth-server mysql[3357]: [WARN] Replication lag increasing
+Jul 29 16:23:59 auth-server mysql[1260]: [INFO] Backup completed
+Jul 29 16:24:59 prod-web-02 redis-server[198]: [INFO] Cache hit
+Jul 29 16:35:59 auth-server kubelet[1316]: [DEBUG] Loop iteration 42
+Jul 29 16:38:59 auth-server redis-server[2797]: [INFO] Configuration reloaded
+Jul 29 16:41:59 analytics-node-c postfix[4935]: [INFO] Worker thread started
+Jul 29 16:45:59 auth-server mysql[1948]: [INFO] Worker thread started
+Jul 29 16:56:59 db-replica-1 redis-server[5067]: [DEBUG] Cache size: 1024
+Jul 29 16:56:59 prod-web-02 kubelet[2818]: [INFO] Request processed successfully
+Jul 29 16:56:59 ml-pipeline-01 mysql[7805]: [INFO] Request processed successfully
+Jul 29 17:08:59 analytics-node-c apache2[4292]: [DEBUG] Loop iteration 42
+Jul 29 17:11:59 prod-web-02 kubelet[2845]: [INFO] Request processed successfully
+Jul 29 17:31:59 auth-server kubelet[2744]: [INFO] Worker thread started user=admin
+Jul 29 17:43:59 prod-web-02 apache2[7381]: [WARN] Deprecated API call
+Jul 29 17:50:59 auth-server kubelet[8328]: [INFO] Configuration reloaded
+Jul 29 17:57:59 ml-pipeline-01 mysql[7930]: [INFO] Backup completed
+Jul 29 18:12:59 auth-server app-worker[2317]: [INFO] Worker thread started
+Jul 29 18:19:59 ml-pipeline-01 kubelet[2713]: [DEBUG] Loop iteration 42
+Jul 29 19:49:59 analytics-node-c mysql[6824]: [DEBUG] Loop iteration 42
+Jul 29 20:20:59 db-replica-1 app-worker[4616]: [WARN] Replication lag increasing
+Jul 29 20:56:59 prod-web-02 apache2[2432]: [INFO] Worker thread started
+Jul 29 21:01:59 analytics-node-c redis-server[9140]: [INFO] Worker thread started
+Jul 29 21:27:59 auth-server postfix[2482]: [INFO] Backup completed
+Jul 29 21:59:59 prod-web-02 apache2[4613]: [INFO] Request processed successfully
+Jul 29 22:06:59 ml-pipeline-01 app-worker[9279]: [INFO] Configuration reloaded
+Jul 29 22:36:59 auth-server kubelet[9853]: [INFO] Cache hit
+Jul 29 22:45:59 db-replica-1 redis-server[9044]: [DEBUG] Cache size: 1024
+Jul 29 22:56:59 analytics-node-c redis-server[847]: [INFO] Cache hit
+Jul 29 23:02:59 db-replica-1 kubelet[4672]: [INFO] Backup completed
+Jul 29 23:26:59 prod-web-02 kubelet[5528]: [DEBUG] Cache size: 1024
+Jul 30 00:16:59 db-replica-1 apache2[4407]: [INFO] Cache hit
+Jul 30 00:35:59 prod-web-02 postfix[9301]: [INFO] Request processed successfully
+Jul 30 00:43:59 ml-pipeline-01 postfix[9874]: [INFO] Worker thread started
+Jul 30 00:44:59 prod-web-02 postfix[2606]: [INFO] Configuration reloaded
+Jul 30 00:51:59 analytics-node-c apache2[2198]: [ERROR] Disk read error
+Jul 30 01:31:59 db-replica-1 apache2[2087]: [WARN] High latency detected
+Jul 30 01:45:59 analytics-node-c kubelet[3159]: [WARN] Replication lag increasing
+Jul 30 01:50:59 db-replica-1 postfix[9675]: [ERROR] Payment gateway timeout
+Jul 30 02:15:59 db-replica-1 postfix[1504]: [DEBUG] Pinging remote server
+Jul 30 02:18:59 ml-pipeline-01 mysql[2566]: [DEBUG] Pinging remote server
+Jul 30 02:27:59 analytics-node-c apache2[860]: [WARN] Almost out of file descriptors
+Jul 30 02:44:59 analytics-node-c kubelet[1589]: [WARN] Deprecated API call
+Jul 30 03:10:59 db-replica-1 kubelet[463]: [INFO] Request processed successfully
+Jul 30 03:12:59 db-replica-1 kubelet[9324]: [DEBUG] Variable state check
+Jul 30 03:55:59 analytics-node-c app-worker[2902]: [WARN] Replication lag increasing
+Jul 30 04:02:59 ml-pipeline-01 app-worker[6343]: [INFO] Configuration reloaded
+Jul 30 04:12:59 ml-pipeline-01 redis-server[6859]: [WARN] Replication lag increasing
+Jul 30 04:17:59 ml-pipeline-01 mysql[6453]: [DEBUG] Pinging remote server
+Jul 30 04:40:59 auth-server redis-server[2908]: [WARN] Almost out of file descriptors
+Jul 30 04:44:59 ml-pipeline-01 postfix[666]: [WARN] Replication lag increasing
+Jul 30 05:08:59 prod-web-02 mysql[275]: [INFO] Cache hit
+Jul 30 05:19:59 prod-web-02 redis-server[7821]: [INFO] Backup completed
+Jul 30 05:33:59 prod-web-02 redis-server[9058]: [WARN] Slow query execution
+Jul 30 06:09:59 db-replica-1 apache2[4780]: [INFO] Worker thread started
+Jul 30 06:38:59 analytics-node-c apache2[3833]: [CRITICAL] Data corruption detected
+Jul 30 06:46:59 prod-web-02 app-worker[3970]: [ERROR] Uncaught exception in module
+Jul 30 06:47:59 auth-server mysql[2052]: [DEBUG] Cache size: 1024 user=admin
+Jul 30 06:58:59 ml-pipeline-01 apache2[1592]: [WARN] Deprecated API call
+Jul 30 07:04:59 auth-server redis-server[8635]: [INFO] Cache hit
+Jul 30 07:37:59 prod-web-02 redis-server[7951]: [DEBUG] Loop iteration 42
+Jul 30 07:44:59 analytics-node-c mysql[6016]: [INFO] Backup completed
+Jul 30 07:57:59 auth-server redis-server[3218]: [CRITICAL] Data corruption detected
+Jul 30 07:58:59 prod-web-02 app-worker[2356]: [DEBUG] Variable state check
+Jul 30 08:14:59 ml-pipeline-01 redis-server[5656]: [INFO] Cache hit
+Jul 30 08:15:59 auth-server postfix[6046]: [DEBUG] Pinging remote server
+Jul 30 08:32:59 auth-server app-worker[7993]: [INFO] Worker thread started
+Jul 30 08:46:59 ml-pipeline-01 mysql[2842]: [INFO] Request processed successfully user=admin
+Jul 30 09:13:59 prod-web-02 app-worker[5655]: [INFO] Configuration reloaded
+Jul 30 09:16:59 ml-pipeline-01 mysql[9492]: [INFO] Configuration reloaded
+Jul 30 09:34:59 ml-pipeline-01 kubelet[583]: [INFO] Backup completed
+Jul 30 09:45:59 ml-pipeline-01 app-worker[9879]: [INFO] Request processed successfully
+Jul 30 09:50:59 prod-web-02 mysql[9637]: [INFO] Cache hit
+Jul 30 09:56:59 ml-pipeline-01 apache2[7689]: [INFO] Request processed successfully user=admin
+Jul 30 10:04:59 ml-pipeline-01 apache2[6699]: [DEBUG] Entering function process_data
+Jul 30 10:17:59 ml-pipeline-01 mysql[2767]: [WARN] Slow query execution
+Jul 30 11:01:59 auth-server redis-server[6436]: [INFO] Cache hit
+Jul 30 11:15:59 prod-web-02 redis-server[497]: [CRITICAL] Primary database offline IP=10.0.0.55
+Jul 30 11:29:59 ml-pipeline-01 postfix[4658]: [WARN] Replication lag increasing
+Jul 30 11:38:59 auth-server apache2[9857]: [CRITICAL] SYSTEM HALTED
+Jul 30 11:57:59 auth-server mysql[8232]: [DEBUG] Cache size: 1024
+Jul 30 12:06:59 ml-pipeline-01 kubelet[2562]: [INFO] Configuration reloaded
+Jul 30 12:24:59 auth-server mysql[8996]: [INFO] Worker thread started
+Jul 30 13:08:59 analytics-node-c mysql[1142]: [DEBUG] Entering function process_data
+Jul 30 13:09:59 auth-server apache2[3686]: [INFO] Backup completed
+Jul 30 13:24:59 auth-server redis-server[4505]: [DEBUG] Loop iteration 42
+Jul 30 14:23:59 prod-web-02 redis-server[1042]: [WARN] Slow query execution
+Jul 30 14:26:59 auth-server postfix[3846]: [INFO] Worker thread started
+Jul 30 14:43:59 analytics-node-c postfix[5567]: [INFO] Configuration reloaded
+Jul 30 14:45:59 prod-web-02 apache2[9992]: [INFO] Request processed successfully
+Jul 30 14:47:59 ml-pipeline-01 mysql[4043]: [INFO] Backup completed
+Jul 30 14:49:59 prod-web-02 redis-server[8001]: [INFO] Cache hit
+Jul 30 14:52:59 prod-web-02 mysql[2011]: [INFO] Worker thread started
+Jul 30 15:09:59 auth-server postfix[1094]: [WARN] High latency detected
+Jul 30 15:22:59 ml-pipeline-01 postfix[5348]: [INFO] Cache hit
+Jul 30 15:46:59 auth-server app-worker[9680]: [WARN] Deprecated API call
+Jul 30 15:47:59 analytics-node-c kubelet[1706]: [INFO] Request processed successfully
+Jul 30 15:56:59 auth-server redis-server[8241]: [INFO] Backup completed
+Jul 30 15:56:59 db-replica-1 postfix[8738]: [INFO] Cache hit
+Jul 30 16:14:59 prod-web-02 redis-server[6245]: [DEBUG] Cache size: 1024
+Jul 30 17:05:59 analytics-node-c app-worker[9230]: [INFO] Worker thread started user=admin
+Jul 30 17:12:59 db-replica-1 mysql[6952]: [CRITICAL] Kernel panic
+Jul 30 17:47:59 db-replica-1 apache2[1684]: [INFO] Worker thread started
+Jul 30 18:23:59 analytics-node-c app-worker[8182]: [WARN] Slow query execution
+Jul 30 18:59:59 auth-server app-worker[5206]: [CRITICAL] Primary database offline
+Jul 30 19:41:59 analytics-node-c mysql[1077]: [DEBUG] Variable state check
+Jul 30 19:48:59 ml-pipeline-01 redis-server[2146]: [INFO] Configuration reloaded
+Jul 30 20:37:59 auth-server apache2[5638]: [INFO] Worker thread started
+Jul 30 21:11:59 auth-server redis-server[460]: [INFO] Request processed successfully
+Jul 30 21:15:59 db-replica-1 mysql[7283]: [CRITICAL] Data corruption detected
+Jul 30 21:37:59 ml-pipeline-01 app-worker[269]: [ERROR] Failed to acquire lock
+Jul 30 21:47:59 prod-web-02 apache2[877]: [ERROR] Disk read error
+Jul 30 22:21:59 db-replica-1 apache2[9714]: [DEBUG] Entering function process_data IP=10.0.0.55
+Jul 30 22:52:59 ml-pipeline-01 app-worker[2051]: [INFO] Backup completed
+Jul 30 23:22:59 ml-pipeline-01 mysql[4723]: [INFO] Worker thread started
+Jul 31 00:01:59 prod-web-02 kubelet[9593]: [INFO] Configuration reloaded
+Jul 31 00:07:59 db-replica-1 redis-server[2075]: [DEBUG] Entering function process_data
+Jul 31 00:33:59 analytics-node-c app-worker[4349]: [DEBUG] Loop iteration 42
+Jul 31 01:13:59 auth-server redis-server[6303]: [INFO] Cache hit
+Jul 31 01:32:59 db-replica-1 kubelet[8494]: [INFO] Configuration reloaded
+Jul 31 01:49:59 prod-web-02 redis-server[5741]: [INFO] Request processed successfully
+Jul 31 01:56:59 prod-web-02 kubelet[2077]: [ERROR] Failed to acquire lock user=admin
+Jul 31 01:58:59 prod-web-02 apache2[7462]: [INFO] Configuration reloaded
+Jul 31 02:01:59 auth-server mysql[2983]: [INFO] Cache hit
+Jul 31 02:39:59 ml-pipeline-01 apache2[4929]: [INFO] Request processed successfully
+Jul 31 03:56:59 analytics-node-c redis-server[2927]: [DEBUG] Loop iteration 42
+Jul 31 04:13:59 analytics-node-c postfix[3089]: [INFO] Backup completed
+Jul 31 04:16:59 db-replica-1 apache2[3748]: [INFO] Worker thread started
+Jul 31 04:18:59 auth-server mysql[5886]: [INFO] Request processed successfully
+Jul 31 04:22:59 prod-web-02 mysql[439]: [WARN] Slow query execution IP=10.0.0.55
+Jul 31 04:35:59 analytics-node-c redis-server[208]: [INFO] Backup completed
+Jul 31 05:13:59 prod-web-02 redis-server[3431]: [INFO] Cache hit
+Jul 31 05:19:59 analytics-node-c kubelet[8836]: [INFO] Request processed successfully
+Jul 31 05:32:59 analytics-node-c mysql[4634]: [ERROR] Database connection lost
+Jul 31 05:32:59 prod-web-02 app-worker[9041]: [INFO] Backup completed
+Jul 31 05:40:59 prod-web-02 kubelet[2023]: [INFO] Worker thread started
+Jul 31 05:44:59 ml-pipeline-01 kubelet[1700]: [INFO] Backup completed
+Jul 31 05:47:59 auth-server mysql[4697]: [DEBUG] Variable state check
+Jul 31 06:25:59 ml-pipeline-01 kubelet[6976]: [INFO] Request processed successfully
+Jul 31 06:36:59 ml-pipeline-01 app-worker[4527]: [WARN] High latency detected
+Jul 31 07:02:59 prod-web-02 postfix[8642]: [ERROR] Payment gateway timeout
+Jul 31 07:08:59 ml-pipeline-01 app-worker[6822]: [WARN] Deprecated API call
+Jul 31 07:22:59 db-replica-1 kubelet[4962]: [DEBUG] Cache size: 1024
+Jul 31 07:50:59 ml-pipeline-01 app-worker[9859]: [ERROR] Payment gateway timeout
+Jul 31 08:46:59 prod-web-02 redis-server[5355]: [DEBUG] Loop iteration 42
+Jul 31 08:55:59 db-replica-1 kubelet[8847]: [INFO] Cache hit
+Jul 31 09:39:59 db-replica-1 mysql[2275]: [ERROR] Database connection lost
+Jul 31 09:40:59 ml-pipeline-01 kubelet[5305]: [ERROR] Uncaught exception in module
+Jul 31 09:47:59 prod-web-02 apache2[3754]: [INFO] Cache hit
+Jul 31 10:01:59 analytics-node-c postfix[2083]: [INFO] Configuration reloaded
+Jul 31 10:11:59 analytics-node-c kubelet[1712]: [INFO] Request processed successfully
+Jul 31 10:19:59 prod-web-02 kubelet[5047]: [ERROR] Failed to acquire lock
+Jul 31 10:29:59 auth-server redis-server[7999]: [INFO] Backup completed
+Jul 31 11:01:59 prod-web-02 app-worker[1663]: [INFO] Worker thread started user=admin
+Jul 31 12:18:59 ml-pipeline-01 mysql[1768]: [DEBUG] Entering function process_data
+Jul 31 12:22:59 analytics-node-c mysql[6415]: [WARN] Replication lag increasing
+Jul 31 14:01:59 prod-web-02 app-worker[4936]: [INFO] Backup completed
+Jul 31 14:05:59 auth-server app-worker[1032]: [INFO] Configuration reloaded
+Jul 31 14:35:59 auth-server mysql[5021]: [INFO] Request processed successfully
+Jul 31 14:39:59 ml-pipeline-01 redis-server[4709]: [INFO] Backup completed
+Jul 31 15:42:59 auth-server apache2[9864]: [ERROR] Database connection lost
+Jul 31 15:53:59 ml-pipeline-01 apache2[7509]: [INFO] Cache hit
+Jul 31 16:11:59 db-replica-1 apache2[5404]: [INFO] Request processed successfully
+Jul 31 16:13:59 db-replica-1 kubelet[6906]: [DEBUG] Pinging remote server
+Jul 31 16:30:59 prod-web-02 apache2[9125]: [DEBUG] Entering function process_data
+Jul 31 17:06:59 auth-server apache2[8042]: [WARN] High latency detected
+Jul 31 17:19:59 ml-pipeline-01 apache2[6710]: [INFO] Worker thread started
+Jul 31 17:37:59 analytics-node-c app-worker[1950]: [INFO] Configuration reloaded
+Jul 31 17:53:59 ml-pipeline-01 mysql[6580]: [INFO] Request processed successfully
+Jul 31 17:56:59 analytics-node-c kubelet[699]: [DEBUG] Pinging remote server
+Jul 31 19:08:59 auth-server apache2[9080]: [INFO] Worker thread started
+Jul 31 19:18:59 db-replica-1 redis-server[6741]: [ERROR] Database connection lost
+Jul 31 20:01:59 db-replica-1 app-worker[1335]: [WARN] Almost out of file descriptors
+Jul 31 20:48:59 auth-server apache2[9427]: [DEBUG] Loop iteration 42
+Jul 31 20:50:59 db-replica-1 postfix[1674]: [DEBUG] Variable state check
+Jul 31 20:51:59 auth-server mysql[4785]: [DEBUG] Loop iteration 42
+Jul 31 20:52:59 auth-server kubelet[758]: [DEBUG] Pinging remote server user=admin
+Jul 31 21:02:59 db-replica-1 kubelet[3698]: [DEBUG] Entering function process_data
+Jul 31 21:07:59 analytics-node-c apache2[4927]: [WARN] High latency detected user=admin
+Jul 31 21:28:59 db-replica-1 apache2[808]: [INFO] Backup completed
+Jul 31 21:47:59 analytics-node-c apache2[9353]: [DEBUG] Cache size: 1024
+Jul 31 22:38:59 db-replica-1 apache2[6977]: [INFO] Configuration reloaded
+Jul 31 22:39:59 ml-pipeline-01 kubelet[7798]: [DEBUG] Pinging remote server
+Jul 31 22:39:59 db-replica-1 mysql[8455]: [WARN] Deprecated API call
+Jul 31 23:00:59 analytics-node-c app-worker[6983]: [INFO] Configuration reloaded user=admin
+Jul 31 23:01:59 db-replica-1 kubelet[6101]: [INFO] Cache hit
+Jul 31 23:07:59 ml-pipeline-01 redis-server[1682]: [DEBUG] Pinging remote server
+Jul 31 23:15:59 ml-pipeline-01 postfix[3367]: [INFO] Configuration reloaded
+Aug 01 00:11:59 prod-web-02 redis-server[7477]: [INFO] Worker thread started
+Aug 01 00:33:59 ml-pipeline-01 postfix[7478]: [ERROR] Disk read error
+Aug 01 00:42:59 prod-web-02 app-worker[5306]: [INFO] Backup completed
+Aug 01 01:29:59 auth-server postfix[7173]: [DEBUG] Variable state check
+Aug 01 02:37:59 prod-web-02 kubelet[3320]: [INFO] Cache hit
+Aug 01 02:43:59 ml-pipeline-01 apache2[2317]: [INFO] Worker thread started
+Aug 01 02:43:59 prod-web-02 postfix[8937]: [INFO] Backup completed
+Aug 01 02:55:59 auth-server app-worker[4094]: [INFO] Cache hit
+Aug 01 03:07:59 db-replica-1 kubelet[9318]: [ERROR] Payment gateway timeout
+Aug 01 03:11:59 prod-web-02 postfix[9035]: [INFO] Worker thread started
+Aug 01 04:05:59 analytics-node-c redis-server[415]: [CRITICAL] Kernel panic
+Aug 01 04:09:59 analytics-node-c kubelet[8133]: [DEBUG] Loop iteration 42
+Aug 01 04:18:59 ml-pipeline-01 app-worker[2351]: [INFO] Configuration reloaded
+Aug 01 04:25:59 ml-pipeline-01 kubelet[1870]: [INFO] Backup completed user=admin
+Aug 01 04:55:59 db-replica-1 postfix[5814]: [INFO] Request processed successfully
+Aug 01 05:50:59 auth-server app-worker[9838]: [INFO] Worker thread started
+Aug 01 06:00:59 ml-pipeline-01 apache2[3186]: [INFO] Configuration reloaded
+Aug 01 06:01:59 prod-web-02 redis-server[8836]: [INFO] Worker thread started
+Aug 01 06:23:59 db-replica-1 redis-server[2059]: [INFO] Configuration reloaded
+Aug 01 06:25:59 analytics-node-c redis-server[9408]: [DEBUG] Variable state check user=admin
+Aug 01 06:25:59 ml-pipeline-01 redis-server[5064]: [DEBUG] Pinging remote server
+Aug 01 06:50:59 auth-server kubelet[5360]: [WARN] Deprecated API call
+Aug 01 07:00:59 auth-server apache2[5148]: [DEBUG] Cache size: 1024
+Aug 01 07:24:59 ml-pipeline-01 redis-server[834]: [DEBUG] Cache size: 1024 user=admin
+Aug 01 07:45:59 ml-pipeline-01 redis-server[6576]: [INFO] Configuration reloaded
+Aug 01 09:07:59 analytics-node-c postfix[9310]: [INFO] Request processed successfully
+Aug 01 09:19:59 ml-pipeline-01 kubelet[2413]: [CRITICAL] Primary database offline
+Aug 01 09:29:59 auth-server kubelet[6730]: [INFO] Request processed successfully
+Aug 01 09:30:59 ml-pipeline-01 kubelet[2336]: [INFO] Worker thread started user=admin
+Aug 01 10:19:59 prod-web-02 postfix[2179]: [INFO] Cache hit
+Aug 01 10:19:59 analytics-node-c postfix[928]: [INFO] Configuration reloaded user=admin
+Aug 01 11:30:59 db-replica-1 kubelet[4008]: [INFO] Request processed successfully
+Aug 01 11:43:59 analytics-node-c kubelet[3146]: [DEBUG] Pinging remote server IP=10.0.0.55
+Aug 01 11:52:59 prod-web-02 redis-server[4518]: [INFO] Worker thread started
+Aug 01 12:10:59 prod-web-02 app-worker[3818]: [ERROR] Disk read error
+Aug 01 12:13:59 auth-server mysql[8847]: [INFO] Worker thread started
+Aug 01 12:36:59 prod-web-02 apache2[4444]: [INFO] Cache hit
+Aug 01 12:42:59 auth-server app-worker[9763]: [INFO] Configuration reloaded
+Aug 01 12:42:59 ml-pipeline-01 redis-server[3164]: [WARN] Almost out of file descriptors
+Aug 01 12:48:59 db-replica-1 apache2[5166]: [DEBUG] Variable state check
+Aug 01 13:08:59 analytics-node-c redis-server[9331]: [DEBUG] Cache size: 1024
+Aug 01 13:11:59 analytics-node-c redis-server[4862]: [WARN] Deprecated API call
+Aug 01 13:39:59 analytics-node-c kubelet[2894]: [INFO] Backup completed
+Aug 01 14:00:59 analytics-node-c postfix[7657]: [INFO] Worker thread started
+Aug 01 14:16:59 ml-pipeline-01 app-worker[5116]: [INFO] Backup completed
+Aug 01 14:27:59 prod-web-02 apache2[3329]: [INFO] Request processed successfully
+Aug 01 14:29:59 prod-web-02 kubelet[4573]: [INFO] Request processed successfully
+Aug 01 14:33:59 ml-pipeline-01 mysql[2765]: [CRITICAL] Kernel panic
+Aug 01 14:38:59 db-replica-1 app-worker[4912]: [INFO] Request processed successfully
+Aug 01 14:49:59 analytics-node-c apache2[4935]: [INFO] Request processed successfully
+Aug 01 14:50:59 prod-web-02 postfix[4815]: [INFO] Backup completed
+Aug 01 15:25:59 auth-server apache2[7669]: [ERROR] Uncaught exception in module
+Aug 01 15:26:59 db-replica-1 apache2[539]: [ERROR] Disk read error
+Aug 01 15:29:59 prod-web-02 app-worker[6104]: [INFO] Backup completed user=admin
+Aug 01 17:36:59 auth-server mysql[6727]: [INFO] Backup completed
+Aug 01 18:08:59 analytics-node-c postfix[6509]: [INFO] Cache hit
+Aug 01 18:43:59 analytics-node-c app-worker[6991]: [INFO] Cache hit
+Aug 01 18:44:59 analytics-node-c redis-server[4176]: [DEBUG] Entering function process_data
+Aug 01 18:47:59 analytics-node-c kubelet[9732]: [INFO] Configuration reloaded
+Aug 01 18:52:59 auth-server postfix[9737]: [WARN] Almost out of file descriptors
+Aug 01 19:12:59 ml-pipeline-01 kubelet[4901]: [ERROR] Failed to acquire lock
+Aug 01 19:27:59 prod-web-02 redis-server[1496]: [INFO] Worker thread started
+Aug 01 19:30:59 auth-server mysql[6289]: [ERROR] Database connection lost
+Aug 01 19:41:59 analytics-node-c app-worker[659]: [CRITICAL] Security breach attempt user=admin
+Aug 01 20:12:59 auth-server redis-server[7267]: [INFO] Backup completed
+Aug 01 20:26:59 db-replica-1 apache2[6151]: [WARN] Almost out of file descriptors
+Aug 01 20:37:59 prod-web-02 app-worker[7997]: [INFO] Worker thread started
+Aug 01 20:51:59 ml-pipeline-01 postfix[927]: [DEBUG] Pinging remote server
+Aug 01 20:53:59 analytics-node-c app-worker[9093]: [INFO] Worker thread started
+Aug 01 21:21:59 analytics-node-c postfix[9585]: [INFO] Cache hit
+Aug 01 21:47:59 auth-server postfix[1097]: [INFO] Backup completed
+Aug 01 22:07:59 ml-pipeline-01 apache2[2107]: [INFO] Cache hit
+Aug 01 22:23:59 prod-web-02 postfix[437]: [INFO] Cache hit
+Aug 01 22:53:59 analytics-node-c mysql[3347]: [INFO] Backup completed
+Aug 01 23:20:59 prod-web-02 apache2[1604]: [INFO] Request processed successfully
+Aug 01 23:26:59 auth-server redis-server[4223]: [INFO] Worker thread started
+Aug 01 23:48:59 db-replica-1 postfix[640]: [DEBUG] Pinging remote server
+Aug 02 00:04:59 db-replica-1 apache2[6635]: [INFO] Request processed successfully
+Aug 02 00:16:59 ml-pipeline-01 kubelet[9143]: [INFO] Backup completed
+Aug 02 00:20:59 db-replica-1 app-worker[6415]: [WARN] Replication lag increasing
+Aug 02 00:51:59 db-replica-1 kubelet[322]: [DEBUG] Variable state check
+Aug 02 00:53:59 analytics-node-c kubelet[3964]: [INFO] Cache hit
+Aug 02 00:54:59 prod-web-02 app-worker[494]: [DEBUG] Loop iteration 42
+Aug 02 00:57:59 db-replica-1 redis-server[2453]: [INFO] Backup completed
+Aug 02 01:16:59 ml-pipeline-01 kubelet[6493]: [INFO] Request processed successfully
+Aug 02 01:18:59 analytics-node-c app-worker[5751]: [CRITICAL] SYSTEM HALTED
+Aug 02 01:32:59 analytics-node-c mysql[4536]: [WARN] Almost out of file descriptors
+Aug 02 01:35:59 analytics-node-c apache2[7852]: [CRITICAL] SYSTEM HALTED
+Aug 02 01:38:59 ml-pipeline-01 postfix[2845]: [WARN] Slow query execution
+Aug 02 01:48:59 ml-pipeline-01 postfix[1690]: [DEBUG] Cache size: 1024 user=admin
+Aug 02 02:15:59 db-replica-1 apache2[2430]: [INFO] Backup completed
+Aug 02 02:41:59 prod-web-02 mysql[7055]: [INFO] Cache hit
+Aug 02 03:01:59 db-replica-1 app-worker[937]: [CRITICAL] Security breach attempt
+Aug 02 03:05:59 ml-pipeline-01 postfix[9274]: [DEBUG] Entering function process_data
+Aug 02 03:20:59 analytics-node-c app-worker[7916]: [ERROR] Payment gateway timeout
+Aug 02 03:22:59 auth-server app-worker[6278]: [DEBUG] Cache size: 1024
+Aug 02 03:25:59 analytics-node-c postfix[8141]: [INFO] Backup completed
+Aug 02 03:32:59 auth-server app-worker[2947]: [WARN] Replication lag increasing
+Aug 02 03:32:59 db-replica-1 apache2[6447]: [WARN] Deprecated API call
+Aug 02 03:36:59 ml-pipeline-01 kubelet[4588]: [CRITICAL] Primary database offline
+Aug 02 03:42:59 auth-server apache2[337]: [ERROR] Database connection lost
+Aug 02 03:50:59 auth-server redis-server[5202]: [WARN] Slow query execution
+Aug 02 04:09:59 analytics-node-c app-worker[1969]: [INFO] Configuration reloaded
+Aug 02 04:30:59 prod-web-02 apache2[4571]: [DEBUG] Pinging remote server
+Aug 02 04:54:59 auth-server kubelet[8266]: [INFO] Backup completed
+Aug 02 05:15:59 ml-pipeline-01 mysql[7522]: [ERROR] Disk read error
+Aug 02 05:22:59 auth-server app-worker[1013]: [WARN] High latency detected
+Aug 02 05:25:59 auth-server app-worker[3301]: [INFO] Request processed successfully
+Aug 02 05:35:59 prod-web-02 apache2[1174]: [INFO] Configuration reloaded
+Aug 02 05:53:59 auth-server mysql[820]: [INFO] Worker thread started
+Aug 02 06:08:59 analytics-node-c redis-server[1299]: [INFO] Configuration reloaded
+Aug 02 06:35:59 auth-server postfix[4194]: [INFO] Cache hit
+Aug 02 06:58:59 analytics-node-c app-worker[5815]: [INFO] Request processed successfully
+Aug 02 07:24:59 db-replica-1 redis-server[1115]: [WARN] Deprecated API call
+Aug 02 09:04:59 ml-pipeline-01 redis-server[4372]: [INFO] Backup completed
+Aug 02 09:05:59 analytics-node-c mysql[8444]: [WARN] Deprecated API call
+Aug 02 09:50:59 ml-pipeline-01 postfix[1817]: [DEBUG] Cache size: 1024
+Aug 02 10:59:59 db-replica-1 app-worker[4990]: [INFO] Request processed successfully
+Aug 02 11:09:59 prod-web-02 postfix[8199]: [INFO] Request processed successfully
+Aug 02 11:18:59 auth-server mysql[828]: [INFO] Backup completed
+Aug 02 11:40:59 ml-pipeline-01 redis-server[9683]: [WARN] Replication lag increasing
+Aug 02 12:33:59 db-replica-1 postfix[7384]: [ERROR] Uncaught exception in module
+Aug 02 12:41:59 db-replica-1 kubelet[2864]: [ERROR] Uncaught exception in module
+Aug 02 13:12:59 auth-server kubelet[5153]: [INFO] Cache hit
+Aug 02 13:40:59 prod-web-02 redis-server[120]: [DEBUG] Pinging remote server user=admin IP=10.0.0.55
+Aug 02 16:15:59 prod-web-02 postfix[4033]: [INFO] Backup completed
+Aug 02 16:35:59 prod-web-02 app-worker[6056]: [DEBUG] Entering function process_data
+Aug 02 17:05:59 auth-server apache2[2201]: [ERROR] Failed to acquire lock
+Aug 02 17:23:59 prod-web-02 postfix[8695]: [INFO] Backup completed
+Aug 02 17:56:59 db-replica-1 kubelet[8634]: [INFO] Backup completed
+Aug 02 18:19:59 ml-pipeline-01 redis-server[2921]: [WARN] Almost out of file descriptors
+Aug 02 18:49:59 prod-web-02 kubelet[1455]: [INFO] Request processed successfully
+Aug 02 18:51:59 prod-web-02 redis-server[6394]: [DEBUG] Pinging remote server
+Aug 02 19:10:59 analytics-node-c app-worker[3456]: [INFO] Cache hit
+Aug 02 19:15:59 prod-web-02 mysql[2436]: [INFO] Request processed successfully
+Aug 02 19:40:59 analytics-node-c kubelet[8065]: [INFO] Worker thread started
+Aug 02 19:44:59 db-replica-1 redis-server[2763]: [DEBUG] Variable state check
+Aug 02 20:25:59 db-replica-1 apache2[5598]: [DEBUG] Cache size: 1024
+Aug 02 20:49:59 db-replica-1 postfix[3062]: [WARN] Almost out of file descriptors
+Aug 02 20:59:59 prod-web-02 postfix[5355]: [WARN] Slow query execution
+Aug 02 21:01:59 analytics-node-c apache2[7523]: [INFO] Backup completed
+Aug 02 21:08:59 prod-web-02 apache2[1343]: [WARN] Slow query execution
+Aug 02 21:16:59 ml-pipeline-01 redis-server[6026]: [DEBUG] Variable state check
+Aug 02 22:04:59 auth-server apache2[6492]: [INFO] Backup completed
+Aug 02 22:07:59 prod-web-02 kubelet[1982]: [INFO] Backup completed
+Aug 02 22:32:59 auth-server app-worker[387]: [DEBUG] Cache size: 1024
+Aug 02 22:35:59 db-replica-1 redis-server[6382]: [INFO] Worker thread started
+Aug 02 23:09:59 analytics-node-c apache2[5461]: [ERROR] Failed to acquire lock
+Aug 02 23:19:59 analytics-node-c app-worker[6667]: [WARN] Replication lag increasing
+Aug 02 23:36:59 analytics-node-c redis-server[1670]: [INFO] Worker thread started
+Aug 03 00:02:59 ml-pipeline-01 postfix[7444]: [INFO] Backup completed
+Aug 03 00:07:59 ml-pipeline-01 app-worker[1211]: [ERROR] Database connection lost user=admin
+Aug 03 00:16:59 auth-server app-worker[2022]: [DEBUG] Variable state check
+Aug 03 00:27:59 db-replica-1 apache2[9494]: [DEBUG] Loop iteration 42
+Aug 03 00:50:59 prod-web-02 apache2[177]: [ERROR] Uncaught exception in module
+Aug 03 01:05:59 prod-web-02 app-worker[7424]: [WARN] Deprecated API call
+Aug 03 01:16:59 prod-web-02 redis-server[9831]: [DEBUG] Pinging remote server
+Aug 03 01:25:59 auth-server apache2[9992]: [DEBUG] Loop iteration 42
+Aug 03 01:42:59 ml-pipeline-01 kubelet[6925]: [WARN] Replication lag increasing
+Aug 03 01:53:59 prod-web-02 mysql[1060]: [INFO] Cache hit
+Aug 03 02:02:59 db-replica-1 redis-server[9771]: [INFO] Request processed successfully
+Aug 03 02:15:59 ml-pipeline-01 redis-server[4669]: [DEBUG] Variable state check
+Aug 03 02:23:59 auth-server redis-server[6104]: [INFO] Cache hit
+Aug 03 02:44:59 auth-server kubelet[7553]: [INFO] Configuration reloaded
+Aug 03 03:02:59 prod-web-02 app-worker[6687]: [INFO] Configuration reloaded
+Aug 03 03:14:59 ml-pipeline-01 mysql[5591]: [CRITICAL] Kernel panic
+Aug 03 03:40:59 db-replica-1 app-worker[8640]: [ERROR] Disk read error
+Aug 03 03:48:59 ml-pipeline-01 app-worker[9979]: [DEBUG] Loop iteration 42 IP=10.0.0.55
+Aug 03 04:29:59 auth-server redis-server[6082]: [INFO] Configuration reloaded
+Aug 03 05:20:59 prod-web-02 mysql[9279]: [WARN] Slow query execution
+Aug 03 05:34:59 auth-server app-worker[9993]: [INFO] Configuration reloaded
+Aug 03 05:52:59 analytics-node-c postfix[6510]: [WARN] Deprecated API call
+Aug 03 05:52:59 auth-server mysql[7808]: [ERROR] Disk read error
+Aug 03 06:58:59 db-replica-1 postfix[4355]: [DEBUG] Cache size: 1024
+Aug 03 07:03:59 db-replica-1 apache2[4292]: [INFO] Configuration reloaded
+Aug 03 08:22:59 analytics-node-c app-worker[6490]: [CRITICAL] Data corruption detected user=admin
+Aug 03 08:27:59 analytics-node-c kubelet[1699]: [WARN] Almost out of file descriptors
+Aug 03 08:46:59 auth-server apache2[5074]: [ERROR] Uncaught exception in module
+Aug 03 08:54:59 auth-server postfix[5216]: [INFO] Backup completed
+Aug 03 09:16:59 analytics-node-c mysql[2869]: [DEBUG] Variable state check
+Aug 03 09:39:59 ml-pipeline-01 apache2[4723]: [INFO] Configuration reloaded
+Aug 03 10:05:59 analytics-node-c app-worker[1097]: [WARN] Replication lag increasing
+Aug 03 10:07:59 prod-web-02 apache2[7495]: [INFO] Worker thread started
+Aug 03 11:08:59 auth-server redis-server[5517]: [WARN] Deprecated API call
+Aug 03 11:30:59 analytics-node-c kubelet[9719]: [INFO] Configuration reloaded
+Aug 03 11:45:59 db-replica-1 apache2[6881]: [INFO] Backup completed
+Aug 03 11:50:59 auth-server redis-server[2233]: [WARN] Almost out of file descriptors
+Aug 03 12:12:59 db-replica-1 kubelet[3806]: [INFO] Configuration reloaded
+Aug 03 12:20:59 ml-pipeline-01 apache2[1957]: [INFO] Worker thread started
+Aug 03 12:35:59 auth-server apache2[5975]: [INFO] Backup completed
+Aug 03 12:54:59 analytics-node-c mysql[2778]: [INFO] Request processed successfully
+Aug 03 13:06:59 analytics-node-c app-worker[2932]: [DEBUG] Pinging remote server
+Aug 03 13:07:59 analytics-node-c kubelet[301]: [CRITICAL] SYSTEM HALTED
+Aug 03 13:07:59 ml-pipeline-01 app-worker[4782]: [INFO] Cache hit
+Aug 03 13:14:59 db-replica-1 mysql[9480]: [DEBUG] Loop iteration 42
+Aug 03 13:33:59 prod-web-02 kubelet[9628]: [DEBUG] Loop iteration 42
+Aug 03 13:40:59 analytics-node-c postfix[1454]: [INFO] Configuration reloaded
+Aug 03 13:52:59 prod-web-02 redis-server[219]: [INFO] Request processed successfully
+Aug 03 14:00:59 auth-server apache2[7715]: [ERROR] Uncaught exception in module
+Aug 03 14:49:59 db-replica-1 postfix[4506]: [CRITICAL] Primary database offline
+Aug 03 16:08:59 ml-pipeline-01 apache2[8404]: [WARN] Deprecated API call user=admin
+Aug 03 16:52:59 db-replica-1 postfix[9691]: [ERROR] Failed to acquire lock
+Aug 03 18:00:59 analytics-node-c redis-server[5389]: [INFO] Cache hit
+Aug 03 19:05:59 analytics-node-c apache2[4788]: [ERROR] Uncaught exception in module
+Aug 03 20:11:59 auth-server apache2[7166]: [DEBUG] Entering function process_data
+Aug 03 20:12:59 analytics-node-c postfix[5493]: [INFO] Configuration reloaded
+Aug 03 20:13:59 prod-web-02 kubelet[8826]: [INFO] Configuration reloaded user=admin
+Aug 03 20:50:59 auth-server redis-server[2420]: [INFO] Configuration reloaded
+Aug 03 21:01:59 db-replica-1 postfix[8795]: [DEBUG] Entering function process_data
+Aug 03 21:49:59 ml-pipeline-01 postfix[3222]: [INFO] Cache hit
+Aug 03 22:15:59 analytics-node-c app-worker[6920]: [WARN] Slow query execution
+Aug 03 22:22:59 prod-web-02 app-worker[2024]: [DEBUG] Loop iteration 42
+Aug 03 22:28:59 analytics-node-c mysql[2087]: [INFO] Configuration reloaded
+Aug 03 22:44:59 db-replica-1 apache2[884]: [INFO] Request processed successfully
+Aug 03 23:04:59 ml-pipeline-01 redis-server[9162]: [INFO] Cache hit
+Aug 03 23:21:59 prod-web-02 mysql[5101]: [WARN] Deprecated API call
+Aug 04 00:12:59 db-replica-1 kubelet[7902]: [INFO] Worker thread started
+Aug 04 00:42:59 prod-web-02 redis-server[3225]: [INFO] Cache hit
+Aug 04 00:52:59 auth-server apache2[4692]: [INFO] Configuration reloaded
+Aug 04 00:53:59 db-replica-1 mysql[6188]: [INFO] Request processed successfully
+Aug 04 01:22:59 auth-server mysql[5442]: [CRITICAL] SYSTEM HALTED
+Aug 04 01:27:59 prod-web-02 apache2[8534]: [ERROR] Failed to acquire lock
+Aug 04 02:01:59 auth-server apache2[8740]: [INFO] Worker thread started
+Aug 04 02:20:59 db-replica-1 app-worker[4646]: [DEBUG] Cache size: 1024
+Aug 04 02:24:59 auth-server apache2[3404]: [ERROR] Uncaught exception in module
+Aug 04 03:11:59 prod-web-02 redis-server[3300]: [WARN] Slow query execution
+Aug 04 04:13:59 ml-pipeline-01 kubelet[8821]: [INFO] Cache hit
+Aug 04 04:16:59 analytics-node-c postfix[2594]: [INFO] Configuration reloaded
+Aug 04 04:26:59 analytics-node-c apache2[1278]: [WARN] Replication lag increasing
+Aug 04 04:43:59 auth-server kubelet[7527]: [INFO] Backup completed
+Aug 04 04:51:59 ml-pipeline-01 redis-server[6101]: [ERROR] Disk read error
+Aug 04 05:01:59 db-replica-1 mysql[4753]: [INFO] Backup completed
+Aug 04 05:03:59 db-replica-1 postfix[9243]: [DEBUG] Loop iteration 42
+Aug 04 05:08:59 auth-server postfix[5359]: [WARN] High latency detected
+Aug 04 05:10:59 ml-pipeline-01 apache2[9684]: [INFO] Backup completed
+Aug 04 05:55:59 auth-server kubelet[7735]: [ERROR] Uncaught exception in module
+Aug 04 06:34:59 auth-server redis-server[5267]: [WARN] Replication lag increasing
+Aug 04 06:46:59 ml-pipeline-01 kubelet[3402]: [INFO] Backup completed
+Aug 04 06:51:59 prod-web-02 apache2[9476]: [INFO] Request processed successfully
+Aug 04 06:56:59 ml-pipeline-01 mysql[9198]: [INFO] Worker thread started
+Aug 04 07:08:59 db-replica-1 postfix[3637]: [INFO] Request processed successfully
+Aug 04 07:09:59 prod-web-02 app-worker[8550]: [INFO] Request processed successfully
+Aug 04 07:34:59 prod-web-02 kubelet[7973]: [CRITICAL] Kernel panic
+Aug 04 07:49:59 auth-server apache2[9985]: [INFO] Cache hit
+Aug 04 07:52:59 db-replica-1 apache2[5346]: [INFO] Worker thread started
+Aug 04 08:34:59 ml-pipeline-01 app-worker[8296]: [INFO] Backup completed
+Aug 04 08:38:59 db-replica-1 redis-server[368]: [CRITICAL] Kernel panic
+Aug 04 08:59:59 prod-web-02 redis-server[4009]: [INFO] Configuration reloaded
+Aug 04 09:14:59 analytics-node-c postfix[3231]: [INFO] Configuration reloaded
+Aug 04 09:16:59 ml-pipeline-01 kubelet[675]: [INFO] Cache hit
+Aug 04 09:29:59 auth-server postfix[3002]: [INFO] Cache hit
+Aug 04 09:48:59 ml-pipeline-01 mysql[6376]: [INFO] Cache hit
+Aug 04 10:01:59 auth-server app-worker[1404]: [INFO] Request processed successfully
+Aug 04 10:24:59 analytics-node-c app-worker[6316]: [INFO] Configuration reloaded
+Aug 04 10:28:59 prod-web-02 mysql[3574]: [INFO] Backup completed
+Aug 04 11:14:59 db-replica-1 mysql[6719]: [INFO] Request processed successfully user=admin
+Aug 04 11:39:59 prod-web-02 postfix[9435]: [INFO] Configuration reloaded
+Aug 04 11:47:59 analytics-node-c app-worker[9771]: [INFO] Configuration reloaded
+Aug 04 12:12:59 analytics-node-c kubelet[3671]: [INFO] Configuration reloaded
+Aug 04 12:13:59 prod-web-02 mysql[2942]: [WARN] Replication lag increasing
+Aug 04 12:30:59 ml-pipeline-01 apache2[770]: [ERROR] Disk read error
+Aug 04 13:00:59 db-replica-1 apache2[6098]: [CRITICAL] Data corruption detected user=admin
+Aug 04 13:19:59 db-replica-1 kubelet[9034]: [DEBUG] Entering function process_data
+Aug 04 13:43:59 prod-web-02 postfix[8798]: [DEBUG] Entering function process_data
+Aug 04 13:45:59 ml-pipeline-01 postfix[3951]: [INFO] Backup completed
+Aug 04 14:48:59 auth-server app-worker[3984]: [INFO] Configuration reloaded
+Aug 04 15:19:59 ml-pipeline-01 redis-server[6588]: [WARN] Slow query execution
+Aug 04 15:56:59 analytics-node-c kubelet[4899]: [INFO] Backup completed
+Aug 04 16:03:59 analytics-node-c postfix[7880]: [CRITICAL] Kernel panic
+Aug 04 18:11:59 auth-server redis-server[9604]: [ERROR] Failed to acquire lock
+Aug 04 19:00:59 db-replica-1 redis-server[1852]: [INFO] Request processed successfully
+Aug 04 19:07:59 db-replica-1 mysql[3326]: [DEBUG] Variable state check
+Aug 04 19:53:59 prod-web-02 app-worker[3242]: [INFO] Cache hit
+Aug 04 20:14:59 auth-server app-worker[3147]: [INFO] Configuration reloaded
+Aug 04 20:30:59 db-replica-1 redis-server[7623]: [INFO] Worker thread started
+Aug 04 21:02:59 ml-pipeline-01 apache2[3907]: [CRITICAL] Security breach attempt
+Aug 04 21:19:59 analytics-node-c app-worker[5970]: [INFO] Request processed successfully
+Aug 04 22:18:59 ml-pipeline-01 kubelet[5485]: [INFO] Request processed successfully
+Aug 04 22:39:59 ml-pipeline-01 kubelet[2019]: [INFO] Cache hit
+Aug 04 22:57:59 analytics-node-c app-worker[2796]: [INFO] Cache hit
+Aug 04 23:36:59 analytics-node-c redis-server[4751]: [ERROR] Database connection lost user=admin
+Aug 04 23:44:59 prod-web-02 redis-server[4849]: [DEBUG] Pinging remote server
+Aug 05 00:05:59 prod-web-02 mysql[5909]: [INFO] Cache hit
+Aug 05 00:08:59 prod-web-02 mysql[4215]: [INFO] Backup completed
+Aug 05 00:23:59 ml-pipeline-01 mysql[6236]: [ERROR] Disk read error
+Aug 05 01:09:59 db-replica-1 postfix[3390]: [INFO] Worker thread started
+Aug 05 01:13:59 analytics-node-c postfix[5789]: [INFO] Cache hit
+Aug 05 01:20:59 analytics-node-c redis-server[3862]: [DEBUG] Cache size: 1024
+Aug 05 01:53:59 db-replica-1 redis-server[5833]: [CRITICAL] Kernel panic
+Aug 05 02:07:59 ml-pipeline-01 apache2[1679]: [INFO] Request processed successfully
+Aug 05 02:27:59 prod-web-02 mysql[8011]: [INFO] Configuration reloaded IP=10.0.0.55
+Aug 05 02:52:59 analytics-node-c app-worker[6372]: [INFO] Worker thread started
+Aug 05 03:08:59 auth-server mysql[2314]: [CRITICAL] Primary database offline
+Aug 05 03:13:59 analytics-node-c postfix[5520]: [WARN] High latency detected
+Aug 05 03:16:59 auth-server mysql[7443]: [DEBUG] Pinging remote server
+Aug 05 04:05:59 prod-web-02 mysql[1273]: [ERROR] Uncaught exception in module
+Aug 05 04:18:59 auth-server redis-server[2436]: [CRITICAL] Security breach attempt
+Aug 05 04:30:59 ml-pipeline-01 mysql[2315]: [CRITICAL] Data corruption detected
+Aug 05 04:43:59 prod-web-02 mysql[310]: [INFO] Cache hit
+Aug 05 04:45:59 ml-pipeline-01 redis-server[4286]: [INFO] Configuration reloaded
+Aug 05 04:46:59 auth-server apache2[382]: [DEBUG] Variable state check
+Aug 05 05:03:59 db-replica-1 apache2[1088]: [INFO] Request processed successfully
+Aug 05 05:16:59 analytics-node-c app-worker[9978]: [INFO] Backup completed
+Aug 05 05:22:59 prod-web-02 apache2[1389]: [INFO] Request processed successfully
+Aug 05 06:02:59 analytics-node-c mysql[1690]: [INFO] Cache hit
+Aug 05 06:21:59 prod-web-02 kubelet[3882]: [INFO] Request processed successfully
+Aug 05 06:41:59 analytics-node-c mysql[8839]: [DEBUG] Pinging remote server IP=10.0.0.55
+Aug 05 06:48:59 analytics-node-c redis-server[322]: [INFO] Backup completed
+Aug 05 07:05:59 prod-web-02 postfix[6455]: [ERROR] Payment gateway timeout
+Aug 05 07:24:59 db-replica-1 postfix[2547]: [INFO] Cache hit
+Aug 05 08:33:59 prod-web-02 kubelet[2777]: [ERROR] Disk read error
+Aug 05 08:53:59 ml-pipeline-01 postfix[3891]: [INFO] Worker thread started
+Aug 05 08:55:59 db-replica-1 redis-server[9035]: [DEBUG] Entering function process_data
+Aug 05 08:57:59 db-replica-1 postfix[5003]: [INFO] Worker thread started
+Aug 05 08:58:59 auth-server apache2[4479]: [INFO] Configuration reloaded
+Aug 05 09:16:59 ml-pipeline-01 apache2[6061]: [ERROR] Payment gateway timeout
+Aug 05 09:57:59 ml-pipeline-01 app-worker[4478]: [DEBUG] Loop iteration 42
+Aug 05 10:06:59 db-replica-1 apache2[7917]: [INFO] Configuration reloaded
+Aug 05 10:12:59 auth-server redis-server[5062]: [INFO] Backup completed
+Aug 05 10:24:59 analytics-node-c apache2[7288]: [INFO] Backup completed
+Aug 05 10:30:59 analytics-node-c postfix[4936]: [DEBUG] Variable state check
+Aug 05 10:39:59 auth-server redis-server[1380]: [INFO] Worker thread started
+Aug 05 10:53:59 auth-server redis-server[507]: [INFO] Request processed successfully
+Aug 05 11:43:59 auth-server postfix[1036]: [INFO] Cache hit
+Aug 05 11:46:59 auth-server redis-server[6561]: [INFO] Worker thread started
+Aug 05 11:50:59 analytics-node-c mysql[6536]: [CRITICAL] Primary database offline
+Aug 05 12:02:59 prod-web-02 apache2[4321]: [INFO] Request processed successfully
+Aug 05 12:02:59 ml-pipeline-01 kubelet[1714]: [DEBUG] Entering function process_data
+Aug 05 12:15:59 ml-pipeline-01 kubelet[5449]: [DEBUG] Cache size: 1024
+Aug 05 12:34:59 ml-pipeline-01 app-worker[2207]: [INFO] Cache hit
+Aug 05 12:38:59 auth-server app-worker[8545]: [INFO] Configuration reloaded
+Aug 05 12:58:59 db-replica-1 mysql[2244]: [INFO] Configuration reloaded
+Aug 05 13:24:59 prod-web-02 apache2[6253]: [WARN] Slow query execution
+Aug 05 13:45:59 db-replica-1 kubelet[8429]: [DEBUG] Loop iteration 42
+Aug 05 15:01:59 prod-web-02 mysql[3068]: [INFO] Backup completed
+Aug 05 15:09:59 ml-pipeline-01 mysql[1670]: [INFO] Worker thread started
+Aug 05 15:18:59 db-replica-1 postfix[7366]: [ERROR] Uncaught exception in module
+Aug 05 15:20:59 ml-pipeline-01 redis-server[2294]: [INFO] Worker thread started
+Aug 05 15:26:59 analytics-node-c postfix[6131]: [INFO] Cache hit user=admin
+Aug 05 15:49:59 db-replica-1 redis-server[6656]: [INFO] Request processed successfully
+Aug 05 17:29:59 auth-server mysql[2012]: [DEBUG] Entering function process_data
+Aug 05 17:50:59 db-replica-1 apache2[1154]: [ERROR] Payment gateway timeout
+Aug 05 18:00:59 ml-pipeline-01 mysql[7154]: [INFO] Cache hit
+Aug 05 18:08:59 analytics-node-c mysql[2283]: [ERROR] Payment gateway timeout
+Aug 05 18:18:59 analytics-node-c app-worker[2573]: [INFO] Worker thread started
+Aug 05 18:41:59 prod-web-02 app-worker[765]: [DEBUG] Variable state check user=admin
+Aug 05 18:55:59 analytics-node-c kubelet[2951]: [WARN] Slow query execution
+Aug 05 20:02:59 ml-pipeline-01 postfix[6397]: [INFO] Worker thread started
+Aug 05 20:39:59 prod-web-02 kubelet[3188]: [WARN] High latency detected
+Aug 05 20:54:59 auth-server kubelet[1361]: [INFO] Cache hit IP=10.0.0.55
+Aug 05 21:17:59 prod-web-02 app-worker[4533]: [WARN] Almost out of file descriptors
+Aug 05 21:31:59 ml-pipeline-01 app-worker[6191]: [INFO] Configuration reloaded
+Aug 05 21:32:59 db-replica-1 mysql[3816]: [DEBUG] Loop iteration 42
+Aug 05 21:35:59 auth-server postfix[8615]: [WARN] Deprecated API call
+Aug 05 21:36:59 db-replica-1 mysql[7520]: [WARN] Deprecated API call
+Aug 05 21:41:59 db-replica-1 apache2[9404]: [ERROR] Disk read error
+Aug 05 22:27:59 auth-server redis-server[3150]: [DEBUG] Pinging remote server
+Aug 05 22:32:59 db-replica-1 app-worker[8213]: [DEBUG] Cache size: 1024
+Aug 05 23:07:59 db-replica-1 app-worker[654]: [ERROR] Disk read error
+Aug 05 23:15:59 analytics-node-c mysql[4611]: [WARN] Deprecated API call
+Aug 05 23:33:59 prod-web-02 mysql[1595]: [INFO] Backup completed
+Aug 05 23:33:59 analytics-node-c postfix[1954]: [INFO] Cache hit IP=10.0.0.55
+Aug 05 23:57:59 auth-server redis-server[4197]: [DEBUG] Entering function process_data
+Aug 06 00:03:59 ml-pipeline-01 app-worker[7814]: [INFO] Configuration reloaded user=admin
+Aug 06 00:06:59 prod-web-02 apache2[6077]: [INFO] Configuration reloaded
+Aug 06 00:25:59 auth-server app-worker[3651]: [DEBUG] Variable state check
+Aug 06 00:46:59 prod-web-02 mysql[2712]: [ERROR] Failed to acquire lock
+Aug 06 01:06:59 auth-server app-worker[6934]: [DEBUG] Cache size: 1024
+Aug 06 01:14:59 prod-web-02 app-worker[9091]: [INFO] Cache hit
+Aug 06 02:27:59 ml-pipeline-01 kubelet[4796]: [CRITICAL] Primary database offline
+Aug 06 02:51:59 analytics-node-c postfix[2495]: [INFO] Request processed successfully
+Aug 06 03:18:59 auth-server apache2[3620]: [INFO] Backup completed
+Aug 06 03:20:59 auth-server postfix[2294]: [INFO] Configuration reloaded
+Aug 06 03:36:59 auth-server redis-server[8481]: [INFO] Configuration reloaded
+Aug 06 04:26:59 prod-web-02 redis-server[5440]: [ERROR] Disk read error
+Aug 06 04:29:59 analytics-node-c kubelet[4431]: [WARN] High latency detected
+Aug 06 04:30:59 analytics-node-c kubelet[6541]: [WARN] Almost out of file descriptors
+Aug 06 04:46:59 ml-pipeline-01 redis-server[9341]: [INFO] Configuration reloaded
+Aug 06 05:08:59 analytics-node-c redis-server[2816]: [DEBUG] Entering function process_data
+Aug 06 05:15:59 ml-pipeline-01 redis-server[2236]: [INFO] Worker thread started
+Aug 06 05:19:59 ml-pipeline-01 redis-server[8893]: [INFO] Configuration reloaded user=admin
+Aug 06 05:45:59 ml-pipeline-01 kubelet[2577]: [DEBUG] Entering function process_data
+Aug 06 05:56:59 analytics-node-c redis-server[8910]: [CRITICAL] Kernel panic
+Aug 06 06:01:59 ml-pipeline-01 apache2[1588]: [INFO] Request processed successfully
+Aug 06 06:08:59 ml-pipeline-01 kubelet[1747]: [WARN] Slow query execution
+Aug 06 06:21:59 prod-web-02 app-worker[7749]: [DEBUG] Cache size: 1024
+Aug 06 06:27:59 db-replica-1 mysql[7350]: [INFO] Worker thread started
+Aug 06 06:39:59 auth-server apache2[2348]: [INFO] Worker thread started
+Aug 06 07:25:59 auth-server mysql[9140]: [WARN] Replication lag increasing
+Aug 06 08:13:59 ml-pipeline-01 postfix[7448]: [INFO] Cache hit
+Aug 06 08:30:59 db-replica-1 kubelet[7231]: [INFO] Worker thread started
+Aug 06 08:43:59 db-replica-1 mysql[2139]: [INFO] Request processed successfully
+Aug 06 08:52:59 auth-server redis-server[1662]: [INFO] Request processed successfully
+Aug 06 09:31:59 ml-pipeline-01 app-worker[9601]: [INFO] Cache hit
+Aug 06 10:05:59 auth-server apache2[5151]: [INFO] Backup completed
+Aug 06 10:25:59 prod-web-02 app-worker[5832]: [INFO] Request processed successfully
+Aug 06 11:05:59 prod-web-02 app-worker[4049]: [ERROR] Payment gateway timeout user=admin
+Aug 06 11:05:59 prod-web-02 mysql[986]: [DEBUG] Variable state check user=admin
+Aug 06 11:10:59 analytics-node-c apache2[6536]: [WARN] Slow query execution
+Aug 06 11:19:59 ml-pipeline-01 mysql[1183]: [DEBUG] Entering function process_data
+Aug 06 11:31:59 ml-pipeline-01 kubelet[7827]: [INFO] Worker thread started
+Aug 06 12:12:59 analytics-node-c app-worker[7309]: [INFO] Backup completed
+Aug 06 12:39:59 ml-pipeline-01 app-worker[1554]: [INFO] Backup completed
+Aug 06 12:47:59 prod-web-02 kubelet[9849]: [INFO] Backup completed
+Aug 06 13:04:59 prod-web-02 apache2[5155]: [INFO] Backup completed
+Aug 06 13:09:59 ml-pipeline-01 postfix[7998]: [CRITICAL] Primary database offline
+Aug 06 13:24:59 auth-server apache2[1985]: [INFO] Configuration reloaded
+Aug 06 13:30:59 auth-server kubelet[6497]: [DEBUG] Cache size: 1024
+Aug 06 14:06:59 prod-web-02 redis-server[3916]: [INFO] Backup completed
+Aug 06 14:13:59 prod-web-02 apache2[2096]: [INFO] Configuration reloaded
+Aug 06 14:27:59 analytics-node-c kubelet[7568]: [INFO] Backup completed
+Aug 06 14:36:59 analytics-node-c app-worker[1546]: [INFO] Worker thread started
+Aug 06 14:54:59 analytics-node-c app-worker[3355]: [DEBUG] Pinging remote server
+Aug 06 16:24:59 prod-web-02 postfix[4174]: [DEBUG] Variable state check
+Aug 06 16:35:59 db-replica-1 apache2[104]: [INFO] Cache hit
+Aug 06 16:44:59 db-replica-1 mysql[3477]: [INFO] Backup completed
+Aug 06 17:07:59 analytics-node-c app-worker[1730]: [INFO] Cache hit
+Aug 06 17:24:59 db-replica-1 kubelet[5077]: [INFO] Configuration reloaded
+Aug 06 17:27:59 auth-server redis-server[802]: [INFO] Cache hit
+Aug 06 17:31:59 db-replica-1 apache2[5015]: [WARN] Deprecated API call
+Aug 06 17:42:59 prod-web-02 postfix[3149]: [ERROR] Payment gateway timeout
+Aug 06 17:43:59 prod-web-02 kubelet[8569]: [ERROR] Payment gateway timeout
+Aug 06 18:21:59 ml-pipeline-01 kubelet[9968]: [INFO] Backup completed
+Aug 06 18:23:59 auth-server kubelet[8226]: [ERROR] Failed to acquire lock
+Aug 06 19:02:59 db-replica-1 mysql[2585]: [INFO] Configuration reloaded
+Aug 06 19:27:59 auth-server kubelet[3518]: [INFO] Configuration reloaded
+Aug 06 20:08:59 prod-web-02 apache2[3426]: [INFO] Worker thread started
+Aug 06 20:22:59 analytics-node-c app-worker[3516]: [INFO] Request processed successfully
+Aug 06 20:23:59 analytics-node-c kubelet[9742]: [INFO] Cache hit
+Aug 06 20:26:59 prod-web-02 kubelet[5172]: [DEBUG] Entering function process_data
+Aug 06 20:53:59 db-replica-1 mysql[3157]: [INFO] Configuration reloaded
+Aug 06 21:30:59 analytics-node-c app-worker[4622]: [INFO] Request processed successfully IP=10.0.0.55
+Aug 06 21:38:59 analytics-node-c app-worker[7164]: [WARN] Slow query execution
+Aug 06 22:50:59 prod-web-02 mysql[8185]: [INFO] Request processed successfully
+Aug 06 23:53:59 auth-server kubelet[3844]: [INFO] Cache hit
+Aug 07 00:00:59 auth-server redis-server[856]: [DEBUG] Cache size: 1024
+Aug 07 00:37:59 analytics-node-c apache2[5995]: [ERROR] Payment gateway timeout
+Aug 07 01:00:59 prod-web-02 mysql[1809]: [WARN] Replication lag increasing
+Aug 07 01:16:59 analytics-node-c mysql[5468]: [INFO] Worker thread started
+Aug 07 01:30:59 analytics-node-c app-worker[6811]: [INFO] Configuration reloaded IP=10.0.0.55
+Aug 07 02:05:59 analytics-node-c mysql[6048]: [ERROR] Uncaught exception in module
+Aug 07 02:36:59 auth-server redis-server[812]: [INFO] Configuration reloaded
+Aug 07 02:44:59 analytics-node-c apache2[216]: [INFO] Backup completed
+Aug 07 02:51:59 auth-server postfix[5545]: [INFO] Cache hit
+Aug 07 03:00:59 ml-pipeline-01 apache2[6307]: [DEBUG] Loop iteration 42
+Aug 07 03:15:59 auth-server mysql[4076]: [ERROR] Payment gateway timeout
+Aug 07 03:58:59 auth-server app-worker[8598]: [DEBUG] Loop iteration 42
+Aug 07 04:02:59 ml-pipeline-01 mysql[4679]: [INFO] Worker thread started
+Aug 07 04:10:59 auth-server kubelet[6075]: [INFO] Request processed successfully IP=10.0.0.55
+Aug 07 04:26:59 analytics-node-c kubelet[5520]: [INFO] Cache hit
+Aug 07 04:31:59 db-replica-1 apache2[6671]: [INFO] Configuration reloaded
+Aug 07 05:19:59 ml-pipeline-01 mysql[3872]: [CRITICAL] Kernel panic
+Aug 07 05:51:59 analytics-node-c kubelet[3263]: [INFO] Cache hit
+Aug 07 06:03:59 ml-pipeline-01 app-worker[3095]: [ERROR] Uncaught exception in module
+Aug 07 06:09:59 ml-pipeline-01 app-worker[6343]: [ERROR] Disk read error
+Aug 07 06:39:59 db-replica-1 apache2[8202]: [WARN] Replication lag increasing
+Aug 07 07:10:59 prod-web-02 apache2[1819]: [INFO] Configuration reloaded
+Aug 07 07:23:59 analytics-node-c apache2[5050]: [INFO] Cache hit
+Aug 07 07:23:59 prod-web-02 mysql[3523]: [DEBUG] Pinging remote server
+Aug 07 08:04:59 auth-server apache2[6343]: [DEBUG] Cache size: 1024
+Aug 07 08:15:59 ml-pipeline-01 app-worker[3079]: [WARN] Deprecated API call
+Aug 07 08:53:59 prod-web-02 apache2[2022]: [ERROR] Payment gateway timeout
+Aug 07 09:47:59 prod-web-02 apache2[3648]: [INFO] Backup completed
+Aug 07 09:50:59 prod-web-02 apache2[6400]: [CRITICAL] Security breach attempt
+Aug 07 09:51:59 db-replica-1 app-worker[7668]: [CRITICAL] Kernel panic
+Aug 07 10:31:59 auth-server app-worker[2712]: [INFO] Request processed successfully
+Aug 07 11:39:59 prod-web-02 apache2[2221]: [INFO] Worker thread started
+Aug 07 11:42:59 ml-pipeline-01 redis-server[4886]: [ERROR] Failed to acquire lock
+Aug 07 12:12:59 db-replica-1 postfix[4891]: [INFO] Request processed successfully
+Aug 07 12:29:59 prod-web-02 postfix[5995]: [INFO] Cache hit
+Aug 07 12:39:59 auth-server apache2[2966]: [WARN] High latency detected
+Aug 07 12:49:59 analytics-node-c mysql[8228]: [WARN] Deprecated API call
+Aug 07 13:26:59 analytics-node-c app-worker[6407]: [CRITICAL] Data corruption detected
+Aug 07 14:21:59 ml-pipeline-01 apache2[1545]: [INFO] Cache hit
+Aug 07 14:27:59 db-replica-1 kubelet[1574]: [WARN] Almost out of file descriptors
+Aug 07 14:48:59 analytics-node-c postfix[6009]: [INFO] Worker thread started
+Aug 07 14:52:59 prod-web-02 redis-server[5698]: [INFO] Configuration reloaded
+Aug 07 14:54:59 prod-web-02 mysql[3984]: [DEBUG] Cache size: 1024 user=admin
+Aug 07 15:25:59 prod-web-02 postfix[1717]: [WARN] Replication lag increasing
+Aug 07 15:41:59 analytics-node-c postfix[6854]: [DEBUG] Loop iteration 42 user=admin
+Aug 07 16:17:59 prod-web-02 apache2[1708]: [INFO] Configuration reloaded
+Aug 07 16:28:59 auth-server app-worker[1999]: [WARN] Almost out of file descriptors
+Aug 07 16:29:59 ml-pipeline-01 apache2[2603]: [DEBUG] Pinging remote server
+Aug 07 17:25:59 prod-web-02 app-worker[9128]: [INFO] Configuration reloaded
+Aug 07 17:37:59 db-replica-1 apache2[4129]: [INFO] Backup completed
+Aug 07 18:19:59 db-replica-1 postfix[5536]: [INFO] Configuration reloaded
+Aug 07 18:28:59 ml-pipeline-01 apache2[4127]: [DEBUG] Pinging remote server
+Aug 07 18:31:59 auth-server kubelet[7460]: [DEBUG] Pinging remote server
+Aug 07 18:50:59 auth-server mysql[6341]: [INFO] Backup completed
+Aug 07 19:25:59 analytics-node-c kubelet[2893]: [WARN] High latency detected
+Aug 07 19:26:59 db-replica-1 redis-server[5658]: [INFO] Cache hit
+Aug 07 19:45:59 ml-pipeline-01 apache2[8173]: [INFO] Request processed successfully
+Aug 07 19:48:59 db-replica-1 mysql[7186]: [WARN] Slow query execution
+Aug 07 19:52:59 prod-web-02 redis-server[8889]: [INFO] Cache hit
+Aug 07 20:06:59 ml-pipeline-01 redis-server[1212]: [WARN] Deprecated API call
+Aug 07 20:22:59 auth-server app-worker[1947]: [ERROR] Disk read error IP=10.0.0.55
+Aug 07 20:29:59 prod-web-02 mysql[9364]: [INFO] Backup completed
+Aug 07 20:46:59 ml-pipeline-01 kubelet[1277]: [INFO] Backup completed
+Aug 07 21:29:59 prod-web-02 app-worker[6829]: [WARN] Replication lag increasing
+Aug 07 21:30:59 auth-server mysql[8148]: [CRITICAL] Kernel panic
+Aug 07 21:36:59 auth-server app-worker[746]: [INFO] Configuration reloaded
+Aug 07 21:37:59 auth-server redis-server[2284]: [WARN] Almost out of file descriptors
+Aug 07 22:44:59 ml-pipeline-01 app-worker[4996]: [DEBUG] Loop iteration 42
+Aug 07 22:49:59 prod-web-02 kubelet[5917]: [INFO] Worker thread started
+Aug 07 23:13:59 analytics-node-c app-worker[9891]: [DEBUG] Entering function process_data
+Aug 07 23:23:59 auth-server app-worker[1058]: [WARN] High latency detected
+Aug 07 23:34:59 prod-web-02 app-worker[2040]: [INFO] Configuration reloaded user=admin
+Aug 07 23:40:59 prod-web-02 redis-server[8709]: [WARN] Almost out of file descriptors
+Aug 08 00:16:59 db-replica-1 postfix[7296]: [INFO] Worker thread started
+Aug 08 00:21:59 analytics-node-c redis-server[6383]: [INFO] Request processed successfully
+Aug 08 00:30:59 auth-server app-worker[8953]: [INFO] Backup completed
+Aug 08 00:35:59 ml-pipeline-01 redis-server[1760]: [DEBUG] Cache size: 1024
+Aug 08 01:39:59 auth-server postfix[527]: [CRITICAL] Primary database offline
+Aug 08 02:08:59 ml-pipeline-01 postfix[2954]: [DEBUG] Loop iteration 42
+Aug 08 02:25:59 analytics-node-c app-worker[6028]: [INFO] Cache hit
+Aug 08 02:36:59 auth-server app-worker[9243]: [INFO] Backup completed
+Aug 08 03:46:59 analytics-node-c app-worker[6590]: [ERROR] Failed to acquire lock
+Aug 08 03:56:59 prod-web-02 postfix[1096]: [INFO] Request processed successfully
+Aug 08 04:43:59 db-replica-1 kubelet[2946]: [INFO] Backup completed
+Aug 08 05:09:59 auth-server kubelet[358]: [WARN] Slow query execution
+Aug 08 05:20:59 auth-server apache2[2594]: [DEBUG] Cache size: 1024
+Aug 08 06:16:59 auth-server mysql[2537]: [WARN] Almost out of file descriptors
+Aug 08 06:23:59 analytics-node-c apache2[4399]: [WARN] High latency detected
+Aug 08 06:41:59 analytics-node-c redis-server[4484]: [INFO] Worker thread started
+Aug 08 06:56:59 db-replica-1 app-worker[2059]: [CRITICAL] Security breach attempt
+Aug 08 07:14:59 prod-web-02 postfix[930]: [INFO] Cache hit
+Aug 08 08:27:59 ml-pipeline-01 app-worker[5649]: [WARN] High latency detected
+Aug 08 08:40:59 db-replica-1 kubelet[851]: [INFO] Configuration reloaded
+Aug 08 08:43:59 ml-pipeline-01 mysql[8264]: [WARN] Slow query execution
+Aug 08 09:07:59 analytics-node-c app-worker[937]: [DEBUG] Variable state check
+Aug 08 09:18:59 prod-web-02 kubelet[796]: [INFO] Worker thread started
+Aug 08 11:17:59 db-replica-1 kubelet[2014]: [INFO] Cache hit
+Aug 08 11:21:59 auth-server postfix[7665]: [INFO] Worker thread started
+Aug 08 11:58:59 analytics-node-c postfix[2031]: [INFO] Configuration reloaded user=admin
+Aug 08 12:13:59 db-replica-1 kubelet[9909]: [INFO] Configuration reloaded
+Aug 08 12:21:59 analytics-node-c redis-server[5458]: [INFO] Request processed successfully
+Aug 08 13:00:59 prod-web-02 redis-server[5044]: [INFO] Configuration reloaded
+Aug 08 13:12:59 ml-pipeline-01 mysql[8040]: [INFO] Worker thread started
+Aug 08 13:46:59 prod-web-02 redis-server[7230]: [INFO] Backup completed
+Aug 08 15:11:59 ml-pipeline-01 postfix[1875]: [INFO] Worker thread started
+Aug 08 15:17:59 ml-pipeline-01 mysql[7039]: [INFO] Cache hit
+Aug 08 15:23:59 analytics-node-c mysql[701]: [INFO] Cache hit
+Aug 08 15:32:59 auth-server redis-server[2082]: [WARN] Almost out of file descriptors
+Aug 08 16:21:59 db-replica-1 mysql[206]: [DEBUG] Entering function process_data
+Aug 08 16:30:59 ml-pipeline-01 app-worker[3562]: [DEBUG] Variable state check
+Aug 08 17:05:59 db-replica-1 app-worker[5977]: [INFO] Backup completed
+Aug 08 17:08:59 ml-pipeline-01 apache2[1767]: [INFO] Backup completed
+Aug 08 17:11:59 prod-web-02 postfix[3253]: [WARN] Slow query execution
+Aug 08 17:24:59 prod-web-02 mysql[1341]: [INFO] Request processed successfully
+Aug 08 17:42:59 prod-web-02 mysql[5986]: [ERROR] Payment gateway timeout
+Aug 08 18:06:59 ml-pipeline-01 app-worker[4870]: [DEBUG] Variable state check
+Aug 08 18:40:59 prod-web-02 mysql[2706]: [INFO] Worker thread started
+Aug 08 19:10:59 prod-web-02 apache2[2755]: [INFO] Worker thread started
+Aug 08 19:12:59 db-replica-1 redis-server[9029]: [INFO] Configuration reloaded
+Aug 08 19:54:59 prod-web-02 apache2[5498]: [INFO] Request processed successfully user=admin
+Aug 08 20:06:59 db-replica-1 apache2[7888]: [INFO] Request processed successfully
+Aug 08 21:16:59 ml-pipeline-01 kubelet[6895]: [INFO] Configuration reloaded
+Aug 08 21:21:59 ml-pipeline-01 redis-server[9488]: [INFO] Backup completed IP=10.0.0.55
+Aug 08 21:41:59 prod-web-02 mysql[4132]: [INFO] Cache hit
+Aug 08 22:04:59 auth-server app-worker[1832]: [ERROR] Disk read error
+Aug 08 22:28:59 db-replica-1 app-worker[5460]: [INFO] Configuration reloaded
+Aug 08 23:42:59 ml-pipeline-01 postfix[6407]: [INFO] Request processed successfully user=admin
+Aug 08 23:53:59 analytics-node-c apache2[6728]: [INFO] Backup completed
+Aug 09 00:14:59 db-replica-1 kubelet[7294]: [INFO] Configuration reloaded user=admin
+Aug 09 00:56:59 ml-pipeline-01 apache2[749]: [ERROR] Database connection lost
+Aug 09 01:21:59 auth-server postfix[4005]: [INFO] Request processed successfully
+Aug 09 01:58:59 prod-web-02 kubelet[2781]: [INFO] Request processed successfully
+Aug 09 02:00:59 auth-server postfix[5611]: [INFO] Configuration reloaded
+Aug 09 02:03:59 prod-web-02 apache2[8207]: [INFO] Backup completed
+Aug 09 02:06:59 ml-pipeline-01 postfix[9629]: [INFO] Worker thread started
+Aug 09 02:12:59 auth-server kubelet[2489]: [INFO] Worker thread started
+Aug 09 02:26:59 auth-server apache2[2270]: [INFO] Backup completed
+Aug 09 03:40:59 analytics-node-c redis-server[4335]: [INFO] Cache hit
+Aug 09 03:41:59 analytics-node-c apache2[157]: [DEBUG] Loop iteration 42
+Aug 09 03:42:59 prod-web-02 redis-server[6847]: [INFO] Worker thread started
+Aug 09 04:53:59 auth-server postfix[5789]: [ERROR] Failed to acquire lock
+Aug 09 05:04:59 ml-pipeline-01 apache2[7191]: [INFO] Cache hit
+Aug 09 05:17:59 auth-server mysql[4085]: [DEBUG] Cache size: 1024
+Aug 09 05:45:59 auth-server redis-server[4410]: [INFO] Backup completed
+Aug 09 05:54:59 ml-pipeline-01 mysql[5666]: [CRITICAL] Security breach attempt
+Aug 09 06:06:59 analytics-node-c app-worker[9809]: [INFO] Backup completed
+Aug 09 06:31:59 db-replica-1 mysql[532]: [DEBUG] Entering function process_data
+Aug 09 06:38:59 ml-pipeline-01 mysql[2426]: [DEBUG] Cache size: 1024
+Aug 09 06:53:59 ml-pipeline-01 redis-server[5839]: [INFO] Request processed successfully
+Aug 09 06:54:59 ml-pipeline-01 postfix[1593]: [INFO] Request processed successfully
+Aug 09 06:57:59 prod-web-02 redis-server[5778]: [INFO] Configuration reloaded IP=10.0.0.55
+Aug 09 07:00:59 analytics-node-c apache2[7290]: [INFO] Configuration reloaded
+Aug 09 07:04:59 ml-pipeline-01 kubelet[6687]: [INFO] Backup completed
+Aug 09 08:18:59 analytics-node-c mysql[8367]: [INFO] Configuration reloaded
+Aug 09 08:26:59 prod-web-02 apache2[4578]: [ERROR] Database connection lost
+Aug 09 08:41:59 analytics-node-c apache2[4745]: [INFO] Worker thread started
+Aug 09 09:25:59 analytics-node-c mysql[7483]: [WARN] Almost out of file descriptors
+Aug 09 09:45:59 ml-pipeline-01 redis-server[892]: [DEBUG] Cache size: 1024
+Aug 09 10:11:59 prod-web-02 redis-server[5233]: [INFO] Backup completed
+Aug 09 10:17:59 analytics-node-c apache2[5966]: [DEBUG] Loop iteration 42
+Aug 09 10:30:59 analytics-node-c apache2[2328]: [INFO] Request processed successfully
+Aug 09 10:49:59 analytics-node-c apache2[5590]: [DEBUG] Pinging remote server
+Aug 09 11:23:59 auth-server mysql[1223]: [DEBUG] Pinging remote server
+Aug 09 11:29:59 auth-server app-worker[9482]: [WARN] High latency detected
+Aug 09 11:52:59 analytics-node-c postfix[7861]: [CRITICAL] Security breach attempt
+Aug 09 12:21:59 prod-web-02 redis-server[4723]: [INFO] Worker thread started
+Aug 09 12:48:59 analytics-node-c mysql[238]: [ERROR] Database connection lost
+Aug 09 13:02:59 auth-server mysql[7996]: [INFO] Request processed successfully
+Aug 09 13:37:59 prod-web-02 redis-server[3220]: [WARN] Deprecated API call user=admin
+Aug 09 14:22:59 auth-server kubelet[1871]: [INFO] Request processed successfully
+Aug 09 14:27:59 prod-web-02 app-worker[1443]: [DEBUG] Cache size: 1024
+Aug 09 14:27:59 db-replica-1 apache2[8302]: [CRITICAL] SYSTEM HALTED
+Aug 09 14:37:59 db-replica-1 postfix[3370]: [WARN] Slow query execution
+Aug 09 16:14:59 db-replica-1 postfix[6899]: [INFO] Request processed successfully
+Aug 09 16:31:59 analytics-node-c postfix[8087]: [INFO] Request processed successfully
+Aug 09 16:46:59 prod-web-02 mysql[6449]: [WARN] Deprecated API call
+Aug 09 16:53:59 db-replica-1 postfix[6993]: [ERROR] Database connection lost user=admin
+Aug 09 17:26:59 auth-server kubelet[1275]: [CRITICAL] SYSTEM HALTED
+Aug 09 17:27:59 analytics-node-c redis-server[2327]: [INFO] Request processed successfully
+Aug 09 17:34:59 prod-web-02 mysql[3180]: [INFO] Cache hit
+Aug 09 17:55:59 db-replica-1 mysql[4687]: [WARN] Slow query execution
+Aug 09 18:14:59 auth-server kubelet[9391]: [WARN] Replication lag increasing
+Aug 09 18:50:59 analytics-node-c mysql[3781]: [ERROR] Uncaught exception in module
+Aug 09 19:06:59 auth-server kubelet[7666]: [DEBUG] Cache size: 1024 user=admin
+Aug 09 20:05:59 db-replica-1 app-worker[3724]: [DEBUG] Entering function process_data
+Aug 09 20:11:59 analytics-node-c redis-server[214]: [DEBUG] Variable state check
+Aug 09 20:22:59 db-replica-1 postfix[7246]: [INFO] Worker thread started
+Aug 09 20:27:59 ml-pipeline-01 apache2[3604]: [INFO] Cache hit
+Aug 09 21:34:59 db-replica-1 apache2[1477]: [ERROR] Uncaught exception in module
+Aug 09 21:37:59 ml-pipeline-01 postfix[5205]: [INFO] Backup completed
+Aug 09 22:07:59 auth-server app-worker[9521]: [INFO] Configuration reloaded
+Aug 09 22:12:59 ml-pipeline-01 app-worker[8981]: [INFO] Request processed successfully
+Aug 09 23:03:59 ml-pipeline-01 redis-server[9059]: [DEBUG] Entering function process_data
+Aug 10 00:02:59 prod-web-02 redis-server[9761]: [DEBUG] Entering function process_data
+Aug 10 00:16:59 ml-pipeline-01 redis-server[2421]: [INFO] Configuration reloaded
+Aug 10 00:28:59 prod-web-02 postfix[8116]: [WARN] Almost out of file descriptors
+Aug 10 00:37:59 prod-web-02 kubelet[6897]: [INFO] Cache hit
+Aug 10 00:55:59 db-replica-1 apache2[9537]: [WARN] High latency detected
+Aug 10 01:08:59 db-replica-1 app-worker[1654]: [DEBUG] Pinging remote server
+Aug 10 01:35:59 analytics-node-c redis-server[1897]: [ERROR] Payment gateway timeout
+Aug 10 01:53:59 analytics-node-c redis-server[4357]: [INFO] Backup completed
+Aug 10 01:56:59 analytics-node-c apache2[440]: [INFO] Request processed successfully user=admin
+Aug 10 02:34:59 analytics-node-c redis-server[5942]: [INFO] Request processed successfully
+Aug 10 02:41:59 ml-pipeline-01 apache2[1411]: [DEBUG] Entering function process_data
+Aug 10 03:04:59 analytics-node-c redis-server[2277]: [ERROR] Payment gateway timeout user=admin
+Aug 10 03:09:59 prod-web-02 app-worker[4842]: [DEBUG] Pinging remote server
+Aug 10 03:09:59 analytics-node-c apache2[8741]: [DEBUG] Cache size: 1024
+Aug 10 03:36:59 analytics-node-c kubelet[1621]: [INFO] Configuration reloaded
+Aug 10 03:40:59 prod-web-02 kubelet[1879]: [ERROR] Failed to acquire lock
+Aug 10 04:08:59 ml-pipeline-01 app-worker[6827]: [INFO] Backup completed
+Aug 10 04:19:59 prod-web-02 kubelet[1239]: [INFO] Worker thread started
+Aug 10 04:41:59 ml-pipeline-01 redis-server[4850]: [DEBUG] Loop iteration 42
+Aug 10 05:00:59 ml-pipeline-01 kubelet[513]: [INFO] Configuration reloaded
+Aug 10 05:08:59 db-replica-1 kubelet[8359]: [DEBUG] Variable state check
+Aug 10 05:11:59 auth-server kubelet[5377]: [DEBUG] Cache size: 1024
+Aug 10 05:19:59 db-replica-1 mysql[769]: [INFO] Configuration reloaded
+Aug 10 05:22:59 analytics-node-c mysql[2103]: [INFO] Request processed successfully
+Aug 10 05:26:59 db-replica-1 postfix[4549]: [ERROR] Payment gateway timeout
+Aug 10 05:51:59 auth-server redis-server[4329]: [INFO] Worker thread started
+Aug 10 05:57:59 ml-pipeline-01 redis-server[2393]: [INFO] Worker thread started
+Aug 10 06:00:59 ml-pipeline-01 app-worker[7968]: [WARN] Replication lag increasing
+Aug 10 06:07:59 ml-pipeline-01 redis-server[2193]: [INFO] Cache hit
+Aug 10 06:42:59 analytics-node-c app-worker[8900]: [INFO] Configuration reloaded
+Aug 10 08:02:59 db-replica-1 app-worker[2616]: [INFO] Configuration reloaded
+Aug 10 08:03:59 ml-pipeline-01 mysql[5258]: [INFO] Worker thread started
+Aug 10 08:22:59 db-replica-1 apache2[183]: [DEBUG] Entering function process_data
+Aug 10 08:31:59 ml-pipeline-01 postfix[478]: [WARN] Replication lag increasing
+Aug 10 08:41:59 prod-web-02 postfix[3096]: [INFO] Request processed successfully
+Aug 10 08:46:59 auth-server mysql[4812]: [INFO] Configuration reloaded
+Aug 10 08:49:59 ml-pipeline-01 apache2[2845]: [DEBUG] Pinging remote server
+Aug 10 08:57:59 prod-web-02 mysql[9344]: [INFO] Worker thread started
+Aug 10 09:29:59 auth-server postfix[3284]: [DEBUG] Variable state check
+Aug 10 10:21:59 db-replica-1 app-worker[880]: [INFO] Configuration reloaded
+Aug 10 10:35:59 ml-pipeline-01 mysql[1890]: [WARN] Deprecated API call
+Aug 10 10:36:59 db-replica-1 postfix[3992]: [CRITICAL] Security breach attempt
+Aug 10 10:43:59 db-replica-1 apache2[2758]: [INFO] Backup completed
+Aug 10 10:53:59 analytics-node-c apache2[7806]: [WARN] Almost out of file descriptors
+Aug 10 11:24:59 db-replica-1 mysql[5847]: [ERROR] Uncaught exception in module
+Aug 10 12:20:59 analytics-node-c redis-server[9396]: [DEBUG] Cache size: 1024
+Aug 10 12:29:59 db-replica-1 kubelet[7590]: [ERROR] Payment gateway timeout
+Aug 10 12:48:59 auth-server app-worker[1657]: [ERROR] Disk read error
+Aug 10 13:36:59 prod-web-02 redis-server[8766]: [DEBUG] Loop iteration 42
+Aug 10 13:49:59 analytics-node-c apache2[7716]: [CRITICAL] Kernel panic
+Aug 10 13:55:59 analytics-node-c postfix[6736]: [INFO] Configuration reloaded
+Aug 10 14:29:59 ml-pipeline-01 postfix[7336]: [INFO] Backup completed
+Aug 10 14:32:59 prod-web-02 mysql[2216]: [WARN] High latency detected
+Aug 10 15:13:59 db-replica-1 apache2[6976]: [INFO] Request processed successfully
+Aug 10 15:19:59 db-replica-1 mysql[2876]: [DEBUG] Variable state check
+Aug 10 16:12:59 db-replica-1 app-worker[8779]: [DEBUG] Variable state check
+Aug 10 16:13:59 prod-web-02 kubelet[4913]: [INFO] Configuration reloaded
+Aug 10 16:18:59 db-replica-1 apache2[2988]: [DEBUG] Variable state check
+Aug 10 17:14:59 ml-pipeline-01 postfix[1329]: [WARN] Deprecated API call
+Aug 10 17:37:59 analytics-node-c apache2[6435]: [DEBUG] Entering function process_data
+Aug 10 17:42:59 auth-server postfix[5086]: [INFO] Configuration reloaded
+Aug 10 17:51:59 ml-pipeline-01 kubelet[3488]: [ERROR] Database connection lost
+Aug 10 18:29:59 prod-web-02 apache2[9247]: [INFO] Backup completed
+Aug 10 18:34:59 analytics-node-c mysql[8839]: [INFO] Request processed successfully
+Aug 10 18:39:59 auth-server kubelet[3847]: [INFO] Cache hit
+Aug 10 18:44:59 analytics-node-c apache2[3055]: [WARN] Deprecated API call
+Aug 10 18:59:59 db-replica-1 postfix[2316]: [DEBUG] Cache size: 1024
+Aug 10 18:59:59 auth-server apache2[4557]: [WARN] Deprecated API call
+Aug 10 19:04:59 prod-web-02 redis-server[7982]: [INFO] Backup completed
+Aug 10 19:45:59 auth-server redis-server[8685]: [INFO] Cache hit
+Aug 10 20:02:59 prod-web-02 redis-server[4059]: [INFO] Worker thread started
+Aug 10 20:32:59 analytics-node-c apache2[2045]: [WARN] Almost out of file descriptors user=admin
